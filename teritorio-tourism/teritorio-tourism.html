@@ -1,0 +1,2886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>teritorio-tourism</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .preview {
+            width: 100px;
+            display: inline-block;
+            margin: 10px;
+        }
+        .preview .inner {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            background: #f5f5f5;
+            -webkit-border-radius: 3px 3px 0 0;
+            -moz-border-radius: 3px 3px 0 0;
+            border-radius: 3px 3px 0 0;
+        }
+        .preview .inner  {
+            line-height: 85px;
+            font-size: 40px;
+            color: #333;
+        }
+        .label {
+            display: inline-block;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 5px;
+            font-size: 10px;
+            font-family: Monaco, monospace;
+            color: #666;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            background: #ddd;
+            -webkit-border-radius: 0 0 3px 3px;
+            -moz-border-radius: 0 0 3px 3px;
+            border-radius: 0 0 3px 3px;
+            color: #666;
+        }
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="teritorio-tourism.css" />
+</head>
+<body>
+
+    <h1>teritorio-tourism</h1>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-amenity-bench"></i>
+            </span>
+            <br>
+            <span class='label'>amenity-bench</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-amenity-information-information"></i>
+            </span>
+            <br>
+            <span class='label'>amenity-information-information</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-amenity-information-post_box"></i>
+            </span>
+            <br>
+            <span class='label'>amenity-information-post_box</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-amenity-information-telephone"></i>
+            </span>
+            <br>
+            <span class='label'>amenity-information-telephone</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-amenity-sanitary-drinking_water"></i>
+            </span>
+            <br>
+            <span class='label'>amenity-sanitary-drinking_water</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-amenity-sanitary-shower"></i>
+            </span>
+            <br>
+            <span class='label'>amenity-sanitary-shower</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-amenity-sanitary-toilets"></i>
+            </span>
+            <br>
+            <span class='label'>amenity-sanitary-toilets</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-amenity-stile"></i>
+            </span>
+            <br>
+            <span class='label'>amenity-stile</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-amenity-waste-centre"></i>
+            </span>
+            <br>
+            <span class='label'>amenity-waste-centre</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-amenity-waste-container"></i>
+            </span>
+            <br>
+            <span class='label'>amenity-waste-container</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-amenity-waste-dog_excrement"></i>
+            </span>
+            <br>
+            <span class='label'>amenity-waste-dog_excrement</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-amenity-waste-vending_machine"></i>
+            </span>
+            <br>
+            <span class='label'>amenity-waste-vending_machine</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-amenity-waste-waste_basket"></i>
+            </span>
+            <br>
+            <span class='label'>amenity-waste-waste_basket</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-amenity-waste-waste_disposal"></i>
+            </span>
+            <br>
+            <span class='label'>amenity-waste-waste_disposal</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-amenity"></i>
+            </span>
+            <br>
+            <span class='label'>amenity</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-catering-drink-bar"></i>
+            </span>
+            <br>
+            <span class='label'>catering-drink-bar</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-catering-drink-cafe"></i>
+            </span>
+            <br>
+            <span class='label'>catering-drink-cafe</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-catering-drink-pub"></i>
+            </span>
+            <br>
+            <span class='label'>catering-drink-pub</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-catering-food-fast_food"></i>
+            </span>
+            <br>
+            <span class='label'>catering-food-fast_food</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-catering-food-food_court"></i>
+            </span>
+            <br>
+            <span class='label'>catering-food-food_court</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-catering-food-ice_cream"></i>
+            </span>
+            <br>
+            <span class='label'>catering-food-ice_cream</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-catering-food-pastry"></i>
+            </span>
+            <br>
+            <span class='label'>catering-food-pastry</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-catering-food-restaurant"></i>
+            </span>
+            <br>
+            <span class='label'>catering-food-restaurant</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-catering"></i>
+            </span>
+            <br>
+            <span class='label'>catering</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-convenience-bakery"></i>
+            </span>
+            <br>
+            <span class='label'>convenience-bakery</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-convenience-butcher"></i>
+            </span>
+            <br>
+            <span class='label'>convenience-butcher</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-convenience-chemist"></i>
+            </span>
+            <br>
+            <span class='label'>convenience-chemist</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-convenience-florist"></i>
+            </span>
+            <br>
+            <span class='label'>convenience-florist</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-convenience-greengrocer"></i>
+            </span>
+            <br>
+            <span class='label'>convenience-greengrocer</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-convenience-hairdresser"></i>
+            </span>
+            <br>
+            <span class='label'>convenience-hairdresser</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-convenience-kiosk"></i>
+            </span>
+            <br>
+            <span class='label'>convenience-kiosk</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-convenience-marketplace"></i>
+            </span>
+            <br>
+            <span class='label'>convenience-marketplace</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-convenience-newsagent"></i>
+            </span>
+            <br>
+            <span class='label'>convenience-newsagent</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-convenience-photo"></i>
+            </span>
+            <br>
+            <span class='label'>convenience-photo</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-convenience-seafood"></i>
+            </span>
+            <br>
+            <span class='label'>convenience-seafood</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-convenience-sports"></i>
+            </span>
+            <br>
+            <span class='label'>convenience-sports</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-convenience-supermarket"></i>
+            </span>
+            <br>
+            <span class='label'>convenience-supermarket</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-convenience-tobacco"></i>
+            </span>
+            <br>
+            <span class='label'>convenience-tobacco</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-convenience"></i>
+            </span>
+            <br>
+            <span class='label'>convenience</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-culture-artwork"></i>
+            </span>
+            <br>
+            <span class='label'>culture-artwork</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-culture-historic-archaeological_site"></i>
+            </span>
+            <br>
+            <span class='label'>culture-historic-archaeological_site</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-culture-historic-castle_wall"></i>
+            </span>
+            <br>
+            <span class='label'>culture-historic-castle_wall</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-culture-historic-castle"></i>
+            </span>
+            <br>
+            <span class='label'>culture-historic-castle</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-culture-historic-church"></i>
+            </span>
+            <br>
+            <span class='label'>culture-historic-church</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-culture-historic-city_gate"></i>
+            </span>
+            <br>
+            <span class='label'>culture-historic-city_gate</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-culture-historic-city_wall"></i>
+            </span>
+            <br>
+            <span class='label'>culture-historic-city_wall</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-culture-historic-memorial"></i>
+            </span>
+            <br>
+            <span class='label'>culture-historic-memorial</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-culture-historic-monument"></i>
+            </span>
+            <br>
+            <span class='label'>culture-historic-monument</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-culture-historic-wayside_cross"></i>
+            </span>
+            <br>
+            <span class='label'>culture-historic-wayside_cross</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-culture-historic-wayside_shrine"></i>
+            </span>
+            <br>
+            <span class='label'>culture-historic-wayside_shrine</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-culture-historic"></i>
+            </span>
+            <br>
+            <span class='label'>culture-historic</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-culture-show-cinema"></i>
+            </span>
+            <br>
+            <span class='label'>culture-show-cinema</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-culture-show-gallery"></i>
+            </span>
+            <br>
+            <span class='label'>culture-show-gallery</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-culture-show-theatre"></i>
+            </span>
+            <br>
+            <span class='label'>culture-show-theatre</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-culture-visit-arts_centre"></i>
+            </span>
+            <br>
+            <span class='label'>culture-visit-arts_centre</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-culture-visit-cathedral"></i>
+            </span>
+            <br>
+            <span class='label'>culture-visit-cathedral</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-culture-visit-chapel"></i>
+            </span>
+            <br>
+            <span class='label'>culture-visit-chapel</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-culture-visit-church"></i>
+            </span>
+            <br>
+            <span class='label'>culture-visit-church</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-culture-visit-museum"></i>
+            </span>
+            <br>
+            <span class='label'>culture-visit-museum</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-culture-visit-place_of_worship"></i>
+            </span>
+            <br>
+            <span class='label'>culture-visit-place_of_worship</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-culture"></i>
+            </span>
+            <br>
+            <span class='label'>culture</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-hosting-hotel-guest_house"></i>
+            </span>
+            <br>
+            <span class='label'>hosting-hotel-guest_house</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-hosting-hotel-hostel"></i>
+            </span>
+            <br>
+            <span class='label'>hosting-hotel-hostel</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-hosting-hotel-hotel"></i>
+            </span>
+            <br>
+            <span class='label'>hosting-hotel-hotel</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-hosting-hotel-motel"></i>
+            </span>
+            <br>
+            <span class='label'>hosting-hotel-motel</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-hosting-rental-apartment"></i>
+            </span>
+            <br>
+            <span class='label'>hosting-rental-apartment</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-hosting-rental-chalet"></i>
+            </span>
+            <br>
+            <span class='label'>hosting-rental-chalet</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-hosting-resort-apartment"></i>
+            </span>
+            <br>
+            <span class='label'>hosting-resort-apartment</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-hosting-resort-camp_site"></i>
+            </span>
+            <br>
+            <span class='label'>hosting-resort-camp_site</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-hosting-resort-caravan_site"></i>
+            </span>
+            <br>
+            <span class='label'>hosting-resort-caravan_site</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-hosting-resort-resort"></i>
+            </span>
+            <br>
+            <span class='label'>hosting-resort-resort</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-hosting"></i>
+            </span>
+            <br>
+            <span class='label'>hosting</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-layers-peak"></i>
+            </span>
+            <br>
+            <span class='label'>layers-peak</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-bowling_alley"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-bowling_alley</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-casino"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-casino</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-community_centre"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-community_centre</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-fitness_centre"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-fitness_centre</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-golf_course"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-golf_course</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-hide-bird_hide"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-hide-bird_hide</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-hide-tower"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-hide-tower</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-hide-wildlife_hide"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-hide-wildlife_hide</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-horse_riding"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-horse_riding</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-hut-alpine_hut"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-hut-alpine_hut</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-hut-shelter"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-hut-shelter</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-hut-wilderness_hut"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-hut-wilderness_hut</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-ice_rink"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-ice_rink</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-miniature_golf"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-miniature_golf</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-nightclub"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-nightclub</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-park-garden"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-park-garden</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-park-park"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-park-park</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-pelota"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-pelota</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-picnic-bbq"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-picnic-bbq</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-picnic-firepit"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-picnic-firepit</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-picnic-picnic_site"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-picnic-picnic_site</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-picnic-picnic_table"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-picnic-picnic_table</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-pitch"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-pitch</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-playground"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-playground</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-public_bath"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-public_bath</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-athletics"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-athletics</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-badminton"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-badminton</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-basketball"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-basketball</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-beachvolleyball"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-beachvolleyball</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-billiards"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-billiards</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-bmx"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-bmx</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-boules"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-boules</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-bullfighting"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-bullfighting</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-canoe"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-canoe</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-climbing_adventure"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-climbing_adventure</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-climbing"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-climbing</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-cycling"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-cycling</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-diving"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-diving</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-equestrian"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-equestrian</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-free_flying"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-free_flying</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-futsal"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-futsal</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-golf"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-golf</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-gymnastics"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-gymnastics</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-handball"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-handball</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-horse_racing"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-horse_racing</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-ice_hockey"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-ice_hockey</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-karting"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-karting</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-kitesurfing"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-kitesurfing</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-motocross"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-motocross</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-motor"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-motor</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-multi"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-multi</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-orienteering"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-orienteering</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-paddle_tennis"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-paddle_tennis</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-paintball"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-paintball</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-pelota"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-pelota</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-racquet"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-racquet</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-rowing"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-rowing</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-rugby_league"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-rugby_league</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-rugby_union"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-rugby_union</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-rugby"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-rugby</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-running"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-running</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-sailing"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-sailing</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-scuba_diving"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-scuba_diving</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-shooting"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-shooting</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-skateboard"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-skateboard</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-soccer"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-soccer</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-surfing"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-surfing</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-swimming"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-swimming</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-table_soccer"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-table_soccer</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-table_tennis"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-table_tennis</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-tennis"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-tennis</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-volleyball"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-volleyball</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-water_ski"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-water_ski</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport-yoga"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport-yoga</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sport"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sport</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-sports_centre"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-sports_centre</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-swimming_pool"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-swimming_pool</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure-swimming"></i>
+            </span>
+            <br>
+            <span class='label'>leisure-swimming</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-leisure"></i>
+            </span>
+            <br>
+            <span class='label'>leisure</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-mobility-aeroway-aerodrome"></i>
+            </span>
+            <br>
+            <span class='label'>mobility-aeroway-aerodrome</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-mobility-bicycle-bicycle_parking"></i>
+            </span>
+            <br>
+            <span class='label'>mobility-bicycle-bicycle_parking</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-mobility-bicycle-bicycle_rental"></i>
+            </span>
+            <br>
+            <span class='label'>mobility-bicycle-bicycle_rental</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-mobility-bicycle-bicycle"></i>
+            </span>
+            <br>
+            <span class='label'>mobility-bicycle-bicycle</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-mobility-bicycle-compressed_air"></i>
+            </span>
+            <br>
+            <span class='label'>mobility-bicycle-compressed_air</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-mobility-bicycle-cycle_barrier"></i>
+            </span>
+            <br>
+            <span class='label'>mobility-bicycle-cycle_barrier</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-mobility-bicycle-motorcycle_parking"></i>
+            </span>
+            <br>
+            <span class='label'>mobility-bicycle-motorcycle_parking</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-mobility-bicycle"></i>
+            </span>
+            <br>
+            <span class='label'>mobility-bicycle</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-mobility-charging_station"></i>
+            </span>
+            <br>
+            <span class='label'>mobility-charging_station</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-mobility-motorway-bus_station"></i>
+            </span>
+            <br>
+            <span class='label'>mobility-motorway-bus_station</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-mobility-motorway-bus_stop"></i>
+            </span>
+            <br>
+            <span class='label'>mobility-motorway-bus_stop</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-mobility-motorway-car_pooling"></i>
+            </span>
+            <br>
+            <span class='label'>mobility-motorway-car_pooling</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-mobility-motorway-motorway_junction"></i>
+            </span>
+            <br>
+            <span class='label'>mobility-motorway-motorway_junction</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-mobility-motorway-parking"></i>
+            </span>
+            <br>
+            <span class='label'>mobility-motorway-parking</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-mobility-motorway-taxi"></i>
+            </span>
+            <br>
+            <span class='label'>mobility-motorway-taxi</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-mobility-motorway-toll_booth"></i>
+            </span>
+            <br>
+            <span class='label'>mobility-motorway-toll_booth</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-mobility-railway-halt"></i>
+            </span>
+            <br>
+            <span class='label'>mobility-railway-halt</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-mobility-railway-station"></i>
+            </span>
+            <br>
+            <span class='label'>mobility-railway-station</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-mobility-railway-subway_entrance"></i>
+            </span>
+            <br>
+            <span class='label'>mobility-railway-subway_entrance</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-mobility-railway-tram_stop"></i>
+            </span>
+            <br>
+            <span class='label'>mobility-railway-tram_stop</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-mobility-railway"></i>
+            </span>
+            <br>
+            <span class='label'>mobility-railway</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-mobility-waterway-dock"></i>
+            </span>
+            <br>
+            <span class='label'>mobility-waterway-dock</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-mobility-waterway-ferry_terminal"></i>
+            </span>
+            <br>
+            <span class='label'>mobility-waterway-ferry_terminal</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-mobility"></i>
+            </span>
+            <br>
+            <span class='label'>mobility</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-products-alcohol"></i>
+            </span>
+            <br>
+            <span class='label'>products-alcohol</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-products-carpet"></i>
+            </span>
+            <br>
+            <span class='label'>products-carpet</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-products-chocolate"></i>
+            </span>
+            <br>
+            <span class='label'>products-chocolate</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-products-craft-basket_maker"></i>
+            </span>
+            <br>
+            <span class='label'>products-craft-basket_maker</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-products-craft-beekeeper"></i>
+            </span>
+            <br>
+            <span class='label'>products-craft-beekeeper</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-products-craft-brewery"></i>
+            </span>
+            <br>
+            <span class='label'>products-craft-brewery</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-products-craft-distillery"></i>
+            </span>
+            <br>
+            <span class='label'>products-craft-distillery</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-products-craft-grinding_mill"></i>
+            </span>
+            <br>
+            <span class='label'>products-craft-grinding_mill</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-products-craft-handicraft"></i>
+            </span>
+            <br>
+            <span class='label'>products-craft-handicraft</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-products-craft-jeweller"></i>
+            </span>
+            <br>
+            <span class='label'>products-craft-jeweller</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-products-craft-leather"></i>
+            </span>
+            <br>
+            <span class='label'>products-craft-leather</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-products-craft-luthier"></i>
+            </span>
+            <br>
+            <span class='label'>products-craft-luthier</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-products-craft-pottery"></i>
+            </span>
+            <br>
+            <span class='label'>products-craft-pottery</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-products-craft-sculptor"></i>
+            </span>
+            <br>
+            <span class='label'>products-craft-sculptor</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-products-craft-winery"></i>
+            </span>
+            <br>
+            <span class='label'>products-craft-winery</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-products-craft"></i>
+            </span>
+            <br>
+            <span class='label'>products-craft</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-products-deli"></i>
+            </span>
+            <br>
+            <span class='label'>products-deli</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-products-farm"></i>
+            </span>
+            <br>
+            <span class='label'>products-farm</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-products-oil_mill"></i>
+            </span>
+            <br>
+            <span class='label'>products-oil_mill</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-products-tailor"></i>
+            </span>
+            <br>
+            <span class='label'>products-tailor</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-products"></i>
+            </span>
+            <br>
+            <span class='label'>products</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-public_landmark-border_control"></i>
+            </span>
+            <br>
+            <span class='label'>public_landmark-border_control</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-public_landmark-brownfield"></i>
+            </span>
+            <br>
+            <span class='label'>public_landmark-brownfield</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-public_landmark-cemetery"></i>
+            </span>
+            <br>
+            <span class='label'>public_landmark-cemetery</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-public_landmark-college"></i>
+            </span>
+            <br>
+            <span class='label'>public_landmark-college</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-public_landmark-courthouse"></i>
+            </span>
+            <br>
+            <span class='label'>public_landmark-courthouse</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-public_landmark-embassy"></i>
+            </span>
+            <br>
+            <span class='label'>public_landmark-embassy</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-public_landmark-grave_yard"></i>
+            </span>
+            <br>
+            <span class='label'>public_landmark-grave_yard</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-public_landmark-kindergarten"></i>
+            </span>
+            <br>
+            <span class='label'>public_landmark-kindergarten</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-public_landmark-library"></i>
+            </span>
+            <br>
+            <span class='label'>public_landmark-library</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-public_landmark-mall"></i>
+            </span>
+            <br>
+            <span class='label'>public_landmark-mall</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-public_landmark-prison"></i>
+            </span>
+            <br>
+            <span class='label'>public_landmark-prison</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-public_landmark-school"></i>
+            </span>
+            <br>
+            <span class='label'>public_landmark-school</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-public_landmark-university"></i>
+            </span>
+            <br>
+            <span class='label'>public_landmark-university</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-public_landmark-yes"></i>
+            </span>
+            <br>
+            <span class='label'>public_landmark-yes</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-public_landmark"></i>
+            </span>
+            <br>
+            <span class='label'>public_landmark</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-remarkable-attraction_activity-aquarium"></i>
+            </span>
+            <br>
+            <span class='label'>remarkable-attraction_activity-aquarium</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-remarkable-attraction_activity-attraction"></i>
+            </span>
+            <br>
+            <span class='label'>remarkable-attraction_activity-attraction</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-remarkable-attraction_activity-cave_entrance"></i>
+            </span>
+            <br>
+            <span class='label'>remarkable-attraction_activity-cave_entrance</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-remarkable-attraction_activity-lighthouse"></i>
+            </span>
+            <br>
+            <span class='label'>remarkable-attraction_activity-lighthouse</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-remarkable-attraction_activity-spring"></i>
+            </span>
+            <br>
+            <span class='label'>remarkable-attraction_activity-spring</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-remarkable-attraction_activity-theme_park"></i>
+            </span>
+            <br>
+            <span class='label'>remarkable-attraction_activity-theme_park</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-remarkable-attraction_activity-viewpoint"></i>
+            </span>
+            <br>
+            <span class='label'>remarkable-attraction_activity-viewpoint</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-remarkable-attraction_activity-water_park"></i>
+            </span>
+            <br>
+            <span class='label'>remarkable-attraction_activity-water_park</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-remarkable-attraction_activity-waterfall"></i>
+            </span>
+            <br>
+            <span class='label'>remarkable-attraction_activity-waterfall</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-remarkable-attraction_activity-zoo"></i>
+            </span>
+            <br>
+            <span class='label'>remarkable-attraction_activity-zoo</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-remarkable-natural_activity-beach_resort"></i>
+            </span>
+            <br>
+            <span class='label'>remarkable-natural_activity-beach_resort</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-remarkable-natural_activity-beach"></i>
+            </span>
+            <br>
+            <span class='label'>remarkable-natural_activity-beach</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-remarkable-outdoor_activity-fishing"></i>
+            </span>
+            <br>
+            <span class='label'>remarkable-outdoor_activity-fishing</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-remarkable-outdoor_activity-marina"></i>
+            </span>
+            <br>
+            <span class='label'>remarkable-outdoor_activity-marina</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-remarkable-outdoor_activity-stadium"></i>
+            </span>
+            <br>
+            <span class='label'>remarkable-outdoor_activity-stadium</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-remarkable-outdoor_activity-swimming_area"></i>
+            </span>
+            <br>
+            <span class='label'>remarkable-outdoor_activity-swimming_area</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-remarkable-outdoor_activity-winter_sports"></i>
+            </span>
+            <br>
+            <span class='label'>remarkable-outdoor_activity-winter_sports</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-remarkable"></i>
+            </span>
+            <br>
+            <span class='label'>remarkable</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-safety-care-centre"></i>
+            </span>
+            <br>
+            <span class='label'>safety-care-centre</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-safety-care-dentist"></i>
+            </span>
+            <br>
+            <span class='label'>safety-care-dentist</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-safety-care-doctors"></i>
+            </span>
+            <br>
+            <span class='label'>safety-care-doctors</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-safety-care-pharmacy"></i>
+            </span>
+            <br>
+            <span class='label'>safety-care-pharmacy</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-safety-care-physiotherapist"></i>
+            </span>
+            <br>
+            <span class='label'>safety-care-physiotherapist</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-safety-care-veterinary"></i>
+            </span>
+            <br>
+            <span class='label'>safety-care-veterinary</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-safety-emergency-clinic"></i>
+            </span>
+            <br>
+            <span class='label'>safety-emergency-clinic</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-safety-emergency-defibrillator"></i>
+            </span>
+            <br>
+            <span class='label'>safety-emergency-defibrillator</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-safety-emergency-hospital"></i>
+            </span>
+            <br>
+            <span class='label'>safety-emergency-hospital</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-safety-rescue-fire_station"></i>
+            </span>
+            <br>
+            <span class='label'>safety-rescue-fire_station</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-safety-rescue-life_ring"></i>
+            </span>
+            <br>
+            <span class='label'>safety-rescue-life_ring</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-safety-rescue-lifeguard_base"></i>
+            </span>
+            <br>
+            <span class='label'>safety-rescue-lifeguard_base</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-safety-rescue-mountain_rescue"></i>
+            </span>
+            <br>
+            <span class='label'>safety-rescue-mountain_rescue</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-safety-rescue-police"></i>
+            </span>
+            <br>
+            <span class='label'>safety-rescue-police</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-safety-rescue-water_rescue_station"></i>
+            </span>
+            <br>
+            <span class='label'>safety-rescue-water_rescue_station</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-safety"></i>
+            </span>
+            <br>
+            <span class='label'>safety</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-services-atm"></i>
+            </span>
+            <br>
+            <span class='label'>services-atm</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-services-bank"></i>
+            </span>
+            <br>
+            <span class='label'>services-bank</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-services-car_parts"></i>
+            </span>
+            <br>
+            <span class='label'>services-car_parts</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-services-car_repair"></i>
+            </span>
+            <br>
+            <span class='label'>services-car_repair</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-services-copyshop"></i>
+            </span>
+            <br>
+            <span class='label'>services-copyshop</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-services-dry_cleaning"></i>
+            </span>
+            <br>
+            <span class='label'>services-dry_cleaning</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-services-estate_agent"></i>
+            </span>
+            <br>
+            <span class='label'>services-estate_agent</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-services-fuel"></i>
+            </span>
+            <br>
+            <span class='label'>services-fuel</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-services-laundry"></i>
+            </span>
+            <br>
+            <span class='label'>services-laundry</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-services-massage"></i>
+            </span>
+            <br>
+            <span class='label'>services-massage</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-services-office"></i>
+            </span>
+            <br>
+            <span class='label'>services-office</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-services-post_office"></i>
+            </span>
+            <br>
+            <span class='label'>services-post_office</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-services-ticket"></i>
+            </span>
+            <br>
+            <span class='label'>services-ticket</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-services-townhall"></i>
+            </span>
+            <br>
+            <span class='label'>services-townhall</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-services-travel_agency"></i>
+            </span>
+            <br>
+            <span class='label'>services-travel_agency</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-services"></i>
+            </span>
+            <br>
+            <span class='label'>services</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-animals-pet_grooming"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-animals-pet_grooming</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-animals-pet"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-animals-pet</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-culture-antiques"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-culture-antiques</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-culture-art"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-culture-art</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-culture-books"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-culture-books</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-culture-music"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-culture-music</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-fashion-accessories"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-fashion-accessories</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-fashion-bag"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-fashion-bag</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-fashion-boutique"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-fashion-boutique</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-fashion-clothes"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-fashion-clothes</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-fashion-cosmetics"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-fashion-cosmetics</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-fashion-fabric"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-fashion-fabric</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-fashion-gift"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-fashion-gift</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-fashion-interior_decoration"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-fashion-interior_decoration</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-fashion-jewelry"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-fashion-jewelry</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-fashion-perfume"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-fashion-perfume</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-fashion-perfumery"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-fashion-perfumery</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-fashion-second_hand"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-fashion-second_hand</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-fashion-shoes"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-fashion-shoes</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-fashion-tattoo"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-fashion-tattoo</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-fashion-watches"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-fashion-watches</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-feed-beverages"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-feed-beverages</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-feed-coffee"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-feed-coffee</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-feed-confectionery"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-feed-confectionery</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-feed-frozen_food"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-feed-frozen_food</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-feed-ice_cream"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-feed-ice_cream</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-sport_supply-bicycle"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-sport_supply-bicycle</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-sport_supply-outdoor"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-sport_supply-outdoor</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-supply-bed"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-supply-bed</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-supply-camera"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-supply-camera</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-supply-charity"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-supply-charity</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-supply-computer"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-supply-computer</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-supply-doityourself"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-supply-doityourself</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-supply-electronics"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-supply-electronics</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-supply-erotic"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-supply-erotic</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-supply-furniture"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-supply-furniture</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-supply-general"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-supply-general</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-supply-hardware"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-supply-hardware</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-supply-hearing_aids"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-supply-hearing_aids</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-supply-hifi"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-supply-hifi</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-supply-lamps"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-supply-lamps</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-supply-mobile_phone"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-supply-mobile_phone</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-supply-motorcycle"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-supply-motorcycle</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-supply-musical_instrument"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-supply-musical_instrument</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-supply-optician"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-supply-optician</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-supply-stationery"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-supply-stationery</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-supply-toys"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-supply-toys</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-supply-video_games"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-supply-video_games</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-supply-video"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-supply-video</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-supply-weapons"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-supply-weapons</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping-supply-wholesale"></i>
+            </span>
+            <br>
+            <span class='label'>shopping-supply-wholesale</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio-tourism teritorio-tourism-shopping"></i>
+            </span>
+            <br>
+            <span class='label'>shopping</span>
+        </div>
+
+
+</body>
+</html>

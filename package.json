@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Self-host the Teritorio Tourism Font a neatly bundled NPM package.",
   "main": "teritorio-tourism/icon.css",
-  "files": ["LICENSE.md", "teritorio-tourism/*"],
+  "files": [
+    "LICENSE.md",
+    "teritorio-tourism/*"
+  ],
   "publishConfig": {
     "access": "public"
   },
@@ -20,5 +23,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/teritorio/font-teritorio-tourism.git"
+  },
+  "devDependencies": {
+    "fantasticon": "^1.2.2"
   }
 }

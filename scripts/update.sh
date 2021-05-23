@@ -14,4 +14,4 @@ bash scripts/flat_ico.sh
 
 rm -f teritorio-tourism/*
 mkdir -p teritorio-tourism
-npx fantasticon svg --prefix teritorio-tourism -o teritorio-tourism
+npx fantasticon svg --name teritorio-tourism --prefix teritorio-tourism -o teritorio-tourism

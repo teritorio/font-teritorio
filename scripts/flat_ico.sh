@@ -23,4 +23,7 @@ find . -name "*.svg" | while read ico; do
 
   OUT_B=${OUT}
   rsvg-convert --keep-aspect-ratio $RESIZE_11 -f svg "$ico" -o "../svg/$OUT_B"
+  mv "../svg/$OUT_B" "../svg/_$OUT_B"
+  ruby ../scripts/resize.rb "../svg/_$OUT_B" > "../svg/$OUT_B"
+  rm "../svg/_$OUT_B"
 done

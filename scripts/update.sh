@@ -6,7 +6,6 @@ curl $icones_pictos_vectoriel > icones_pictos_vectoriel.zip
 
 rm -fr 'icones:pictos:vectoriel'
 unzip icones_pictos_vectoriel.zip
-rm -r "icones:pictos:vectoriel/reserve"
 
 mkdir -p svg
 rm -f svg/*

@@ -1,6 +1,6 @@
-# Teritorio Toursim Font
+# Teritorio Tourism Font
 
-An icon font set about tourisme by [Teritorio](teritorio.fr).
+An icon font set about tourism by [Teritorio](teritorio.fr).
 
 ## Build
 

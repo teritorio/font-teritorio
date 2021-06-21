@@ -1,8 +1,8 @@
 @font-face {
     font-family: "teritorio-tourism";
-    src: url("./teritorio-tourism.eot?92027db2348348241019d87189c61ed2#iefix") format("embedded-opentype"),
-url("./teritorio-tourism.woff2?92027db2348348241019d87189c61ed2") format("woff2"),
-url("./teritorio-tourism.woff?92027db2348348241019d87189c61ed2") format("woff");
+    src: url("./teritorio-tourism.eot?f6a9ce345823d5bf8cc38e53335f12ae#iefix") format("embedded-opentype"),
+url("./teritorio-tourism.woff2?f6a9ce345823d5bf8cc38e53335f12ae") format("woff2"),
+url("./teritorio-tourism.woff?f6a9ce345823d5bf8cc38e53335f12ae") format("woff");
 }
 
 i[class^="teritorio-tourism-"]:before, i[class*=" teritorio-tourism-"]:before {
@@ -211,891 +211,918 @@ i[class^="teritorio-tourism-"]:before, i[class*=" teritorio-tourism-"]:before {
 .teritorio-tourism-extra-aeroport:before {
     content: "\f141";
 }
-.teritorio-tourism-extra-arenes:before {
+.teritorio-tourism-extra-ambassador:before {
     content: "\f142";
 }
-.teritorio-tourism-extra-balneotherapy:before {
+.teritorio-tourism-extra-arenes:before {
     content: "\f143";
 }
-.teritorio-tourism-extra-bike_ride:before {
+.teritorio-tourism-extra-artisan-prestige:before {
     content: "\f144";
 }
-.teritorio-tourism-extra-bungee_jumping:before {
+.teritorio-tourism-extra-balneotherapy:before {
     content: "\f145";
 }
-.teritorio-tourism-extra-canyoning:before {
+.teritorio-tourism-extra-bike_ride:before {
     content: "\f146";
 }
-.teritorio-tourism-extra-cheese_maker:before {
+.teritorio-tourism-extra-bungee_jumping:before {
     content: "\f147";
 }
-.teritorio-tourism-extra-delivery:before {
+.teritorio-tourism-extra-canyoning:before {
     content: "\f148";
 }
-.teritorio-tourism-extra-drive:before {
+.teritorio-tourism-extra-cheese_maker:before {
     content: "\f149";
 }
-.teritorio-tourism-extra-escape_game:before {
+.teritorio-tourism-extra-commerce-prestige:before {
     content: "\f14a";
 }
-.teritorio-tourism-extra-fish_market:before {
+.teritorio-tourism-extra-conserveurs:before {
     content: "\f14b";
 }
-.teritorio-tourism-extra-flower_village:before {
+.teritorio-tourism-extra-delivery:before {
     content: "\f14c";
 }
-.teritorio-tourism-extra-food_truck:before {
+.teritorio-tourism-extra-drive:before {
     content: "\f14d";
 }
-.teritorio-tourism-extra-ganaderia:before {
+.teritorio-tourism-extra-escape_game:before {
     content: "\f14e";
 }
-.teritorio-tourism-extra-guided_hikes:before {
+.teritorio-tourism-extra-fish_market:before {
     content: "\f14f";
 }
-.teritorio-tourism-extra-guided_tour:before {
+.teritorio-tourism-extra-flower_village:before {
     content: "\f150";
 }
-.teritorio-tourism-extra-hiking:before {
+.teritorio-tourism-extra-food_truck:before {
     content: "\f151";
 }
-.teritorio-tourism-extra-kitchen_designer:before {
+.teritorio-tourism-extra-ganaderia:before {
     content: "\f152";
 }
-.teritorio-tourism-extra-laboratory:before {
+.teritorio-tourism-extra-guided_hikes:before {
     content: "\f153";
 }
-.teritorio-tourism-extra-major_projects:before {
+.teritorio-tourism-extra-guided_tour:before {
     content: "\f154";
 }
-.teritorio-tourism-extra-mediatheque:before {
+.teritorio-tourism-extra-hiking:before {
     content: "\f155";
 }
-.teritorio-tourism-extra-natural_site:before {
+.teritorio-tourism-extra-kitchen_designer:before {
     content: "\f156";
 }
-.teritorio-tourism-extra-nature_reserve:before {
+.teritorio-tourism-extra-laboratory:before {
     content: "\f157";
 }
-.teritorio-tourism-extra-notary:before {
+.teritorio-tourism-extra-major_projects:before {
     content: "\f158";
 }
-.teritorio-tourism-extra-nurse:before {
+.teritorio-tourism-extra-mediatheque:before {
     content: "\f159";
 }
-.teritorio-tourism-extra-oyster_hut:before {
+.teritorio-tourism-extra-natural_site:before {
     content: "\f15a";
 }
-.teritorio-tourism-extra-paddle:before {
+.teritorio-tourism-extra-nature_reserve:before {
     content: "\f15b";
 }
-.teritorio-tourism-extra-podiatrist:before {
+.teritorio-tourism-extra-notary:before {
     content: "\f15c";
 }
-.teritorio-tourism-extra-rando:before {
+.teritorio-tourism-extra-nurse:before {
     content: "\f15d";
 }
-.teritorio-tourism-extra-recycling:before {
+.teritorio-tourism-extra-oyster_hut:before {
     content: "\f15e";
 }
-.teritorio-tourism-extra-reflexology:before {
+.teritorio-tourism-extra-paddle:before {
     content: "\f15f";
 }
-.teritorio-tourism-extra-restricted:before {
+.teritorio-tourism-extra-podiatrist:before {
     content: "\f160";
 }
-.teritorio-tourism-extra-shared_garden:before {
+.teritorio-tourism-extra-rando:before {
     content: "\f161";
 }
-.teritorio-tourism-extra-shoesmaker:before {
+.teritorio-tourism-extra-recycling:before {
     content: "\f162";
 }
-.teritorio-tourism-extra-speleology:before {
+.teritorio-tourism-extra-reflexology:before {
     content: "\f163";
 }
-.teritorio-tourism-extra-sports_and_leisures:before {
+.teritorio-tourism-extra-restaurateurs-prestige:before {
     content: "\f164";
 }
-.teritorio-tourism-extra-thermal_establishment:before {
+.teritorio-tourism-extra-restricted:before {
     content: "\f165";
 }
-.teritorio-tourism-extra-thermal_station:before {
+.teritorio-tourism-extra-shared_garden:before {
     content: "\f166";
 }
-.teritorio-tourism-extra-to_take_away:before {
+.teritorio-tourism-extra-shoesmaker:before {
     content: "\f167";
 }
-.teritorio-tourism-extra-unesco_site:before {
+.teritorio-tourism-extra-speleology:before {
     content: "\f168";
 }
-.teritorio-tourism-extra-velo_repare:before {
+.teritorio-tourism-extra-sports_and_leisures:before {
     content: "\f169";
 }
-.teritorio-tourism-extra-vote_place:before {
+.teritorio-tourism-extra-surf-houses:before {
     content: "\f16a";
 }
-.teritorio-tourism-extra-vtt:before {
+.teritorio-tourism-extra-terra-aventura:before {
     content: "\f16b";
 }
-.teritorio-tourism-extra-zip_line:before {
+.teritorio-tourism-extra-thermal_establishment:before {
     content: "\f16c";
 }
-.teritorio-tourism-hosting-hotel-guest_house:before {
+.teritorio-tourism-extra-thermal_station:before {
     content: "\f16d";
 }
-.teritorio-tourism-hosting-hotel-hostel:before {
+.teritorio-tourism-extra-to_take_away:before {
     content: "\f16e";
 }
-.teritorio-tourism-hosting-hotel-hotel:before {
+.teritorio-tourism-extra-unesco_site:before {
     content: "\f16f";
 }
-.teritorio-tourism-hosting-hotel-motel:before {
+.teritorio-tourism-extra-velo_repare:before {
     content: "\f170";
 }
-.teritorio-tourism-hosting-rental-apartment:before {
+.teritorio-tourism-extra-vine:before {
     content: "\f171";
 }
-.teritorio-tourism-hosting-rental-chalet:before {
+.teritorio-tourism-extra-vote_place:before {
     content: "\f172";
 }
-.teritorio-tourism-hosting-resort-apartment:before {
+.teritorio-tourism-extra-vtt:before {
     content: "\f173";
 }
-.teritorio-tourism-hosting-resort-camp_site:before {
+.teritorio-tourism-extra-WIFI:before {
     content: "\f174";
 }
-.teritorio-tourism-hosting-resort-caravan_site:before {
+.teritorio-tourism-extra-zip_line:before {
     content: "\f175";
 }
-.teritorio-tourism-hosting-resort-resort:before {
+.teritorio-tourism-hosting-hotel-guest_house:before {
     content: "\f176";
 }
-.teritorio-tourism-hosting:before {
+.teritorio-tourism-hosting-hotel-hostel:before {
     content: "\f177";
 }
-.teritorio-tourism-layers-peak:before {
+.teritorio-tourism-hosting-hotel-hotel:before {
     content: "\f178";
 }
-.teritorio-tourism-leisure-bowling_alley:before {
+.teritorio-tourism-hosting-hotel-motel:before {
     content: "\f179";
 }
-.teritorio-tourism-leisure-casino:before {
+.teritorio-tourism-hosting-rental-apartment:before {
     content: "\f17a";
 }
-.teritorio-tourism-leisure-community_centre:before {
+.teritorio-tourism-hosting-rental-chalet:before {
     content: "\f17b";
 }
-.teritorio-tourism-leisure-fitness_centre:before {
+.teritorio-tourism-hosting-resort-apartment:before {
     content: "\f17c";
 }
-.teritorio-tourism-leisure-golf_course:before {
+.teritorio-tourism-hosting-resort-camp_site:before {
     content: "\f17d";
 }
-.teritorio-tourism-leisure-hide-bird_hide:before {
+.teritorio-tourism-hosting-resort-caravan_site:before {
     content: "\f17e";
 }
-.teritorio-tourism-leisure-hide-tower:before {
+.teritorio-tourism-hosting-resort-resort:before {
     content: "\f17f";
 }
-.teritorio-tourism-leisure-hide-wildlife_hide:before {
+.teritorio-tourism-hosting:before {
     content: "\f180";
 }
-.teritorio-tourism-leisure-horse_riding:before {
+.teritorio-tourism-layers-peak:before {
     content: "\f181";
 }
-.teritorio-tourism-leisure-hut-alpine_hut:before {
+.teritorio-tourism-leisure-bowling_alley:before {
     content: "\f182";
 }
-.teritorio-tourism-leisure-hut-shelter:before {
+.teritorio-tourism-leisure-casino:before {
     content: "\f183";
 }
-.teritorio-tourism-leisure-hut-wilderness_hut:before {
+.teritorio-tourism-leisure-community_centre:before {
     content: "\f184";
 }
-.teritorio-tourism-leisure-ice_rink:before {
+.teritorio-tourism-leisure-fitness_centre:before {
     content: "\f185";
 }
-.teritorio-tourism-leisure-miniature_golf:before {
+.teritorio-tourism-leisure-golf_course:before {
     content: "\f186";
 }
-.teritorio-tourism-leisure-nightclub:before {
+.teritorio-tourism-leisure-hide-bird_hide:before {
     content: "\f187";
 }
-.teritorio-tourism-leisure-park-garden:before {
+.teritorio-tourism-leisure-hide-tower:before {
     content: "\f188";
 }
-.teritorio-tourism-leisure-park-park:before {
+.teritorio-tourism-leisure-hide-wildlife_hide:before {
     content: "\f189";
 }
-.teritorio-tourism-leisure-pelota:before {
+.teritorio-tourism-leisure-horse_riding:before {
     content: "\f18a";
 }
-.teritorio-tourism-leisure-picnic-bbq:before {
+.teritorio-tourism-leisure-hut-alpine_hut:before {
     content: "\f18b";
 }
-.teritorio-tourism-leisure-picnic-firepit:before {
+.teritorio-tourism-leisure-hut-shelter:before {
     content: "\f18c";
 }
-.teritorio-tourism-leisure-picnic-picnic_site:before {
+.teritorio-tourism-leisure-hut-wilderness_hut:before {
     content: "\f18d";
 }
-.teritorio-tourism-leisure-picnic-picnic_table:before {
+.teritorio-tourism-leisure-ice_rink:before {
     content: "\f18e";
 }
-.teritorio-tourism-leisure-pitch:before {
+.teritorio-tourism-leisure-miniature_golf:before {
     content: "\f18f";
 }
-.teritorio-tourism-leisure-playground:before {
+.teritorio-tourism-leisure-nightclub:before {
     content: "\f190";
 }
-.teritorio-tourism-leisure-public_bath:before {
+.teritorio-tourism-leisure-park-garden:before {
     content: "\f191";
 }
-.teritorio-tourism-leisure-sport-athletics:before {
+.teritorio-tourism-leisure-park-park:before {
     content: "\f192";
 }
-.teritorio-tourism-leisure-sport-badminton:before {
+.teritorio-tourism-leisure-pelota:before {
     content: "\f193";
 }
-.teritorio-tourism-leisure-sport-basketball:before {
+.teritorio-tourism-leisure-picnic-bbq:before {
     content: "\f194";
 }
-.teritorio-tourism-leisure-sport-beachvolleyball:before {
+.teritorio-tourism-leisure-picnic-firepit:before {
     content: "\f195";
 }
-.teritorio-tourism-leisure-sport-billiards:before {
+.teritorio-tourism-leisure-picnic-picnic_site:before {
     content: "\f196";
 }
-.teritorio-tourism-leisure-sport-bmx:before {
+.teritorio-tourism-leisure-picnic-picnic_table:before {
     content: "\f197";
 }
-.teritorio-tourism-leisure-sport-boules:before {
+.teritorio-tourism-leisure-pitch:before {
     content: "\f198";
 }
-.teritorio-tourism-leisure-sport-bullfighting:before {
+.teritorio-tourism-leisure-playground:before {
     content: "\f199";
 }
-.teritorio-tourism-leisure-sport-canoe:before {
+.teritorio-tourism-leisure-public_bath:before {
     content: "\f19a";
 }
-.teritorio-tourism-leisure-sport-climbing_adventure:before {
+.teritorio-tourism-leisure-sport-athletics:before {
     content: "\f19b";
 }
-.teritorio-tourism-leisure-sport-climbing:before {
+.teritorio-tourism-leisure-sport-badminton:before {
     content: "\f19c";
 }
-.teritorio-tourism-leisure-sport-cycling:before {
+.teritorio-tourism-leisure-sport-basketball:before {
     content: "\f19d";
 }
-.teritorio-tourism-leisure-sport-diving:before {
+.teritorio-tourism-leisure-sport-beachvolleyball:before {
     content: "\f19e";
 }
-.teritorio-tourism-leisure-sport-equestrian:before {
+.teritorio-tourism-leisure-sport-billiards:before {
     content: "\f19f";
 }
-.teritorio-tourism-leisure-sport-free_flying:before {
+.teritorio-tourism-leisure-sport-bmx:before {
     content: "\f1a0";
 }
-.teritorio-tourism-leisure-sport-futsal:before {
+.teritorio-tourism-leisure-sport-boules:before {
     content: "\f1a1";
 }
-.teritorio-tourism-leisure-sport-golf:before {
+.teritorio-tourism-leisure-sport-bullfighting:before {
     content: "\f1a2";
 }
-.teritorio-tourism-leisure-sport-gymnastics:before {
+.teritorio-tourism-leisure-sport-canoe:before {
     content: "\f1a3";
 }
-.teritorio-tourism-leisure-sport-handball:before {
+.teritorio-tourism-leisure-sport-climbing_adventure:before {
     content: "\f1a4";
 }
-.teritorio-tourism-leisure-sport-horse_racing:before {
+.teritorio-tourism-leisure-sport-climbing:before {
     content: "\f1a5";
 }
-.teritorio-tourism-leisure-sport-ice_hockey:before {
+.teritorio-tourism-leisure-sport-cycling:before {
     content: "\f1a6";
 }
-.teritorio-tourism-leisure-sport-karting:before {
+.teritorio-tourism-leisure-sport-diving:before {
     content: "\f1a7";
 }
-.teritorio-tourism-leisure-sport-kitesurfing:before {
+.teritorio-tourism-leisure-sport-equestrian:before {
     content: "\f1a8";
 }
-.teritorio-tourism-leisure-sport-motocross:before {
+.teritorio-tourism-leisure-sport-free_flying:before {
     content: "\f1a9";
 }
-.teritorio-tourism-leisure-sport-motor:before {
+.teritorio-tourism-leisure-sport-futsal:before {
     content: "\f1aa";
 }
-.teritorio-tourism-leisure-sport-multi:before {
+.teritorio-tourism-leisure-sport-golf:before {
     content: "\f1ab";
 }
-.teritorio-tourism-leisure-sport-orienteering:before {
+.teritorio-tourism-leisure-sport-gymnastics:before {
     content: "\f1ac";
 }
-.teritorio-tourism-leisure-sport-paddle_tennis:before {
+.teritorio-tourism-leisure-sport-handball:before {
     content: "\f1ad";
 }
-.teritorio-tourism-leisure-sport-paintball:before {
+.teritorio-tourism-leisure-sport-horse_racing:before {
     content: "\f1ae";
 }
-.teritorio-tourism-leisure-sport-pelota:before {
+.teritorio-tourism-leisure-sport-ice_hockey:before {
     content: "\f1af";
 }
-.teritorio-tourism-leisure-sport-racquet:before {
+.teritorio-tourism-leisure-sport-karting:before {
     content: "\f1b0";
 }
-.teritorio-tourism-leisure-sport-rowing:before {
+.teritorio-tourism-leisure-sport-kitesurfing:before {
     content: "\f1b1";
 }
-.teritorio-tourism-leisure-sport-rugby_league:before {
+.teritorio-tourism-leisure-sport-motocross:before {
     content: "\f1b2";
 }
-.teritorio-tourism-leisure-sport-rugby_union:before {
+.teritorio-tourism-leisure-sport-motor:before {
     content: "\f1b3";
 }
-.teritorio-tourism-leisure-sport-rugby:before {
+.teritorio-tourism-leisure-sport-multi:before {
     content: "\f1b4";
 }
-.teritorio-tourism-leisure-sport-running:before {
+.teritorio-tourism-leisure-sport-orienteering:before {
     content: "\f1b5";
 }
-.teritorio-tourism-leisure-sport-sailing:before {
+.teritorio-tourism-leisure-sport-paddle_tennis:before {
     content: "\f1b6";
 }
-.teritorio-tourism-leisure-sport-scuba_diving:before {
+.teritorio-tourism-leisure-sport-paintball:before {
     content: "\f1b7";
 }
-.teritorio-tourism-leisure-sport-shooting:before {
+.teritorio-tourism-leisure-sport-pelota:before {
     content: "\f1b8";
 }
-.teritorio-tourism-leisure-sport-skateboard:before {
+.teritorio-tourism-leisure-sport-racquet:before {
     content: "\f1b9";
 }
-.teritorio-tourism-leisure-sport-soccer:before {
+.teritorio-tourism-leisure-sport-rowing:before {
     content: "\f1ba";
 }
-.teritorio-tourism-leisure-sport-surfing:before {
+.teritorio-tourism-leisure-sport-rugby_league:before {
     content: "\f1bb";
 }
-.teritorio-tourism-leisure-sport-swimming:before {
+.teritorio-tourism-leisure-sport-rugby_union:before {
     content: "\f1bc";
 }
-.teritorio-tourism-leisure-sport-table_soccer:before {
+.teritorio-tourism-leisure-sport-rugby:before {
     content: "\f1bd";
 }
-.teritorio-tourism-leisure-sport-table_tennis:before {
+.teritorio-tourism-leisure-sport-running:before {
     content: "\f1be";
 }
-.teritorio-tourism-leisure-sport-tennis:before {
+.teritorio-tourism-leisure-sport-sailing:before {
     content: "\f1bf";
 }
-.teritorio-tourism-leisure-sport-volleyball:before {
+.teritorio-tourism-leisure-sport-scuba_diving:before {
     content: "\f1c0";
 }
-.teritorio-tourism-leisure-sport-water_ski:before {
+.teritorio-tourism-leisure-sport-shooting:before {
     content: "\f1c1";
 }
-.teritorio-tourism-leisure-sport-yoga:before {
+.teritorio-tourism-leisure-sport-skateboard:before {
     content: "\f1c2";
 }
-.teritorio-tourism-leisure-sport:before {
+.teritorio-tourism-leisure-sport-soccer:before {
     content: "\f1c3";
 }
-.teritorio-tourism-leisure-sports_centre:before {
+.teritorio-tourism-leisure-sport-surfing:before {
     content: "\f1c4";
 }
-.teritorio-tourism-leisure-swimming_pool:before {
+.teritorio-tourism-leisure-sport-swimming:before {
     content: "\f1c5";
 }
-.teritorio-tourism-leisure-swimming:before {
+.teritorio-tourism-leisure-sport-table_soccer:before {
     content: "\f1c6";
 }
-.teritorio-tourism-leisure:before {
+.teritorio-tourism-leisure-sport-table_tennis:before {
     content: "\f1c7";
 }
-.teritorio-tourism-mobility-aeroway-aerodrome:before {
+.teritorio-tourism-leisure-sport-tennis:before {
     content: "\f1c8";
 }
-.teritorio-tourism-mobility-bicycle-bicycle_parking:before {
+.teritorio-tourism-leisure-sport-volleyball:before {
     content: "\f1c9";
 }
-.teritorio-tourism-mobility-bicycle-bicycle_rental:before {
+.teritorio-tourism-leisure-sport-water_ski:before {
     content: "\f1ca";
 }
-.teritorio-tourism-mobility-bicycle-bicycle:before {
+.teritorio-tourism-leisure-sport-yoga:before {
     content: "\f1cb";
 }
-.teritorio-tourism-mobility-bicycle-compressed_air:before {
+.teritorio-tourism-leisure-sport:before {
     content: "\f1cc";
 }
-.teritorio-tourism-mobility-bicycle-cycle_barrier:before {
+.teritorio-tourism-leisure-sports_centre:before {
     content: "\f1cd";
 }
-.teritorio-tourism-mobility-bicycle-motorcycle_parking:before {
+.teritorio-tourism-leisure-swimming_pool:before {
     content: "\f1ce";
 }
-.teritorio-tourism-mobility-bicycle:before {
+.teritorio-tourism-leisure-swimming:before {
     content: "\f1cf";
 }
-.teritorio-tourism-mobility-charging_station:before {
+.teritorio-tourism-leisure:before {
     content: "\f1d0";
 }
-.teritorio-tourism-mobility-motorway-bus_station:before {
+.teritorio-tourism-mobility-aeroway-aerodrome:before {
     content: "\f1d1";
 }
-.teritorio-tourism-mobility-motorway-bus_stop:before {
+.teritorio-tourism-mobility-bicycle-bicycle_parking:before {
     content: "\f1d2";
 }
-.teritorio-tourism-mobility-motorway-car_pooling:before {
+.teritorio-tourism-mobility-bicycle-bicycle_rental:before {
     content: "\f1d3";
 }
-.teritorio-tourism-mobility-motorway-motorway_junction:before {
+.teritorio-tourism-mobility-bicycle-bicycle:before {
     content: "\f1d4";
 }
-.teritorio-tourism-mobility-motorway-parking:before {
+.teritorio-tourism-mobility-bicycle-compressed_air:before {
     content: "\f1d5";
 }
-.teritorio-tourism-mobility-motorway-taxi:before {
+.teritorio-tourism-mobility-bicycle-cycle_barrier:before {
     content: "\f1d6";
 }
-.teritorio-tourism-mobility-motorway-toll_booth:before {
+.teritorio-tourism-mobility-bicycle-motorcycle_parking:before {
     content: "\f1d7";
 }
-.teritorio-tourism-mobility-railway-halt:before {
+.teritorio-tourism-mobility-bicycle:before {
     content: "\f1d8";
 }
-.teritorio-tourism-mobility-railway-station:before {
+.teritorio-tourism-mobility-charging_station:before {
     content: "\f1d9";
 }
-.teritorio-tourism-mobility-railway-subway_entrance:before {
+.teritorio-tourism-mobility-motorway-bus_station:before {
     content: "\f1da";
 }
-.teritorio-tourism-mobility-railway-tram_stop:before {
+.teritorio-tourism-mobility-motorway-bus_stop:before {
     content: "\f1db";
 }
-.teritorio-tourism-mobility-railway:before {
+.teritorio-tourism-mobility-motorway-car_pooling:before {
     content: "\f1dc";
 }
-.teritorio-tourism-mobility-waterway-dock:before {
+.teritorio-tourism-mobility-motorway-motorway_junction:before {
     content: "\f1dd";
 }
-.teritorio-tourism-mobility-waterway-ferry_terminal:before {
+.teritorio-tourism-mobility-motorway-parking:before {
     content: "\f1de";
 }
-.teritorio-tourism-mobility:before {
+.teritorio-tourism-mobility-motorway-taxi:before {
     content: "\f1df";
 }
-.teritorio-tourism-products-alcohol:before {
+.teritorio-tourism-mobility-motorway-toll_booth:before {
     content: "\f1e0";
 }
-.teritorio-tourism-products-carpet:before {
+.teritorio-tourism-mobility-railway-halt:before {
     content: "\f1e1";
 }
-.teritorio-tourism-products-chocolate:before {
+.teritorio-tourism-mobility-railway-station:before {
     content: "\f1e2";
 }
-.teritorio-tourism-products-craft-basket_maker:before {
+.teritorio-tourism-mobility-railway-subway_entrance:before {
     content: "\f1e3";
 }
-.teritorio-tourism-products-craft-beekeeper:before {
+.teritorio-tourism-mobility-railway-tram_stop:before {
     content: "\f1e4";
 }
-.teritorio-tourism-products-craft-brewery:before {
+.teritorio-tourism-mobility-railway:before {
     content: "\f1e5";
 }
-.teritorio-tourism-products-craft-distillery:before {
+.teritorio-tourism-mobility-waterway-dock:before {
     content: "\f1e6";
 }
-.teritorio-tourism-products-craft-grinding_mill:before {
+.teritorio-tourism-mobility-waterway-ferry_terminal:before {
     content: "\f1e7";
 }
-.teritorio-tourism-products-craft-handicraft:before {
+.teritorio-tourism-mobility:before {
     content: "\f1e8";
 }
-.teritorio-tourism-products-craft-jeweller:before {
+.teritorio-tourism-products-alcohol:before {
     content: "\f1e9";
 }
-.teritorio-tourism-products-craft-leather:before {
+.teritorio-tourism-products-carpet:before {
     content: "\f1ea";
 }
-.teritorio-tourism-products-craft-luthier:before {
+.teritorio-tourism-products-chocolate:before {
     content: "\f1eb";
 }
-.teritorio-tourism-products-craft-pottery:before {
+.teritorio-tourism-products-craft-basket_maker:before {
     content: "\f1ec";
 }
-.teritorio-tourism-products-craft-sculptor:before {
+.teritorio-tourism-products-craft-beekeeper:before {
     content: "\f1ed";
 }
-.teritorio-tourism-products-craft-winery:before {
+.teritorio-tourism-products-craft-brewery:before {
     content: "\f1ee";
 }
-.teritorio-tourism-products-craft:before {
+.teritorio-tourism-products-craft-distillery:before {
     content: "\f1ef";
 }
-.teritorio-tourism-products-deli:before {
+.teritorio-tourism-products-craft-grinding_mill:before {
     content: "\f1f0";
 }
-.teritorio-tourism-products-farm:before {
+.teritorio-tourism-products-craft-handicraft:before {
     content: "\f1f1";
 }
-.teritorio-tourism-products-oil_mill:before {
+.teritorio-tourism-products-craft-jeweller:before {
     content: "\f1f2";
 }
-.teritorio-tourism-products-tailor:before {
+.teritorio-tourism-products-craft-leather:before {
     content: "\f1f3";
 }
-.teritorio-tourism-products:before {
+.teritorio-tourism-products-craft-luthier:before {
     content: "\f1f4";
 }
-.teritorio-tourism-public_landmark-border_control:before {
+.teritorio-tourism-products-craft-pottery:before {
     content: "\f1f5";
 }
-.teritorio-tourism-public_landmark-brownfield:before {
+.teritorio-tourism-products-craft-sculptor:before {
     content: "\f1f6";
 }
-.teritorio-tourism-public_landmark-cemetery:before {
+.teritorio-tourism-products-craft-winery:before {
     content: "\f1f7";
 }
-.teritorio-tourism-public_landmark-college:before {
+.teritorio-tourism-products-craft:before {
     content: "\f1f8";
 }
-.teritorio-tourism-public_landmark-courthouse:before {
+.teritorio-tourism-products-deli:before {
     content: "\f1f9";
 }
-.teritorio-tourism-public_landmark-embassy:before {
+.teritorio-tourism-products-farm:before {
     content: "\f1fa";
 }
-.teritorio-tourism-public_landmark-grave_yard:before {
+.teritorio-tourism-products-oil_mill:before {
     content: "\f1fb";
 }
-.teritorio-tourism-public_landmark-kindergarten:before {
+.teritorio-tourism-products-tailor:before {
     content: "\f1fc";
 }
-.teritorio-tourism-public_landmark-library:before {
+.teritorio-tourism-products:before {
     content: "\f1fd";
 }
-.teritorio-tourism-public_landmark-mall:before {
+.teritorio-tourism-public_landmark-border_control:before {
     content: "\f1fe";
 }
-.teritorio-tourism-public_landmark-prison:before {
+.teritorio-tourism-public_landmark-brownfield:before {
     content: "\f1ff";
 }
-.teritorio-tourism-public_landmark-school:before {
+.teritorio-tourism-public_landmark-cemetery:before {
     content: "\f200";
 }
-.teritorio-tourism-public_landmark-university:before {
+.teritorio-tourism-public_landmark-college:before {
     content: "\f201";
 }
-.teritorio-tourism-public_landmark-yes:before {
+.teritorio-tourism-public_landmark-courthouse:before {
     content: "\f202";
 }
-.teritorio-tourism-public_landmark:before {
+.teritorio-tourism-public_landmark-embassy:before {
     content: "\f203";
 }
-.teritorio-tourism-remarkable-attraction_activity-aquarium:before {
+.teritorio-tourism-public_landmark-grave_yard:before {
     content: "\f204";
 }
-.teritorio-tourism-remarkable-attraction_activity-attraction:before {
+.teritorio-tourism-public_landmark-kindergarten:before {
     content: "\f205";
 }
-.teritorio-tourism-remarkable-attraction_activity-cave_entrance:before {
+.teritorio-tourism-public_landmark-library:before {
     content: "\f206";
 }
-.teritorio-tourism-remarkable-attraction_activity-lighthouse:before {
+.teritorio-tourism-public_landmark-mall:before {
     content: "\f207";
 }
-.teritorio-tourism-remarkable-attraction_activity-spring:before {
+.teritorio-tourism-public_landmark-prison:before {
     content: "\f208";
 }
-.teritorio-tourism-remarkable-attraction_activity-theme_park:before {
+.teritorio-tourism-public_landmark-school:before {
     content: "\f209";
 }
-.teritorio-tourism-remarkable-attraction_activity-viewpoint:before {
+.teritorio-tourism-public_landmark-university:before {
     content: "\f20a";
 }
-.teritorio-tourism-remarkable-attraction_activity-water_park:before {
+.teritorio-tourism-public_landmark-yes:before {
     content: "\f20b";
 }
-.teritorio-tourism-remarkable-attraction_activity-waterfall:before {
+.teritorio-tourism-public_landmark:before {
     content: "\f20c";
 }
-.teritorio-tourism-remarkable-attraction_activity-zoo:before {
+.teritorio-tourism-remarkable-attraction_activity-aquarium:before {
     content: "\f20d";
 }
-.teritorio-tourism-remarkable-natural_activity-beach_resort:before {
+.teritorio-tourism-remarkable-attraction_activity-attraction:before {
     content: "\f20e";
 }
-.teritorio-tourism-remarkable-natural_activity-beach:before {
+.teritorio-tourism-remarkable-attraction_activity-cave_entrance:before {
     content: "\f20f";
 }
-.teritorio-tourism-remarkable-outdoor_activity-fishing:before {
+.teritorio-tourism-remarkable-attraction_activity-lighthouse:before {
     content: "\f210";
 }
-.teritorio-tourism-remarkable-outdoor_activity-marina:before {
+.teritorio-tourism-remarkable-attraction_activity-spring:before {
     content: "\f211";
 }
-.teritorio-tourism-remarkable-outdoor_activity-stadium:before {
+.teritorio-tourism-remarkable-attraction_activity-theme_park:before {
     content: "\f212";
 }
-.teritorio-tourism-remarkable-outdoor_activity-swimming_area:before {
+.teritorio-tourism-remarkable-attraction_activity-viewpoint:before {
     content: "\f213";
 }
-.teritorio-tourism-remarkable-outdoor_activity-winter_sports:before {
+.teritorio-tourism-remarkable-attraction_activity-water_park:before {
     content: "\f214";
 }
-.teritorio-tourism-remarkable:before {
+.teritorio-tourism-remarkable-attraction_activity-waterfall:before {
     content: "\f215";
 }
-.teritorio-tourism-safety-care-centre:before {
+.teritorio-tourism-remarkable-attraction_activity-zoo:before {
     content: "\f216";
 }
-.teritorio-tourism-safety-care-dentist:before {
+.teritorio-tourism-remarkable-natural_activity-beach_resort:before {
     content: "\f217";
 }
-.teritorio-tourism-safety-care-doctors:before {
+.teritorio-tourism-remarkable-natural_activity-beach:before {
     content: "\f218";
 }
-.teritorio-tourism-safety-care-pharmacy:before {
+.teritorio-tourism-remarkable-outdoor_activity-fishing:before {
     content: "\f219";
 }
-.teritorio-tourism-safety-care-physiotherapist:before {
+.teritorio-tourism-remarkable-outdoor_activity-marina:before {
     content: "\f21a";
 }
-.teritorio-tourism-safety-care-veterinary:before {
+.teritorio-tourism-remarkable-outdoor_activity-stadium:before {
     content: "\f21b";
 }
-.teritorio-tourism-safety-emergency-clinic:before {
+.teritorio-tourism-remarkable-outdoor_activity-swimming_area:before {
     content: "\f21c";
 }
-.teritorio-tourism-safety-emergency-defibrillator:before {
+.teritorio-tourism-remarkable-outdoor_activity-winter_sports:before {
     content: "\f21d";
 }
-.teritorio-tourism-safety-emergency-hospital:before {
+.teritorio-tourism-remarkable:before {
     content: "\f21e";
 }
-.teritorio-tourism-safety-rescue-fire_station:before {
+.teritorio-tourism-safety-care-centre:before {
     content: "\f21f";
 }
-.teritorio-tourism-safety-rescue-life_ring:before {
+.teritorio-tourism-safety-care-dentist:before {
     content: "\f220";
 }
-.teritorio-tourism-safety-rescue-lifeguard_base:before {
+.teritorio-tourism-safety-care-doctors:before {
     content: "\f221";
 }
-.teritorio-tourism-safety-rescue-mountain_rescue:before {
+.teritorio-tourism-safety-care-pharmacy:before {
     content: "\f222";
 }
-.teritorio-tourism-safety-rescue-police:before {
+.teritorio-tourism-safety-care-physiotherapist:before {
     content: "\f223";
 }
-.teritorio-tourism-safety-rescue-water_rescue_station:before {
+.teritorio-tourism-safety-care-veterinary:before {
     content: "\f224";
 }
-.teritorio-tourism-safety:before {
+.teritorio-tourism-safety-emergency-clinic:before {
     content: "\f225";
 }
-.teritorio-tourism-services-atm:before {
+.teritorio-tourism-safety-emergency-defibrillator:before {
     content: "\f226";
 }
-.teritorio-tourism-services-bank:before {
+.teritorio-tourism-safety-emergency-hospital:before {
     content: "\f227";
 }
-.teritorio-tourism-services-car_parts:before {
+.teritorio-tourism-safety-rescue-fire_station:before {
     content: "\f228";
 }
-.teritorio-tourism-services-car_repair:before {
+.teritorio-tourism-safety-rescue-life_ring:before {
     content: "\f229";
 }
-.teritorio-tourism-services-copyshop:before {
+.teritorio-tourism-safety-rescue-lifeguard_base:before {
     content: "\f22a";
 }
-.teritorio-tourism-services-dry_cleaning:before {
+.teritorio-tourism-safety-rescue-mountain_rescue:before {
     content: "\f22b";
 }
-.teritorio-tourism-services-estate_agent:before {
+.teritorio-tourism-safety-rescue-police:before {
     content: "\f22c";
 }
-.teritorio-tourism-services-fuel:before {
+.teritorio-tourism-safety-rescue-water_rescue_station:before {
     content: "\f22d";
 }
-.teritorio-tourism-services-laundry:before {
+.teritorio-tourism-safety:before {
     content: "\f22e";
 }
-.teritorio-tourism-services-massage:before {
+.teritorio-tourism-services-atm:before {
     content: "\f22f";
 }
-.teritorio-tourism-services-office:before {
+.teritorio-tourism-services-bank:before {
     content: "\f230";
 }
-.teritorio-tourism-services-post_office:before {
+.teritorio-tourism-services-car_parts:before {
     content: "\f231";
 }
-.teritorio-tourism-services-ticket:before {
+.teritorio-tourism-services-car_repair:before {
     content: "\f232";
 }
-.teritorio-tourism-services-townhall:before {
+.teritorio-tourism-services-copyshop:before {
     content: "\f233";
 }
-.teritorio-tourism-services-travel_agency:before {
+.teritorio-tourism-services-dry_cleaning:before {
     content: "\f234";
 }
-.teritorio-tourism-services:before {
+.teritorio-tourism-services-estate_agent:before {
     content: "\f235";
 }
-.teritorio-tourism-shopping-animals-pet_grooming:before {
+.teritorio-tourism-services-fuel:before {
     content: "\f236";
 }
-.teritorio-tourism-shopping-animals-pet:before {
+.teritorio-tourism-services-laundry:before {
     content: "\f237";
 }
-.teritorio-tourism-shopping-culture-antiques:before {
+.teritorio-tourism-services-massage:before {
     content: "\f238";
 }
-.teritorio-tourism-shopping-culture-art:before {
+.teritorio-tourism-services-office:before {
     content: "\f239";
 }
-.teritorio-tourism-shopping-culture-books:before {
+.teritorio-tourism-services-post_office:before {
     content: "\f23a";
 }
-.teritorio-tourism-shopping-culture-music:before {
+.teritorio-tourism-services-ticket:before {
     content: "\f23b";
 }
-.teritorio-tourism-shopping-fashion-accessories:before {
+.teritorio-tourism-services-townhall:before {
     content: "\f23c";
 }
-.teritorio-tourism-shopping-fashion-bag:before {
+.teritorio-tourism-services-travel_agency:before {
     content: "\f23d";
 }
-.teritorio-tourism-shopping-fashion-boutique:before {
+.teritorio-tourism-services:before {
     content: "\f23e";
 }
-.teritorio-tourism-shopping-fashion-clothes:before {
+.teritorio-tourism-shopping-animals-pet_grooming:before {
     content: "\f23f";
 }
-.teritorio-tourism-shopping-fashion-cosmetics:before {
+.teritorio-tourism-shopping-animals-pet:before {
     content: "\f240";
 }
-.teritorio-tourism-shopping-fashion-fabric:before {
+.teritorio-tourism-shopping-culture-antiques:before {
     content: "\f241";
 }
-.teritorio-tourism-shopping-fashion-gift:before {
+.teritorio-tourism-shopping-culture-art:before {
     content: "\f242";
 }
-.teritorio-tourism-shopping-fashion-interior_decoration:before {
+.teritorio-tourism-shopping-culture-books:before {
     content: "\f243";
 }
-.teritorio-tourism-shopping-fashion-jewelry:before {
+.teritorio-tourism-shopping-culture-music:before {
     content: "\f244";
 }
-.teritorio-tourism-shopping-fashion-perfume:before {
+.teritorio-tourism-shopping-fashion-accessories:before {
     content: "\f245";
 }
-.teritorio-tourism-shopping-fashion-perfumery:before {
+.teritorio-tourism-shopping-fashion-bag:before {
     content: "\f246";
 }
-.teritorio-tourism-shopping-fashion-second_hand:before {
+.teritorio-tourism-shopping-fashion-boutique:before {
     content: "\f247";
 }
-.teritorio-tourism-shopping-fashion-shoes:before {
+.teritorio-tourism-shopping-fashion-clothes:before {
     content: "\f248";
 }
-.teritorio-tourism-shopping-fashion-tattoo:before {
+.teritorio-tourism-shopping-fashion-cosmetics:before {
     content: "\f249";
 }
-.teritorio-tourism-shopping-fashion-watches:before {
+.teritorio-tourism-shopping-fashion-fabric:before {
     content: "\f24a";
 }
-.teritorio-tourism-shopping-feed-beverages:before {
+.teritorio-tourism-shopping-fashion-gift:before {
     content: "\f24b";
 }
-.teritorio-tourism-shopping-feed-coffee:before {
+.teritorio-tourism-shopping-fashion-interior_decoration:before {
     content: "\f24c";
 }
-.teritorio-tourism-shopping-feed-confectionery:before {
+.teritorio-tourism-shopping-fashion-jewelry:before {
     content: "\f24d";
 }
-.teritorio-tourism-shopping-feed-frozen_food:before {
+.teritorio-tourism-shopping-fashion-perfume:before {
     content: "\f24e";
 }
-.teritorio-tourism-shopping-feed-ice_cream:before {
+.teritorio-tourism-shopping-fashion-perfumery:before {
     content: "\f24f";
 }
-.teritorio-tourism-shopping-sport_supply-bicycle:before {
+.teritorio-tourism-shopping-fashion-second_hand:before {
     content: "\f250";
 }
-.teritorio-tourism-shopping-sport_supply-outdoor:before {
+.teritorio-tourism-shopping-fashion-shoes:before {
     content: "\f251";
 }
-.teritorio-tourism-shopping-supply-bed:before {
+.teritorio-tourism-shopping-fashion-tattoo:before {
     content: "\f252";
 }
-.teritorio-tourism-shopping-supply-camera:before {
+.teritorio-tourism-shopping-fashion-watches:before {
     content: "\f253";
 }
-.teritorio-tourism-shopping-supply-charity:before {
+.teritorio-tourism-shopping-feed-beverages:before {
     content: "\f254";
 }
-.teritorio-tourism-shopping-supply-computer:before {
+.teritorio-tourism-shopping-feed-coffee:before {
     content: "\f255";
 }
-.teritorio-tourism-shopping-supply-doityourself:before {
+.teritorio-tourism-shopping-feed-confectionery:before {
     content: "\f256";
 }
-.teritorio-tourism-shopping-supply-electronics:before {
+.teritorio-tourism-shopping-feed-frozen_food:before {
     content: "\f257";
 }
-.teritorio-tourism-shopping-supply-erotic:before {
+.teritorio-tourism-shopping-feed-ice_cream:before {
     content: "\f258";
 }
-.teritorio-tourism-shopping-supply-furniture:before {
+.teritorio-tourism-shopping-sport_supply-bicycle:before {
     content: "\f259";
 }
-.teritorio-tourism-shopping-supply-general:before {
+.teritorio-tourism-shopping-sport_supply-outdoor:before {
     content: "\f25a";
 }
-.teritorio-tourism-shopping-supply-hardware:before {
+.teritorio-tourism-shopping-supply-bed:before {
     content: "\f25b";
 }
-.teritorio-tourism-shopping-supply-hearing_aids:before {
+.teritorio-tourism-shopping-supply-camera:before {
     content: "\f25c";
 }
-.teritorio-tourism-shopping-supply-hifi:before {
+.teritorio-tourism-shopping-supply-charity:before {
     content: "\f25d";
 }
-.teritorio-tourism-shopping-supply-lamps:before {
+.teritorio-tourism-shopping-supply-computer:before {
     content: "\f25e";
 }
-.teritorio-tourism-shopping-supply-mobile_phone:before {
+.teritorio-tourism-shopping-supply-doityourself:before {
     content: "\f25f";
 }
-.teritorio-tourism-shopping-supply-motorcycle:before {
+.teritorio-tourism-shopping-supply-electronics:before {
     content: "\f260";
 }
-.teritorio-tourism-shopping-supply-musical_instrument:before {
+.teritorio-tourism-shopping-supply-erotic:before {
     content: "\f261";
 }
-.teritorio-tourism-shopping-supply-optician:before {
+.teritorio-tourism-shopping-supply-furniture:before {
     content: "\f262";
 }
-.teritorio-tourism-shopping-supply-stationery:before {
+.teritorio-tourism-shopping-supply-general:before {
     content: "\f263";
 }
-.teritorio-tourism-shopping-supply-toys:before {
+.teritorio-tourism-shopping-supply-hardware:before {
     content: "\f264";
 }
-.teritorio-tourism-shopping-supply-video_games:before {
+.teritorio-tourism-shopping-supply-hearing_aids:before {
     content: "\f265";
 }
-.teritorio-tourism-shopping-supply-video:before {
+.teritorio-tourism-shopping-supply-hifi:before {
     content: "\f266";
 }
-.teritorio-tourism-shopping-supply-weapons:before {
+.teritorio-tourism-shopping-supply-lamps:before {
     content: "\f267";
 }
-.teritorio-tourism-shopping-supply-wholesale:before {
+.teritorio-tourism-shopping-supply-mobile_phone:before {
     content: "\f268";
 }
-.teritorio-tourism-shopping:before {
+.teritorio-tourism-shopping-supply-motorcycle:before {
     content: "\f269";
+}
+.teritorio-tourism-shopping-supply-musical_instrument:before {
+    content: "\f26a";
+}
+.teritorio-tourism-shopping-supply-optician:before {
+    content: "\f26b";
+}
+.teritorio-tourism-shopping-supply-stationery:before {
+    content: "\f26c";
+}
+.teritorio-tourism-shopping-supply-toys:before {
+    content: "\f26d";
+}
+.teritorio-tourism-shopping-supply-video_games:before {
+    content: "\f26e";
+}
+.teritorio-tourism-shopping-supply-video:before {
+    content: "\f26f";
+}
+.teritorio-tourism-shopping-supply-weapons:before {
+    content: "\f270";
+}
+.teritorio-tourism-shopping-supply-wholesale:before {
+    content: "\f271";
+}
+.teritorio-tourism-shopping:before {
+    content: "\f272";
 }

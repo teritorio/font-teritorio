@@ -1,0 +1,42 @@
+name: Update
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      icones_pictos_vectoriel: ${{ secrets.ICONES_PICTOS_VECTORIEL }}
+
+    steps:
+
+    - name: Install dependencies
+      run: |
+        sudo apt update && sudo apt install -y ruby ruby-nokogiri nodejs npm librsvg2-bin
+
+    - uses: actions/checkout@v2
+      with:
+        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+        fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+
+    - name: Update icons
+      run: |
+        bash ./scripts/update.sh
+
+    - name: Commit files
+      run: |
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add teritorio-tourism
+        git commit -m "Update"
+
+    - name: Add release commit
+      run: |
+        npm version minor -m "release: %s"
+
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}

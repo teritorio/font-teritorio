@@ -51,6 +51,7 @@ export type TeritorioTourismId =
   | "culture-historic-church"
   | "culture-historic-city_gate"
   | "culture-historic-city_wall"
+  | "culture-historic-lavoir"
   | "culture-historic-memorial"
   | "culture-historic-monument"
   | "culture-historic-wayside_cross"
@@ -58,7 +59,6 @@ export type TeritorioTourismId =
   | "culture-historic"
   | "culture-library"
   | "culture-public_bookcase"
-  | "culture-show-arts-centre"
   | "culture-show-cinema"
   | "culture-show-gallery"
   | "culture-show-theatre"
@@ -71,6 +71,7 @@ export type TeritorioTourismId =
   | "culture-visit-place_of_worship"
   | "culture"
   | "extra-abbey"
+  | "extra-adolescents"
   | "extra-aeroport"
   | "extra-ambassador"
   | "extra-arenes"
@@ -79,25 +80,33 @@ export type TeritorioTourismId =
   | "extra-balade_maritime"
   | "extra-balneotherapy"
   | "extra-bike_ride"
+  | "extra-bulot"
   | "extra-bungee_jumping"
   | "extra-canyoning"
+  | "extra-centre_loisirs"
   | "extra-cheese_maker"
+  | "extra-chien_autorise"
+  | "extra-comcom"
   | "extra-commerce-prestige"
   | "extra-conserveur_prestige"
   | "extra-conserveurs"
   | "extra-convent"
   | "extra-delivery"
   | "extra-drive"
+  | "extra-ehpad"
   | "extra-equipements_loisirs"
   | "extra-equipment-rental"
   | "extra-escape_game"
   | "extra-excursion"
+  | "extra-famille"
   | "extra-ferme_decouverte"
+  | "extra-feuille"
   | "extra-fish_market"
   | "extra-flower_village"
   | "extra-fontaine_miraculeuse"
   | "extra-food_truck"
   | "extra-food"
+  | "extra-france_services"
   | "extra-ganaderia"
   | "extra-gratuiterie"
   | "extra-guided_hikes"
@@ -110,16 +119,20 @@ export type TeritorioTourismId =
   | "extra-major_projects"
   | "extra-mediatheque"
   | "extra-medical_supply"
+  | "extra-menuisier"
   | "extra-natural_site"
   | "extra-nature_reserve"
   | "extra-notary"
-  | "extra-nurse"
+  | "extra-office"
   | "extra-organic_store"
   | "extra-oyster_hut"
   | "extra-paddle"
+  | "extra-peintre"
   | "extra-pignada"
   | "extra-pique_nique_prestige"
+  | "extra-pmr"
   | "extra-podiatrist"
+  | "extra-pomme"
   | "extra-quillier"
   | "extra-rando"
   | "extra-recycling"
@@ -127,6 +140,7 @@ export type TeritorioTourismId =
   | "extra-restaurateurs-prestige"
   | "extra-restricted"
   | "extra-roadworks"
+  | "extra-seniors"
   | "extra-shared_garden"
   | "extra-speleology"
   | "extra-sports_and_leisures"
@@ -145,7 +159,6 @@ export type TeritorioTourismId =
   | "extra-vine"
   | "extra-vote_place"
   | "extra-vtt"
-  | "extra-wash_house"
   | "extra-WIFI"
   | "extra-zip_line"
   | "hosting-hotel-animal_boarding"
@@ -164,6 +177,7 @@ export type TeritorioTourismId =
   | "leisure-bowling_alley"
   | "leisure-casino"
   | "leisure-community_centre"
+  | "leisure-dojo"
   | "leisure-fitness_centre"
   | "leisure-golf_course"
   | "leisure-hide-bird_hide"
@@ -260,6 +274,7 @@ export type TeritorioTourismId =
   | "mobility-motorway-parking"
   | "mobility-motorway-taxi"
   | "mobility-motorway-toll_booth"
+  | "mobility-motorway"
   | "mobility-railway-halt"
   | "mobility-railway-station"
   | "mobility-railway-subway_entrance"
@@ -326,6 +341,7 @@ export type TeritorioTourismId =
   | "safety-care-centre"
   | "safety-care-dentist"
   | "safety-care-doctors"
+  | "safety-care-nurse"
   | "safety-care-pharmacy"
   | "safety-care-physiotherapist"
   | "safety-care-veterinary"
@@ -387,9 +403,11 @@ export type TeritorioTourismId =
   | "shopping-sport_supply-outdoor"
   | "shopping-sport_supply-sports"
   | "shopping-sport_supply-surf"
+  | "shopping-supply-agrarian"
   | "shopping-supply-bed"
   | "shopping-supply-bicycle"
   | "shopping-supply-camera"
+  | "shopping-supply-car"
   | "shopping-supply-charity"
   | "shopping-supply-computer"
   | "shopping-supply-doityourself"
@@ -469,6 +487,7 @@ export type TeritorioTourismKey =
   | "CultureHistoricChurch"
   | "CultureHistoricCityGate"
   | "CultureHistoricCityWall"
+  | "CultureHistoricLavoir"
   | "CultureHistoricMemorial"
   | "CultureHistoricMonument"
   | "CultureHistoricWaysideCross"
@@ -476,7 +495,6 @@ export type TeritorioTourismKey =
   | "CultureHistoric"
   | "CultureLibrary"
   | "CulturePublicBookcase"
-  | "CultureShowArtsCentre"
   | "CultureShowCinema"
   | "CultureShowGallery"
   | "CultureShowTheatre"
@@ -489,6 +507,7 @@ export type TeritorioTourismKey =
   | "CultureVisitPlaceOfWorship"
   | "Culture"
   | "ExtraAbbey"
+  | "ExtraAdolescents"
   | "ExtraAeroport"
   | "ExtraAmbassador"
   | "ExtraArenes"
@@ -497,25 +516,33 @@ export type TeritorioTourismKey =
   | "ExtraBaladeMaritime"
   | "ExtraBalneotherapy"
   | "ExtraBikeRide"
+  | "ExtraBulot"
   | "ExtraBungeeJumping"
   | "ExtraCanyoning"
+  | "ExtraCentreLoisirs"
   | "ExtraCheeseMaker"
+  | "ExtraChienAutorise"
+  | "ExtraComcom"
   | "ExtraCommercePrestige"
   | "ExtraConserveurPrestige"
   | "ExtraConserveurs"
   | "ExtraConvent"
   | "ExtraDelivery"
   | "ExtraDrive"
+  | "ExtraEhpad"
   | "ExtraEquipementsLoisirs"
   | "ExtraEquipmentRental"
   | "ExtraEscapeGame"
   | "ExtraExcursion"
+  | "ExtraFamille"
   | "ExtraFermeDecouverte"
+  | "ExtraFeuille"
   | "ExtraFishMarket"
   | "ExtraFlowerVillage"
   | "ExtraFontaineMiraculeuse"
   | "ExtraFoodTruck"
   | "ExtraFood"
+  | "ExtraFranceServices"
   | "ExtraGanaderia"
   | "ExtraGratuiterie"
   | "ExtraGuidedHikes"
@@ -528,16 +555,20 @@ export type TeritorioTourismKey =
   | "ExtraMajorProjects"
   | "ExtraMediatheque"
   | "ExtraMedicalSupply"
+  | "ExtraMenuisier"
   | "ExtraNaturalSite"
   | "ExtraNatureReserve"
   | "ExtraNotary"
-  | "ExtraNurse"
+  | "ExtraOffice"
   | "ExtraOrganicStore"
   | "ExtraOysterHut"
   | "ExtraPaddle"
+  | "ExtraPeintre"
   | "ExtraPignada"
   | "ExtraPiqueNiquePrestige"
+  | "ExtraPmr"
   | "ExtraPodiatrist"
+  | "ExtraPomme"
   | "ExtraQuillier"
   | "ExtraRando"
   | "ExtraRecycling"
@@ -545,6 +576,7 @@ export type TeritorioTourismKey =
   | "ExtraRestaurateursPrestige"
   | "ExtraRestricted"
   | "ExtraRoadworks"
+  | "ExtraSeniors"
   | "ExtraSharedGarden"
   | "ExtraSpeleology"
   | "ExtraSportsAndLeisures"
@@ -563,7 +595,6 @@ export type TeritorioTourismKey =
   | "ExtraVine"
   | "ExtraVotePlace"
   | "ExtraVtt"
-  | "ExtraWashHouse"
   | "ExtraWifi"
   | "ExtraZipLine"
   | "HostingHotelAnimalBoarding"
@@ -582,6 +613,7 @@ export type TeritorioTourismKey =
   | "LeisureBowlingAlley"
   | "LeisureCasino"
   | "LeisureCommunityCentre"
+  | "LeisureDojo"
   | "LeisureFitnessCentre"
   | "LeisureGolfCourse"
   | "LeisureHideBirdHide"
@@ -678,6 +710,7 @@ export type TeritorioTourismKey =
   | "MobilityMotorwayParking"
   | "MobilityMotorwayTaxi"
   | "MobilityMotorwayTollBooth"
+  | "MobilityMotorway"
   | "MobilityRailwayHalt"
   | "MobilityRailwayStation"
   | "MobilityRailwaySubwayEntrance"
@@ -744,6 +777,7 @@ export type TeritorioTourismKey =
   | "SafetyCareCentre"
   | "SafetyCareDentist"
   | "SafetyCareDoctors"
+  | "SafetyCareNurse"
   | "SafetyCarePharmacy"
   | "SafetyCarePhysiotherapist"
   | "SafetyCareVeterinary"
@@ -805,9 +839,11 @@ export type TeritorioTourismKey =
   | "ShoppingSportSupplyOutdoor"
   | "ShoppingSportSupplySports"
   | "ShoppingSportSupplySurf"
+  | "ShoppingSupplyAgrarian"
   | "ShoppingSupplyBed"
   | "ShoppingSupplyBicycle"
   | "ShoppingSupplyCamera"
+  | "ShoppingSupplyCar"
   | "ShoppingSupplyCharity"
   | "ShoppingSupplyComputer"
   | "ShoppingSupplyDoityourself"
@@ -887,6 +923,7 @@ export enum TeritorioTourism {
   CultureHistoricChurch = "culture-historic-church",
   CultureHistoricCityGate = "culture-historic-city_gate",
   CultureHistoricCityWall = "culture-historic-city_wall",
+  CultureHistoricLavoir = "culture-historic-lavoir",
   CultureHistoricMemorial = "culture-historic-memorial",
   CultureHistoricMonument = "culture-historic-monument",
   CultureHistoricWaysideCross = "culture-historic-wayside_cross",
@@ -894,7 +931,6 @@ export enum TeritorioTourism {
   CultureHistoric = "culture-historic",
   CultureLibrary = "culture-library",
   CulturePublicBookcase = "culture-public_bookcase",
-  CultureShowArtsCentre = "culture-show-arts-centre",
   CultureShowCinema = "culture-show-cinema",
   CultureShowGallery = "culture-show-gallery",
   CultureShowTheatre = "culture-show-theatre",
@@ -907,6 +943,7 @@ export enum TeritorioTourism {
   CultureVisitPlaceOfWorship = "culture-visit-place_of_worship",
   Culture = "culture",
   ExtraAbbey = "extra-abbey",
+  ExtraAdolescents = "extra-adolescents",
   ExtraAeroport = "extra-aeroport",
   ExtraAmbassador = "extra-ambassador",
   ExtraArenes = "extra-arenes",
@@ -915,25 +952,33 @@ export enum TeritorioTourism {
   ExtraBaladeMaritime = "extra-balade_maritime",
   ExtraBalneotherapy = "extra-balneotherapy",
   ExtraBikeRide = "extra-bike_ride",
+  ExtraBulot = "extra-bulot",
   ExtraBungeeJumping = "extra-bungee_jumping",
   ExtraCanyoning = "extra-canyoning",
+  ExtraCentreLoisirs = "extra-centre_loisirs",
   ExtraCheeseMaker = "extra-cheese_maker",
+  ExtraChienAutorise = "extra-chien_autorise",
+  ExtraComcom = "extra-comcom",
   ExtraCommercePrestige = "extra-commerce-prestige",
   ExtraConserveurPrestige = "extra-conserveur_prestige",
   ExtraConserveurs = "extra-conserveurs",
   ExtraConvent = "extra-convent",
   ExtraDelivery = "extra-delivery",
   ExtraDrive = "extra-drive",
+  ExtraEhpad = "extra-ehpad",
   ExtraEquipementsLoisirs = "extra-equipements_loisirs",
   ExtraEquipmentRental = "extra-equipment-rental",
   ExtraEscapeGame = "extra-escape_game",
   ExtraExcursion = "extra-excursion",
+  ExtraFamille = "extra-famille",
   ExtraFermeDecouverte = "extra-ferme_decouverte",
+  ExtraFeuille = "extra-feuille",
   ExtraFishMarket = "extra-fish_market",
   ExtraFlowerVillage = "extra-flower_village",
   ExtraFontaineMiraculeuse = "extra-fontaine_miraculeuse",
   ExtraFoodTruck = "extra-food_truck",
   ExtraFood = "extra-food",
+  ExtraFranceServices = "extra-france_services",
   ExtraGanaderia = "extra-ganaderia",
   ExtraGratuiterie = "extra-gratuiterie",
   ExtraGuidedHikes = "extra-guided_hikes",
@@ -946,16 +991,20 @@ export enum TeritorioTourism {
   ExtraMajorProjects = "extra-major_projects",
   ExtraMediatheque = "extra-mediatheque",
   ExtraMedicalSupply = "extra-medical_supply",
+  ExtraMenuisier = "extra-menuisier",
   ExtraNaturalSite = "extra-natural_site",
   ExtraNatureReserve = "extra-nature_reserve",
   ExtraNotary = "extra-notary",
-  ExtraNurse = "extra-nurse",
+  ExtraOffice = "extra-office",
   ExtraOrganicStore = "extra-organic_store",
   ExtraOysterHut = "extra-oyster_hut",
   ExtraPaddle = "extra-paddle",
+  ExtraPeintre = "extra-peintre",
   ExtraPignada = "extra-pignada",
   ExtraPiqueNiquePrestige = "extra-pique_nique_prestige",
+  ExtraPmr = "extra-pmr",
   ExtraPodiatrist = "extra-podiatrist",
+  ExtraPomme = "extra-pomme",
   ExtraQuillier = "extra-quillier",
   ExtraRando = "extra-rando",
   ExtraRecycling = "extra-recycling",
@@ -963,6 +1012,7 @@ export enum TeritorioTourism {
   ExtraRestaurateursPrestige = "extra-restaurateurs-prestige",
   ExtraRestricted = "extra-restricted",
   ExtraRoadworks = "extra-roadworks",
+  ExtraSeniors = "extra-seniors",
   ExtraSharedGarden = "extra-shared_garden",
   ExtraSpeleology = "extra-speleology",
   ExtraSportsAndLeisures = "extra-sports_and_leisures",
@@ -981,7 +1031,6 @@ export enum TeritorioTourism {
   ExtraVine = "extra-vine",
   ExtraVotePlace = "extra-vote_place",
   ExtraVtt = "extra-vtt",
-  ExtraWashHouse = "extra-wash_house",
   ExtraWifi = "extra-WIFI",
   ExtraZipLine = "extra-zip_line",
   HostingHotelAnimalBoarding = "hosting-hotel-animal_boarding",
@@ -1000,6 +1049,7 @@ export enum TeritorioTourism {
   LeisureBowlingAlley = "leisure-bowling_alley",
   LeisureCasino = "leisure-casino",
   LeisureCommunityCentre = "leisure-community_centre",
+  LeisureDojo = "leisure-dojo",
   LeisureFitnessCentre = "leisure-fitness_centre",
   LeisureGolfCourse = "leisure-golf_course",
   LeisureHideBirdHide = "leisure-hide-bird_hide",
@@ -1096,6 +1146,7 @@ export enum TeritorioTourism {
   MobilityMotorwayParking = "mobility-motorway-parking",
   MobilityMotorwayTaxi = "mobility-motorway-taxi",
   MobilityMotorwayTollBooth = "mobility-motorway-toll_booth",
+  MobilityMotorway = "mobility-motorway",
   MobilityRailwayHalt = "mobility-railway-halt",
   MobilityRailwayStation = "mobility-railway-station",
   MobilityRailwaySubwayEntrance = "mobility-railway-subway_entrance",
@@ -1162,6 +1213,7 @@ export enum TeritorioTourism {
   SafetyCareCentre = "safety-care-centre",
   SafetyCareDentist = "safety-care-dentist",
   SafetyCareDoctors = "safety-care-doctors",
+  SafetyCareNurse = "safety-care-nurse",
   SafetyCarePharmacy = "safety-care-pharmacy",
   SafetyCarePhysiotherapist = "safety-care-physiotherapist",
   SafetyCareVeterinary = "safety-care-veterinary",
@@ -1223,9 +1275,11 @@ export enum TeritorioTourism {
   ShoppingSportSupplyOutdoor = "shopping-sport_supply-outdoor",
   ShoppingSportSupplySports = "shopping-sport_supply-sports",
   ShoppingSportSupplySurf = "shopping-sport_supply-surf",
+  ShoppingSupplyAgrarian = "shopping-supply-agrarian",
   ShoppingSupplyBed = "shopping-supply-bed",
   ShoppingSupplyBicycle = "shopping-supply-bicycle",
   ShoppingSupplyCamera = "shopping-supply-camera",
+  ShoppingSupplyCar = "shopping-supply-car",
   ShoppingSupplyCharity = "shopping-supply-charity",
   ShoppingSupplyComputer = "shopping-supply-computer",
   ShoppingSupplyDoityourself = "shopping-supply-doityourself",
@@ -1306,14 +1360,14 @@ export const TERITORIO_TOURISM_CODEPOINTS: { [key in TeritorioTourism]: string }
   [TeritorioTourism.CultureHistoricChurch]: "61746",
   [TeritorioTourism.CultureHistoricCityGate]: "61747",
   [TeritorioTourism.CultureHistoricCityWall]: "61748",
-  [TeritorioTourism.CultureHistoricMemorial]: "61749",
-  [TeritorioTourism.CultureHistoricMonument]: "61750",
-  [TeritorioTourism.CultureHistoricWaysideCross]: "61751",
-  [TeritorioTourism.CultureHistoricWaysideShrine]: "61752",
-  [TeritorioTourism.CultureHistoric]: "61753",
-  [TeritorioTourism.CultureLibrary]: "61754",
-  [TeritorioTourism.CulturePublicBookcase]: "61755",
-  [TeritorioTourism.CultureShowArtsCentre]: "61756",
+  [TeritorioTourism.CultureHistoricLavoir]: "61749",
+  [TeritorioTourism.CultureHistoricMemorial]: "61750",
+  [TeritorioTourism.CultureHistoricMonument]: "61751",
+  [TeritorioTourism.CultureHistoricWaysideCross]: "61752",
+  [TeritorioTourism.CultureHistoricWaysideShrine]: "61753",
+  [TeritorioTourism.CultureHistoric]: "61754",
+  [TeritorioTourism.CultureLibrary]: "61755",
+  [TeritorioTourism.CulturePublicBookcase]: "61756",
   [TeritorioTourism.CultureShowCinema]: "61757",
   [TeritorioTourism.CultureShowGallery]: "61758",
   [TeritorioTourism.CultureShowTheatre]: "61759",
@@ -1326,348 +1380,366 @@ export const TERITORIO_TOURISM_CODEPOINTS: { [key in TeritorioTourism]: string }
   [TeritorioTourism.CultureVisitPlaceOfWorship]: "61766",
   [TeritorioTourism.Culture]: "61767",
   [TeritorioTourism.ExtraAbbey]: "61768",
-  [TeritorioTourism.ExtraAeroport]: "61769",
-  [TeritorioTourism.ExtraAmbassador]: "61770",
-  [TeritorioTourism.ExtraArenes]: "61771",
-  [TeritorioTourism.ExtraArtisanPrestige]: "61772",
-  [TeritorioTourism.ExtraAutresSports]: "61773",
-  [TeritorioTourism.ExtraBaladeMaritime]: "61774",
-  [TeritorioTourism.ExtraBalneotherapy]: "61775",
-  [TeritorioTourism.ExtraBikeRide]: "61776",
-  [TeritorioTourism.ExtraBungeeJumping]: "61777",
-  [TeritorioTourism.ExtraCanyoning]: "61778",
-  [TeritorioTourism.ExtraCheeseMaker]: "61779",
-  [TeritorioTourism.ExtraCommercePrestige]: "61780",
-  [TeritorioTourism.ExtraConserveurPrestige]: "61781",
-  [TeritorioTourism.ExtraConserveurs]: "61782",
-  [TeritorioTourism.ExtraConvent]: "61783",
-  [TeritorioTourism.ExtraDelivery]: "61784",
-  [TeritorioTourism.ExtraDrive]: "61785",
-  [TeritorioTourism.ExtraEquipementsLoisirs]: "61786",
-  [TeritorioTourism.ExtraEquipmentRental]: "61787",
-  [TeritorioTourism.ExtraEscapeGame]: "61788",
-  [TeritorioTourism.ExtraExcursion]: "61789",
-  [TeritorioTourism.ExtraFermeDecouverte]: "61790",
-  [TeritorioTourism.ExtraFishMarket]: "61791",
-  [TeritorioTourism.ExtraFlowerVillage]: "61792",
-  [TeritorioTourism.ExtraFontaineMiraculeuse]: "61793",
-  [TeritorioTourism.ExtraFoodTruck]: "61794",
-  [TeritorioTourism.ExtraFood]: "61795",
-  [TeritorioTourism.ExtraGanaderia]: "61796",
-  [TeritorioTourism.ExtraGratuiterie]: "61797",
-  [TeritorioTourism.ExtraGuidedHikes]: "61798",
-  [TeritorioTourism.ExtraGuidedTour]: "61799",
-  [TeritorioTourism.ExtraHebergementInsolite]: "61800",
-  [TeritorioTourism.ExtraHiking]: "61801",
-  [TeritorioTourism.ExtraKitchenDesigner]: "61802",
-  [TeritorioTourism.ExtraLaboratory]: "61803",
-  [TeritorioTourism.ExtraLostProperty]: "61804",
-  [TeritorioTourism.ExtraMajorProjects]: "61805",
-  [TeritorioTourism.ExtraMediatheque]: "61806",
-  [TeritorioTourism.ExtraMedicalSupply]: "61807",
-  [TeritorioTourism.ExtraNaturalSite]: "61808",
-  [TeritorioTourism.ExtraNatureReserve]: "61809",
-  [TeritorioTourism.ExtraNotary]: "61810",
-  [TeritorioTourism.ExtraNurse]: "61811",
-  [TeritorioTourism.ExtraOrganicStore]: "61812",
-  [TeritorioTourism.ExtraOysterHut]: "61813",
-  [TeritorioTourism.ExtraPaddle]: "61814",
-  [TeritorioTourism.ExtraPignada]: "61815",
-  [TeritorioTourism.ExtraPiqueNiquePrestige]: "61816",
-  [TeritorioTourism.ExtraPodiatrist]: "61817",
-  [TeritorioTourism.ExtraQuillier]: "61818",
-  [TeritorioTourism.ExtraRando]: "61819",
-  [TeritorioTourism.ExtraRecycling]: "61820",
-  [TeritorioTourism.ExtraReflexology]: "61821",
-  [TeritorioTourism.ExtraRestaurateursPrestige]: "61822",
-  [TeritorioTourism.ExtraRestricted]: "61823",
-  [TeritorioTourism.ExtraRoadworks]: "61824",
-  [TeritorioTourism.ExtraSharedGarden]: "61825",
-  [TeritorioTourism.ExtraSpeleology]: "61826",
-  [TeritorioTourism.ExtraSportsAndLeisures]: "61827",
-  [TeritorioTourism.ExtraSportsDEau]: "61828",
-  [TeritorioTourism.ExtraSpotSurf]: "61829",
-  [TeritorioTourism.ExtraSquash]: "61830",
-  [TeritorioTourism.ExtraSurfhouses]: "61831",
-  [TeritorioTourism.ExtraTerraAventura]: "61832",
-  [TeritorioTourism.ExtraThermalEstablishment]: "61833",
-  [TeritorioTourism.ExtraThermalStation]: "61834",
-  [TeritorioTourism.ExtraToTakeAway]: "61835",
-  [TeritorioTourism.ExtraUnavoidable]: "61836",
-  [TeritorioTourism.ExtraUnescoSite]: "61837",
-  [TeritorioTourism.ExtraUsefull]: "61838",
-  [TeritorioTourism.ExtraVeloRepare]: "61839",
-  [TeritorioTourism.ExtraVine]: "61840",
-  [TeritorioTourism.ExtraVotePlace]: "61841",
-  [TeritorioTourism.ExtraVtt]: "61842",
-  [TeritorioTourism.ExtraWashHouse]: "61843",
-  [TeritorioTourism.ExtraWifi]: "61844",
-  [TeritorioTourism.ExtraZipLine]: "61845",
-  [TeritorioTourism.HostingHotelAnimalBoarding]: "61846",
-  [TeritorioTourism.HostingHotelGuestHouse]: "61847",
-  [TeritorioTourism.HostingHotelHostel]: "61848",
-  [TeritorioTourism.HostingHotelHotel]: "61849",
-  [TeritorioTourism.HostingHotelMotel]: "61850",
-  [TeritorioTourism.HostingRentalApartment]: "61851",
-  [TeritorioTourism.HostingRentalChalet]: "61852",
-  [TeritorioTourism.HostingResortApartment]: "61853",
-  [TeritorioTourism.HostingResortCampSite]: "61854",
-  [TeritorioTourism.HostingResortCaravanSite]: "61855",
-  [TeritorioTourism.HostingResortResort]: "61856",
-  [TeritorioTourism.Hosting]: "61857",
-  [TeritorioTourism.LayersPeak]: "61858",
-  [TeritorioTourism.LeisureBowlingAlley]: "61859",
-  [TeritorioTourism.LeisureCasino]: "61860",
-  [TeritorioTourism.LeisureCommunityCentre]: "61861",
-  [TeritorioTourism.LeisureFitnessCentre]: "61862",
-  [TeritorioTourism.LeisureGolfCourse]: "61863",
-  [TeritorioTourism.LeisureHideBirdHide]: "61864",
-  [TeritorioTourism.LeisureHideTower]: "61865",
-  [TeritorioTourism.LeisureHideWildlifeHide]: "61866",
-  [TeritorioTourism.LeisureHorseRiding]: "61867",
-  [TeritorioTourism.LeisureHutAlpineHut]: "61868",
-  [TeritorioTourism.LeisureHutShelter]: "61869",
-  [TeritorioTourism.LeisureHutWildernessHut]: "61870",
-  [TeritorioTourism.LeisureIceRink]: "61871",
-  [TeritorioTourism.LeisureMiniatureGolf]: "61872",
-  [TeritorioTourism.LeisureNightclub]: "61873",
-  [TeritorioTourism.LeisureParkGarden]: "61874",
-  [TeritorioTourism.LeisureParkPark]: "61875",
-  [TeritorioTourism.LeisurePelota]: "61876",
-  [TeritorioTourism.LeisurePicnicBbq]: "61877",
-  [TeritorioTourism.LeisurePicnicFirepit]: "61878",
-  [TeritorioTourism.LeisurePicnicPicnicSite]: "61879",
-  [TeritorioTourism.LeisurePicnicPicnicTable]: "61880",
-  [TeritorioTourism.LeisurePitch]: "61881",
-  [TeritorioTourism.LeisurePlayground]: "61882",
-  [TeritorioTourism.LeisurePublicBath]: "61883",
-  [TeritorioTourism.LeisureSportAthletics]: "61884",
-  [TeritorioTourism.LeisureSportBadminton]: "61885",
-  [TeritorioTourism.LeisureSportBasketball]: "61886",
-  [TeritorioTourism.LeisureSportBeachvolleyball]: "61887",
-  [TeritorioTourism.LeisureSportBilliards]: "61888",
-  [TeritorioTourism.LeisureSportBmx]: "61889",
-  [TeritorioTourism.LeisureSportBoules]: "61890",
-  [TeritorioTourism.LeisureSportBullfighting]: "61891",
-  [TeritorioTourism.LeisureSportCanoe]: "61892",
-  [TeritorioTourism.LeisureSportClimbingAdventure]: "61893",
-  [TeritorioTourism.LeisureSportClimbing]: "61894",
-  [TeritorioTourism.LeisureSportCycling]: "61895",
-  [TeritorioTourism.LeisureSportDiving]: "61896",
-  [TeritorioTourism.LeisureSportEquestrian]: "61897",
-  [TeritorioTourism.LeisureSportFreeFlying]: "61898",
-  [TeritorioTourism.LeisureSportFutsal]: "61899",
-  [TeritorioTourism.LeisureSportGolf]: "61900",
-  [TeritorioTourism.LeisureSportGymnastics]: "61901",
-  [TeritorioTourism.LeisureSportHandball]: "61902",
-  [TeritorioTourism.LeisureSportHorseRacing]: "61903",
-  [TeritorioTourism.LeisureSportIceHockey]: "61904",
-  [TeritorioTourism.LeisureSportKarting]: "61905",
-  [TeritorioTourism.LeisureSportKitesurfing]: "61906",
-  [TeritorioTourism.LeisureSportMotocross]: "61907",
-  [TeritorioTourism.LeisureSportMotor]: "61908",
-  [TeritorioTourism.LeisureSportMulti]: "61909",
-  [TeritorioTourism.LeisureSportOrienteering]: "61910",
-  [TeritorioTourism.LeisureSportPaddleTennis]: "61911",
-  [TeritorioTourism.LeisureSportPaintball]: "61912",
-  [TeritorioTourism.LeisureSportPelota]: "61913",
-  [TeritorioTourism.LeisureSportRacquet]: "61914",
-  [TeritorioTourism.LeisureSportRowing]: "61915",
-  [TeritorioTourism.LeisureSportRugbyLeague]: "61916",
-  [TeritorioTourism.LeisureSportRugbyUnion]: "61917",
-  [TeritorioTourism.LeisureSportRugby]: "61918",
-  [TeritorioTourism.LeisureSportRunning]: "61919",
-  [TeritorioTourism.LeisureSportSailing]: "61920",
-  [TeritorioTourism.LeisureSportScubaDiving]: "61921",
-  [TeritorioTourism.LeisureSportShooting]: "61922",
-  [TeritorioTourism.LeisureSportSkateboard]: "61923",
-  [TeritorioTourism.LeisureSportSoccer]: "61924",
-  [TeritorioTourism.LeisureSportSquash]: "61925",
-  [TeritorioTourism.LeisureSportSurfing]: "61926",
-  [TeritorioTourism.LeisureSportSwimming]: "61927",
-  [TeritorioTourism.LeisureSportTableSoccer]: "61928",
-  [TeritorioTourism.LeisureSportTableTennis]: "61929",
-  [TeritorioTourism.LeisureSportTennis]: "61930",
-  [TeritorioTourism.LeisureSportVolleyball]: "61931",
-  [TeritorioTourism.LeisureSportWaterSki]: "61932",
-  [TeritorioTourism.LeisureSportYoga]: "61933",
-  [TeritorioTourism.LeisureSport]: "61934",
-  [TeritorioTourism.LeisureSportsCentre]: "61935",
-  [TeritorioTourism.LeisureSurfSchool]: "61936",
-  [TeritorioTourism.LeisureSurfing]: "61937",
-  [TeritorioTourism.LeisureSwimmingPool]: "61938",
-  [TeritorioTourism.LeisureSwimming]: "61939",
-  [TeritorioTourism.Leisure]: "61940",
-  [TeritorioTourism.MobilityAerowayAerodrome]: "61941",
-  [TeritorioTourism.MobilityBicycleBicycleParking]: "61942",
-  [TeritorioTourism.MobilityBicycleBicycleRental]: "61943",
-  [TeritorioTourism.MobilityBicycleBicycle]: "61944",
-  [TeritorioTourism.MobilityBicycleCompressedAir]: "61945",
-  [TeritorioTourism.MobilityBicycleCycleBarrier]: "61946",
-  [TeritorioTourism.MobilityBicycleMotorcycleParking]: "61947",
-  [TeritorioTourism.MobilityBicycle]: "61948",
-  [TeritorioTourism.MobilityChargingStation]: "61949",
-  [TeritorioTourism.MobilityMotorwayBusStation]: "61950",
-  [TeritorioTourism.MobilityMotorwayBusStop]: "61951",
-  [TeritorioTourism.MobilityMotorwayCarPooling]: "61952",
-  [TeritorioTourism.MobilityMotorwayCarRental]: "61953",
-  [TeritorioTourism.MobilityMotorwayMotorwayJunction]: "61954",
-  [TeritorioTourism.MobilityMotorwayParking]: "61955",
-  [TeritorioTourism.MobilityMotorwayTaxi]: "61956",
-  [TeritorioTourism.MobilityMotorwayTollBooth]: "61957",
-  [TeritorioTourism.MobilityRailwayHalt]: "61958",
-  [TeritorioTourism.MobilityRailwayStation]: "61959",
-  [TeritorioTourism.MobilityRailwaySubwayEntrance]: "61960",
-  [TeritorioTourism.MobilityRailwayTramStop]: "61961",
-  [TeritorioTourism.MobilityRailway]: "61962",
-  [TeritorioTourism.MobilityWaterwayDock]: "61963",
-  [TeritorioTourism.MobilityWaterwayFerryTerminal]: "61964",
-  [TeritorioTourism.Mobility]: "61965",
-  [TeritorioTourism.ProductsAlcohol]: "61966",
-  [TeritorioTourism.ProductsCarpet]: "61967",
-  [TeritorioTourism.ProductsChocolate]: "61968",
-  [TeritorioTourism.ProductsCraftBasketMaker]: "61969",
-  [TeritorioTourism.ProductsCraftBeekeeper]: "61970",
-  [TeritorioTourism.ProductsCraftBrewery]: "61971",
-  [TeritorioTourism.ProductsCraftDistillery]: "61972",
-  [TeritorioTourism.ProductsCraftGrindingMill]: "61973",
-  [TeritorioTourism.ProductsCraftHandicraft]: "61974",
-  [TeritorioTourism.ProductsCraftJeweller]: "61975",
-  [TeritorioTourism.ProductsCraftLeather]: "61976",
-  [TeritorioTourism.ProductsCraftLuthier]: "61977",
-  [TeritorioTourism.ProductsCraftPottery]: "61978",
-  [TeritorioTourism.ProductsCraftSculptor]: "61979",
-  [TeritorioTourism.ProductsCraftWinery]: "61980",
-  [TeritorioTourism.ProductsCraft]: "61981",
-  [TeritorioTourism.ProductsDeli]: "61982",
-  [TeritorioTourism.ProductsFarm]: "61983",
-  [TeritorioTourism.ProductsOilMill]: "61984",
-  [TeritorioTourism.ProductsTailor]: "61985",
-  [TeritorioTourism.Products]: "61986",
-  [TeritorioTourism.PublicLandmarkBorderControl]: "61987",
-  [TeritorioTourism.PublicLandmarkBrownfield]: "61988",
-  [TeritorioTourism.PublicLandmarkCemetery]: "61989",
-  [TeritorioTourism.PublicLandmarkCollege]: "61990",
-  [TeritorioTourism.PublicLandmarkCourthouse]: "61991",
-  [TeritorioTourism.PublicLandmarkEmbassy]: "61992",
-  [TeritorioTourism.PublicLandmarkGraveYard]: "61993",
-  [TeritorioTourism.PublicLandmarkKindergarten]: "61994",
-  [TeritorioTourism.PublicLandmarkLibrary]: "61995",
-  [TeritorioTourism.PublicLandmarkMall]: "61996",
-  [TeritorioTourism.PublicLandmarkPrison]: "61997",
-  [TeritorioTourism.PublicLandmarkSchool]: "61998",
-  [TeritorioTourism.PublicLandmarkUniversity]: "61999",
-  [TeritorioTourism.PublicLandmarkYes]: "62000",
-  [TeritorioTourism.PublicLandmark]: "62001",
-  [TeritorioTourism.RemarkableAttractionActivityAquarium]: "62002",
-  [TeritorioTourism.RemarkableAttractionActivityAttraction]: "62003",
-  [TeritorioTourism.RemarkableAttractionActivityCaveEntrance]: "62004",
-  [TeritorioTourism.RemarkableAttractionActivityLighthouse]: "62005",
-  [TeritorioTourism.RemarkableAttractionActivitySpring]: "62006",
-  [TeritorioTourism.RemarkableAttractionActivityThemePark]: "62007",
-  [TeritorioTourism.RemarkableAttractionActivityViewpoint]: "62008",
-  [TeritorioTourism.RemarkableAttractionActivityWaterPark]: "62009",
-  [TeritorioTourism.RemarkableAttractionActivityWaterfall]: "62010",
-  [TeritorioTourism.RemarkableAttractionActivityZoo]: "62011",
-  [TeritorioTourism.RemarkableNaturalActivityBeachResort]: "62012",
-  [TeritorioTourism.RemarkableNaturalActivityBeach]: "62013",
-  [TeritorioTourism.RemarkableOutdoorActivityFishing]: "62014",
-  [TeritorioTourism.RemarkableOutdoorActivityMarina]: "62015",
-  [TeritorioTourism.RemarkableOutdoorActivityStadium]: "62016",
-  [TeritorioTourism.RemarkableOutdoorActivitySwimmingArea]: "62017",
-  [TeritorioTourism.RemarkableOutdoorActivityWinterSports]: "62018",
-  [TeritorioTourism.Remarkable]: "62019",
-  [TeritorioTourism.SafetyCareAnimalShelter]: "62020",
-  [TeritorioTourism.SafetyCareCentre]: "62021",
-  [TeritorioTourism.SafetyCareDentist]: "62022",
-  [TeritorioTourism.SafetyCareDoctors]: "62023",
-  [TeritorioTourism.SafetyCarePharmacy]: "62024",
-  [TeritorioTourism.SafetyCarePhysiotherapist]: "62025",
-  [TeritorioTourism.SafetyCareVeterinary]: "62026",
-  [TeritorioTourism.SafetyEmergencyClinic]: "62027",
-  [TeritorioTourism.SafetyEmergencyDefibrillator]: "62028",
-  [TeritorioTourism.SafetyEmergencyHospital]: "62029",
-  [TeritorioTourism.SafetyRescueFireStation]: "62030",
-  [TeritorioTourism.SafetyRescueLifeRing]: "62031",
-  [TeritorioTourism.SafetyRescueLifeguardBase]: "62032",
-  [TeritorioTourism.SafetyRescueMountainRescue]: "62033",
-  [TeritorioTourism.SafetyRescuePolice]: "62034",
-  [TeritorioTourism.SafetyRescueWaterRescueStation]: "62035",
-  [TeritorioTourism.Safety]: "62036",
-  [TeritorioTourism.ServicesAtm]: "62037",
-  [TeritorioTourism.ServicesBank]: "62038",
-  [TeritorioTourism.ServicesCarParts]: "62039",
-  [TeritorioTourism.ServicesCarRepair]: "62040",
-  [TeritorioTourism.ServicesCopyshop]: "62041",
-  [TeritorioTourism.ServicesCoworkingSpace]: "62042",
-  [TeritorioTourism.ServicesDryCleaning]: "62043",
-  [TeritorioTourism.ServicesEstateAgent]: "62044",
-  [TeritorioTourism.ServicesFuel]: "62045",
-  [TeritorioTourism.ServicesLaundry]: "62046",
-  [TeritorioTourism.ServicesMassage]: "62047",
-  [TeritorioTourism.ServicesMotorcycleRepair]: "62048",
-  [TeritorioTourism.ServicesOffice]: "62049",
-  [TeritorioTourism.ServicesPostOffice]: "62050",
-  [TeritorioTourism.ServicesTicket]: "62051",
-  [TeritorioTourism.ServicesTownhall]: "62052",
-  [TeritorioTourism.ServicesTravelAgency]: "62053",
-  [TeritorioTourism.Services]: "62054",
-  [TeritorioTourism.ShoppingAnimalsPetGrooming]: "62055",
-  [TeritorioTourism.ShoppingAnimalsPet]: "62056",
-  [TeritorioTourism.ShoppingCultureAntiques]: "62057",
-  [TeritorioTourism.ShoppingCultureArt]: "62058",
-  [TeritorioTourism.ShoppingCultureBooks]: "62059",
-  [TeritorioTourism.ShoppingCultureMusic]: "62060",
-  [TeritorioTourism.ShoppingFashionAccessories]: "62061",
-  [TeritorioTourism.ShoppingFashionBag]: "62062",
-  [TeritorioTourism.ShoppingFashionBoutique]: "62063",
-  [TeritorioTourism.ShoppingFashionClothes]: "62064",
-  [TeritorioTourism.ShoppingFashionCosmetics]: "62065",
-  [TeritorioTourism.ShoppingFashionFabric]: "62066",
-  [TeritorioTourism.ShoppingFashionGift]: "62067",
-  [TeritorioTourism.ShoppingFashionInteriorDecoration]: "62068",
-  [TeritorioTourism.ShoppingFashionJewelry]: "62069",
-  [TeritorioTourism.ShoppingFashionPerfume]: "62070",
-  [TeritorioTourism.ShoppingFashionPerfumery]: "62071",
-  [TeritorioTourism.ShoppingFashionSecondHand]: "62072",
-  [TeritorioTourism.ShoppingFashionShoes]: "62073",
-  [TeritorioTourism.ShoppingFashionTattoo]: "62074",
-  [TeritorioTourism.ShoppingFashionWatches]: "62075",
-  [TeritorioTourism.ShoppingFeedBeverages]: "62076",
-  [TeritorioTourism.ShoppingFeedCoffee]: "62077",
-  [TeritorioTourism.ShoppingFeedConfectionery]: "62078",
-  [TeritorioTourism.ShoppingFeedFrozenFood]: "62079",
-  [TeritorioTourism.ShoppingFeedIceCream]: "62080",
-  [TeritorioTourism.ShoppingSportSupplyBicycle]: "62081",
-  [TeritorioTourism.ShoppingSportSupplyOutdoor]: "62082",
-  [TeritorioTourism.ShoppingSportSupplySports]: "62083",
-  [TeritorioTourism.ShoppingSportSupplySurf]: "62084",
-  [TeritorioTourism.ShoppingSupplyBed]: "62085",
-  [TeritorioTourism.ShoppingSupplyBicycle]: "62086",
-  [TeritorioTourism.ShoppingSupplyCamera]: "62087",
-  [TeritorioTourism.ShoppingSupplyCharity]: "62088",
-  [TeritorioTourism.ShoppingSupplyComputer]: "62089",
-  [TeritorioTourism.ShoppingSupplyDoityourself]: "62090",
-  [TeritorioTourism.ShoppingSupplyElectronics]: "62091",
-  [TeritorioTourism.ShoppingSupplyErotic]: "62092",
-  [TeritorioTourism.ShoppingSupplyFishing]: "62093",
-  [TeritorioTourism.ShoppingSupplyFurniture]: "62094",
-  [TeritorioTourism.ShoppingSupplyGeneral]: "62095",
-  [TeritorioTourism.ShoppingSupplyHardware]: "62096",
-  [TeritorioTourism.ShoppingSupplyHearingAids]: "62097",
-  [TeritorioTourism.ShoppingSupplyHifi]: "62098",
-  [TeritorioTourism.ShoppingSupplyLamps]: "62099",
-  [TeritorioTourism.ShoppingSupplyMobilePhone]: "62100",
-  [TeritorioTourism.ShoppingSupplyMotorcycle]: "62101",
-  [TeritorioTourism.ShoppingSupplyMusicalInstrument]: "62102",
-  [TeritorioTourism.ShoppingSupplyOptician]: "62103",
-  [TeritorioTourism.ShoppingSupplyOutdoor]: "62104",
-  [TeritorioTourism.ShoppingSupplySports]: "62105",
-  [TeritorioTourism.ShoppingSupplyStationery]: "62106",
-  [TeritorioTourism.ShoppingSupplyToys]: "62107",
-  [TeritorioTourism.ShoppingSupplyVideoGames]: "62108",
-  [TeritorioTourism.ShoppingSupplyVideo]: "62109",
-  [TeritorioTourism.ShoppingSupplyWeapons]: "62110",
-  [TeritorioTourism.ShoppingSupplyWholesale]: "62111",
-  [TeritorioTourism.Shopping]: "62112",
+  [TeritorioTourism.ExtraAdolescents]: "61769",
+  [TeritorioTourism.ExtraAeroport]: "61770",
+  [TeritorioTourism.ExtraAmbassador]: "61771",
+  [TeritorioTourism.ExtraArenes]: "61772",
+  [TeritorioTourism.ExtraArtisanPrestige]: "61773",
+  [TeritorioTourism.ExtraAutresSports]: "61774",
+  [TeritorioTourism.ExtraBaladeMaritime]: "61775",
+  [TeritorioTourism.ExtraBalneotherapy]: "61776",
+  [TeritorioTourism.ExtraBikeRide]: "61777",
+  [TeritorioTourism.ExtraBulot]: "61778",
+  [TeritorioTourism.ExtraBungeeJumping]: "61779",
+  [TeritorioTourism.ExtraCanyoning]: "61780",
+  [TeritorioTourism.ExtraCentreLoisirs]: "61781",
+  [TeritorioTourism.ExtraCheeseMaker]: "61782",
+  [TeritorioTourism.ExtraChienAutorise]: "61783",
+  [TeritorioTourism.ExtraComcom]: "61784",
+  [TeritorioTourism.ExtraCommercePrestige]: "61785",
+  [TeritorioTourism.ExtraConserveurPrestige]: "61786",
+  [TeritorioTourism.ExtraConserveurs]: "61787",
+  [TeritorioTourism.ExtraConvent]: "61788",
+  [TeritorioTourism.ExtraDelivery]: "61789",
+  [TeritorioTourism.ExtraDrive]: "61790",
+  [TeritorioTourism.ExtraEhpad]: "61791",
+  [TeritorioTourism.ExtraEquipementsLoisirs]: "61792",
+  [TeritorioTourism.ExtraEquipmentRental]: "61793",
+  [TeritorioTourism.ExtraEscapeGame]: "61794",
+  [TeritorioTourism.ExtraExcursion]: "61795",
+  [TeritorioTourism.ExtraFamille]: "61796",
+  [TeritorioTourism.ExtraFermeDecouverte]: "61797",
+  [TeritorioTourism.ExtraFeuille]: "61798",
+  [TeritorioTourism.ExtraFishMarket]: "61799",
+  [TeritorioTourism.ExtraFlowerVillage]: "61800",
+  [TeritorioTourism.ExtraFontaineMiraculeuse]: "61801",
+  [TeritorioTourism.ExtraFoodTruck]: "61802",
+  [TeritorioTourism.ExtraFood]: "61803",
+  [TeritorioTourism.ExtraFranceServices]: "61804",
+  [TeritorioTourism.ExtraGanaderia]: "61805",
+  [TeritorioTourism.ExtraGratuiterie]: "61806",
+  [TeritorioTourism.ExtraGuidedHikes]: "61807",
+  [TeritorioTourism.ExtraGuidedTour]: "61808",
+  [TeritorioTourism.ExtraHebergementInsolite]: "61809",
+  [TeritorioTourism.ExtraHiking]: "61810",
+  [TeritorioTourism.ExtraKitchenDesigner]: "61811",
+  [TeritorioTourism.ExtraLaboratory]: "61812",
+  [TeritorioTourism.ExtraLostProperty]: "61813",
+  [TeritorioTourism.ExtraMajorProjects]: "61814",
+  [TeritorioTourism.ExtraMediatheque]: "61815",
+  [TeritorioTourism.ExtraMedicalSupply]: "61816",
+  [TeritorioTourism.ExtraMenuisier]: "61817",
+  [TeritorioTourism.ExtraNaturalSite]: "61818",
+  [TeritorioTourism.ExtraNatureReserve]: "61819",
+  [TeritorioTourism.ExtraNotary]: "61820",
+  [TeritorioTourism.ExtraOffice]: "61821",
+  [TeritorioTourism.ExtraOrganicStore]: "61822",
+  [TeritorioTourism.ExtraOysterHut]: "61823",
+  [TeritorioTourism.ExtraPaddle]: "61824",
+  [TeritorioTourism.ExtraPeintre]: "61825",
+  [TeritorioTourism.ExtraPignada]: "61826",
+  [TeritorioTourism.ExtraPiqueNiquePrestige]: "61827",
+  [TeritorioTourism.ExtraPmr]: "61828",
+  [TeritorioTourism.ExtraPodiatrist]: "61829",
+  [TeritorioTourism.ExtraPomme]: "61830",
+  [TeritorioTourism.ExtraQuillier]: "61831",
+  [TeritorioTourism.ExtraRando]: "61832",
+  [TeritorioTourism.ExtraRecycling]: "61833",
+  [TeritorioTourism.ExtraReflexology]: "61834",
+  [TeritorioTourism.ExtraRestaurateursPrestige]: "61835",
+  [TeritorioTourism.ExtraRestricted]: "61836",
+  [TeritorioTourism.ExtraRoadworks]: "61837",
+  [TeritorioTourism.ExtraSeniors]: "61838",
+  [TeritorioTourism.ExtraSharedGarden]: "61839",
+  [TeritorioTourism.ExtraSpeleology]: "61840",
+  [TeritorioTourism.ExtraSportsAndLeisures]: "61841",
+  [TeritorioTourism.ExtraSportsDEau]: "61842",
+  [TeritorioTourism.ExtraSpotSurf]: "61843",
+  [TeritorioTourism.ExtraSquash]: "61844",
+  [TeritorioTourism.ExtraSurfhouses]: "61845",
+  [TeritorioTourism.ExtraTerraAventura]: "61846",
+  [TeritorioTourism.ExtraThermalEstablishment]: "61847",
+  [TeritorioTourism.ExtraThermalStation]: "61848",
+  [TeritorioTourism.ExtraToTakeAway]: "61849",
+  [TeritorioTourism.ExtraUnavoidable]: "61850",
+  [TeritorioTourism.ExtraUnescoSite]: "61851",
+  [TeritorioTourism.ExtraUsefull]: "61852",
+  [TeritorioTourism.ExtraVeloRepare]: "61853",
+  [TeritorioTourism.ExtraVine]: "61854",
+  [TeritorioTourism.ExtraVotePlace]: "61855",
+  [TeritorioTourism.ExtraVtt]: "61856",
+  [TeritorioTourism.ExtraWifi]: "61857",
+  [TeritorioTourism.ExtraZipLine]: "61858",
+  [TeritorioTourism.HostingHotelAnimalBoarding]: "61859",
+  [TeritorioTourism.HostingHotelGuestHouse]: "61860",
+  [TeritorioTourism.HostingHotelHostel]: "61861",
+  [TeritorioTourism.HostingHotelHotel]: "61862",
+  [TeritorioTourism.HostingHotelMotel]: "61863",
+  [TeritorioTourism.HostingRentalApartment]: "61864",
+  [TeritorioTourism.HostingRentalChalet]: "61865",
+  [TeritorioTourism.HostingResortApartment]: "61866",
+  [TeritorioTourism.HostingResortCampSite]: "61867",
+  [TeritorioTourism.HostingResortCaravanSite]: "61868",
+  [TeritorioTourism.HostingResortResort]: "61869",
+  [TeritorioTourism.Hosting]: "61870",
+  [TeritorioTourism.LayersPeak]: "61871",
+  [TeritorioTourism.LeisureBowlingAlley]: "61872",
+  [TeritorioTourism.LeisureCasino]: "61873",
+  [TeritorioTourism.LeisureCommunityCentre]: "61874",
+  [TeritorioTourism.LeisureDojo]: "61875",
+  [TeritorioTourism.LeisureFitnessCentre]: "61876",
+  [TeritorioTourism.LeisureGolfCourse]: "61877",
+  [TeritorioTourism.LeisureHideBirdHide]: "61878",
+  [TeritorioTourism.LeisureHideTower]: "61879",
+  [TeritorioTourism.LeisureHideWildlifeHide]: "61880",
+  [TeritorioTourism.LeisureHorseRiding]: "61881",
+  [TeritorioTourism.LeisureHutAlpineHut]: "61882",
+  [TeritorioTourism.LeisureHutShelter]: "61883",
+  [TeritorioTourism.LeisureHutWildernessHut]: "61884",
+  [TeritorioTourism.LeisureIceRink]: "61885",
+  [TeritorioTourism.LeisureMiniatureGolf]: "61886",
+  [TeritorioTourism.LeisureNightclub]: "61887",
+  [TeritorioTourism.LeisureParkGarden]: "61888",
+  [TeritorioTourism.LeisureParkPark]: "61889",
+  [TeritorioTourism.LeisurePelota]: "61890",
+  [TeritorioTourism.LeisurePicnicBbq]: "61891",
+  [TeritorioTourism.LeisurePicnicFirepit]: "61892",
+  [TeritorioTourism.LeisurePicnicPicnicSite]: "61893",
+  [TeritorioTourism.LeisurePicnicPicnicTable]: "61894",
+  [TeritorioTourism.LeisurePitch]: "61895",
+  [TeritorioTourism.LeisurePlayground]: "61896",
+  [TeritorioTourism.LeisurePublicBath]: "61897",
+  [TeritorioTourism.LeisureSportAthletics]: "61898",
+  [TeritorioTourism.LeisureSportBadminton]: "61899",
+  [TeritorioTourism.LeisureSportBasketball]: "61900",
+  [TeritorioTourism.LeisureSportBeachvolleyball]: "61901",
+  [TeritorioTourism.LeisureSportBilliards]: "61902",
+  [TeritorioTourism.LeisureSportBmx]: "61903",
+  [TeritorioTourism.LeisureSportBoules]: "61904",
+  [TeritorioTourism.LeisureSportBullfighting]: "61905",
+  [TeritorioTourism.LeisureSportCanoe]: "61906",
+  [TeritorioTourism.LeisureSportClimbingAdventure]: "61907",
+  [TeritorioTourism.LeisureSportClimbing]: "61908",
+  [TeritorioTourism.LeisureSportCycling]: "61909",
+  [TeritorioTourism.LeisureSportDiving]: "61910",
+  [TeritorioTourism.LeisureSportEquestrian]: "61911",
+  [TeritorioTourism.LeisureSportFreeFlying]: "61912",
+  [TeritorioTourism.LeisureSportFutsal]: "61913",
+  [TeritorioTourism.LeisureSportGolf]: "61914",
+  [TeritorioTourism.LeisureSportGymnastics]: "61915",
+  [TeritorioTourism.LeisureSportHandball]: "61916",
+  [TeritorioTourism.LeisureSportHorseRacing]: "61917",
+  [TeritorioTourism.LeisureSportIceHockey]: "61918",
+  [TeritorioTourism.LeisureSportKarting]: "61919",
+  [TeritorioTourism.LeisureSportKitesurfing]: "61920",
+  [TeritorioTourism.LeisureSportMotocross]: "61921",
+  [TeritorioTourism.LeisureSportMotor]: "61922",
+  [TeritorioTourism.LeisureSportMulti]: "61923",
+  [TeritorioTourism.LeisureSportOrienteering]: "61924",
+  [TeritorioTourism.LeisureSportPaddleTennis]: "61925",
+  [TeritorioTourism.LeisureSportPaintball]: "61926",
+  [TeritorioTourism.LeisureSportPelota]: "61927",
+  [TeritorioTourism.LeisureSportRacquet]: "61928",
+  [TeritorioTourism.LeisureSportRowing]: "61929",
+  [TeritorioTourism.LeisureSportRugbyLeague]: "61930",
+  [TeritorioTourism.LeisureSportRugbyUnion]: "61931",
+  [TeritorioTourism.LeisureSportRugby]: "61932",
+  [TeritorioTourism.LeisureSportRunning]: "61933",
+  [TeritorioTourism.LeisureSportSailing]: "61934",
+  [TeritorioTourism.LeisureSportScubaDiving]: "61935",
+  [TeritorioTourism.LeisureSportShooting]: "61936",
+  [TeritorioTourism.LeisureSportSkateboard]: "61937",
+  [TeritorioTourism.LeisureSportSoccer]: "61938",
+  [TeritorioTourism.LeisureSportSquash]: "61939",
+  [TeritorioTourism.LeisureSportSurfing]: "61940",
+  [TeritorioTourism.LeisureSportSwimming]: "61941",
+  [TeritorioTourism.LeisureSportTableSoccer]: "61942",
+  [TeritorioTourism.LeisureSportTableTennis]: "61943",
+  [TeritorioTourism.LeisureSportTennis]: "61944",
+  [TeritorioTourism.LeisureSportVolleyball]: "61945",
+  [TeritorioTourism.LeisureSportWaterSki]: "61946",
+  [TeritorioTourism.LeisureSportYoga]: "61947",
+  [TeritorioTourism.LeisureSport]: "61948",
+  [TeritorioTourism.LeisureSportsCentre]: "61949",
+  [TeritorioTourism.LeisureSurfSchool]: "61950",
+  [TeritorioTourism.LeisureSurfing]: "61951",
+  [TeritorioTourism.LeisureSwimmingPool]: "61952",
+  [TeritorioTourism.LeisureSwimming]: "61953",
+  [TeritorioTourism.Leisure]: "61954",
+  [TeritorioTourism.MobilityAerowayAerodrome]: "61955",
+  [TeritorioTourism.MobilityBicycleBicycleParking]: "61956",
+  [TeritorioTourism.MobilityBicycleBicycleRental]: "61957",
+  [TeritorioTourism.MobilityBicycleBicycle]: "61958",
+  [TeritorioTourism.MobilityBicycleCompressedAir]: "61959",
+  [TeritorioTourism.MobilityBicycleCycleBarrier]: "61960",
+  [TeritorioTourism.MobilityBicycleMotorcycleParking]: "61961",
+  [TeritorioTourism.MobilityBicycle]: "61962",
+  [TeritorioTourism.MobilityChargingStation]: "61963",
+  [TeritorioTourism.MobilityMotorwayBusStation]: "61964",
+  [TeritorioTourism.MobilityMotorwayBusStop]: "61965",
+  [TeritorioTourism.MobilityMotorwayCarPooling]: "61966",
+  [TeritorioTourism.MobilityMotorwayCarRental]: "61967",
+  [TeritorioTourism.MobilityMotorwayMotorwayJunction]: "61968",
+  [TeritorioTourism.MobilityMotorwayParking]: "61969",
+  [TeritorioTourism.MobilityMotorwayTaxi]: "61970",
+  [TeritorioTourism.MobilityMotorwayTollBooth]: "61971",
+  [TeritorioTourism.MobilityMotorway]: "61972",
+  [TeritorioTourism.MobilityRailwayHalt]: "61973",
+  [TeritorioTourism.MobilityRailwayStation]: "61974",
+  [TeritorioTourism.MobilityRailwaySubwayEntrance]: "61975",
+  [TeritorioTourism.MobilityRailwayTramStop]: "61976",
+  [TeritorioTourism.MobilityRailway]: "61977",
+  [TeritorioTourism.MobilityWaterwayDock]: "61978",
+  [TeritorioTourism.MobilityWaterwayFerryTerminal]: "61979",
+  [TeritorioTourism.Mobility]: "61980",
+  [TeritorioTourism.ProductsAlcohol]: "61981",
+  [TeritorioTourism.ProductsCarpet]: "61982",
+  [TeritorioTourism.ProductsChocolate]: "61983",
+  [TeritorioTourism.ProductsCraftBasketMaker]: "61984",
+  [TeritorioTourism.ProductsCraftBeekeeper]: "61985",
+  [TeritorioTourism.ProductsCraftBrewery]: "61986",
+  [TeritorioTourism.ProductsCraftDistillery]: "61987",
+  [TeritorioTourism.ProductsCraftGrindingMill]: "61988",
+  [TeritorioTourism.ProductsCraftHandicraft]: "61989",
+  [TeritorioTourism.ProductsCraftJeweller]: "61990",
+  [TeritorioTourism.ProductsCraftLeather]: "61991",
+  [TeritorioTourism.ProductsCraftLuthier]: "61992",
+  [TeritorioTourism.ProductsCraftPottery]: "61993",
+  [TeritorioTourism.ProductsCraftSculptor]: "61994",
+  [TeritorioTourism.ProductsCraftWinery]: "61995",
+  [TeritorioTourism.ProductsCraft]: "61996",
+  [TeritorioTourism.ProductsDeli]: "61997",
+  [TeritorioTourism.ProductsFarm]: "61998",
+  [TeritorioTourism.ProductsOilMill]: "61999",
+  [TeritorioTourism.ProductsTailor]: "62000",
+  [TeritorioTourism.Products]: "62001",
+  [TeritorioTourism.PublicLandmarkBorderControl]: "62002",
+  [TeritorioTourism.PublicLandmarkBrownfield]: "62003",
+  [TeritorioTourism.PublicLandmarkCemetery]: "62004",
+  [TeritorioTourism.PublicLandmarkCollege]: "62005",
+  [TeritorioTourism.PublicLandmarkCourthouse]: "62006",
+  [TeritorioTourism.PublicLandmarkEmbassy]: "62007",
+  [TeritorioTourism.PublicLandmarkGraveYard]: "62008",
+  [TeritorioTourism.PublicLandmarkKindergarten]: "62009",
+  [TeritorioTourism.PublicLandmarkLibrary]: "62010",
+  [TeritorioTourism.PublicLandmarkMall]: "62011",
+  [TeritorioTourism.PublicLandmarkPrison]: "62012",
+  [TeritorioTourism.PublicLandmarkSchool]: "62013",
+  [TeritorioTourism.PublicLandmarkUniversity]: "62014",
+  [TeritorioTourism.PublicLandmarkYes]: "62015",
+  [TeritorioTourism.PublicLandmark]: "62016",
+  [TeritorioTourism.RemarkableAttractionActivityAquarium]: "62017",
+  [TeritorioTourism.RemarkableAttractionActivityAttraction]: "62018",
+  [TeritorioTourism.RemarkableAttractionActivityCaveEntrance]: "62019",
+  [TeritorioTourism.RemarkableAttractionActivityLighthouse]: "62020",
+  [TeritorioTourism.RemarkableAttractionActivitySpring]: "62021",
+  [TeritorioTourism.RemarkableAttractionActivityThemePark]: "62022",
+  [TeritorioTourism.RemarkableAttractionActivityViewpoint]: "62023",
+  [TeritorioTourism.RemarkableAttractionActivityWaterPark]: "62024",
+  [TeritorioTourism.RemarkableAttractionActivityWaterfall]: "62025",
+  [TeritorioTourism.RemarkableAttractionActivityZoo]: "62026",
+  [TeritorioTourism.RemarkableNaturalActivityBeachResort]: "62027",
+  [TeritorioTourism.RemarkableNaturalActivityBeach]: "62028",
+  [TeritorioTourism.RemarkableOutdoorActivityFishing]: "62029",
+  [TeritorioTourism.RemarkableOutdoorActivityMarina]: "62030",
+  [TeritorioTourism.RemarkableOutdoorActivityStadium]: "62031",
+  [TeritorioTourism.RemarkableOutdoorActivitySwimmingArea]: "62032",
+  [TeritorioTourism.RemarkableOutdoorActivityWinterSports]: "62033",
+  [TeritorioTourism.Remarkable]: "62034",
+  [TeritorioTourism.SafetyCareAnimalShelter]: "62035",
+  [TeritorioTourism.SafetyCareCentre]: "62036",
+  [TeritorioTourism.SafetyCareDentist]: "62037",
+  [TeritorioTourism.SafetyCareDoctors]: "62038",
+  [TeritorioTourism.SafetyCareNurse]: "62039",
+  [TeritorioTourism.SafetyCarePharmacy]: "62040",
+  [TeritorioTourism.SafetyCarePhysiotherapist]: "62041",
+  [TeritorioTourism.SafetyCareVeterinary]: "62042",
+  [TeritorioTourism.SafetyEmergencyClinic]: "62043",
+  [TeritorioTourism.SafetyEmergencyDefibrillator]: "62044",
+  [TeritorioTourism.SafetyEmergencyHospital]: "62045",
+  [TeritorioTourism.SafetyRescueFireStation]: "62046",
+  [TeritorioTourism.SafetyRescueLifeRing]: "62047",
+  [TeritorioTourism.SafetyRescueLifeguardBase]: "62048",
+  [TeritorioTourism.SafetyRescueMountainRescue]: "62049",
+  [TeritorioTourism.SafetyRescuePolice]: "62050",
+  [TeritorioTourism.SafetyRescueWaterRescueStation]: "62051",
+  [TeritorioTourism.Safety]: "62052",
+  [TeritorioTourism.ServicesAtm]: "62053",
+  [TeritorioTourism.ServicesBank]: "62054",
+  [TeritorioTourism.ServicesCarParts]: "62055",
+  [TeritorioTourism.ServicesCarRepair]: "62056",
+  [TeritorioTourism.ServicesCopyshop]: "62057",
+  [TeritorioTourism.ServicesCoworkingSpace]: "62058",
+  [TeritorioTourism.ServicesDryCleaning]: "62059",
+  [TeritorioTourism.ServicesEstateAgent]: "62060",
+  [TeritorioTourism.ServicesFuel]: "62061",
+  [TeritorioTourism.ServicesLaundry]: "62062",
+  [TeritorioTourism.ServicesMassage]: "62063",
+  [TeritorioTourism.ServicesMotorcycleRepair]: "62064",
+  [TeritorioTourism.ServicesOffice]: "62065",
+  [TeritorioTourism.ServicesPostOffice]: "62066",
+  [TeritorioTourism.ServicesTicket]: "62067",
+  [TeritorioTourism.ServicesTownhall]: "62068",
+  [TeritorioTourism.ServicesTravelAgency]: "62069",
+  [TeritorioTourism.Services]: "62070",
+  [TeritorioTourism.ShoppingAnimalsPetGrooming]: "62071",
+  [TeritorioTourism.ShoppingAnimalsPet]: "62072",
+  [TeritorioTourism.ShoppingCultureAntiques]: "62073",
+  [TeritorioTourism.ShoppingCultureArt]: "62074",
+  [TeritorioTourism.ShoppingCultureBooks]: "62075",
+  [TeritorioTourism.ShoppingCultureMusic]: "62076",
+  [TeritorioTourism.ShoppingFashionAccessories]: "62077",
+  [TeritorioTourism.ShoppingFashionBag]: "62078",
+  [TeritorioTourism.ShoppingFashionBoutique]: "62079",
+  [TeritorioTourism.ShoppingFashionClothes]: "62080",
+  [TeritorioTourism.ShoppingFashionCosmetics]: "62081",
+  [TeritorioTourism.ShoppingFashionFabric]: "62082",
+  [TeritorioTourism.ShoppingFashionGift]: "62083",
+  [TeritorioTourism.ShoppingFashionInteriorDecoration]: "62084",
+  [TeritorioTourism.ShoppingFashionJewelry]: "62085",
+  [TeritorioTourism.ShoppingFashionPerfume]: "62086",
+  [TeritorioTourism.ShoppingFashionPerfumery]: "62087",
+  [TeritorioTourism.ShoppingFashionSecondHand]: "62088",
+  [TeritorioTourism.ShoppingFashionShoes]: "62089",
+  [TeritorioTourism.ShoppingFashionTattoo]: "62090",
+  [TeritorioTourism.ShoppingFashionWatches]: "62091",
+  [TeritorioTourism.ShoppingFeedBeverages]: "62092",
+  [TeritorioTourism.ShoppingFeedCoffee]: "62093",
+  [TeritorioTourism.ShoppingFeedConfectionery]: "62094",
+  [TeritorioTourism.ShoppingFeedFrozenFood]: "62095",
+  [TeritorioTourism.ShoppingFeedIceCream]: "62096",
+  [TeritorioTourism.ShoppingSportSupplyBicycle]: "62097",
+  [TeritorioTourism.ShoppingSportSupplyOutdoor]: "62098",
+  [TeritorioTourism.ShoppingSportSupplySports]: "62099",
+  [TeritorioTourism.ShoppingSportSupplySurf]: "62100",
+  [TeritorioTourism.ShoppingSupplyAgrarian]: "62101",
+  [TeritorioTourism.ShoppingSupplyBed]: "62102",
+  [TeritorioTourism.ShoppingSupplyBicycle]: "62103",
+  [TeritorioTourism.ShoppingSupplyCamera]: "62104",
+  [TeritorioTourism.ShoppingSupplyCar]: "62105",
+  [TeritorioTourism.ShoppingSupplyCharity]: "62106",
+  [TeritorioTourism.ShoppingSupplyComputer]: "62107",
+  [TeritorioTourism.ShoppingSupplyDoityourself]: "62108",
+  [TeritorioTourism.ShoppingSupplyElectronics]: "62109",
+  [TeritorioTourism.ShoppingSupplyErotic]: "62110",
+  [TeritorioTourism.ShoppingSupplyFishing]: "62111",
+  [TeritorioTourism.ShoppingSupplyFurniture]: "62112",
+  [TeritorioTourism.ShoppingSupplyGeneral]: "62113",
+  [TeritorioTourism.ShoppingSupplyHardware]: "62114",
+  [TeritorioTourism.ShoppingSupplyHearingAids]: "62115",
+  [TeritorioTourism.ShoppingSupplyHifi]: "62116",
+  [TeritorioTourism.ShoppingSupplyLamps]: "62117",
+  [TeritorioTourism.ShoppingSupplyMobilePhone]: "62118",
+  [TeritorioTourism.ShoppingSupplyMotorcycle]: "62119",
+  [TeritorioTourism.ShoppingSupplyMusicalInstrument]: "62120",
+  [TeritorioTourism.ShoppingSupplyOptician]: "62121",
+  [TeritorioTourism.ShoppingSupplyOutdoor]: "62122",
+  [TeritorioTourism.ShoppingSupplySports]: "62123",
+  [TeritorioTourism.ShoppingSupplyStationery]: "62124",
+  [TeritorioTourism.ShoppingSupplyToys]: "62125",
+  [TeritorioTourism.ShoppingSupplyVideoGames]: "62126",
+  [TeritorioTourism.ShoppingSupplyVideo]: "62127",
+  [TeritorioTourism.ShoppingSupplyWeapons]: "62128",
+  [TeritorioTourism.ShoppingSupplyWholesale]: "62129",
+  [TeritorioTourism.Shopping]: "62130",
 };

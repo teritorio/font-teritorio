@@ -1,6 +1,6 @@
 {
   "name": "@teritorio/font-teritorio-tourism",
-  "version": "1.13.0",
+  "version": "1.14.0",
   "description": "Self-host the Teritorio Tourism Font a neatly bundled NPM package.",
   "main": "teritorio-tourism/icon.css",
   "files": [

@@ -1,0 +1,3912 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>teritorio</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .preview {
+            width: 100px;
+            display: inline-block;
+            margin: 10px;
+        }
+        .preview .inner {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            background: #f5f5f5;
+            -webkit-border-radius: 3px 3px 0 0;
+            -moz-border-radius: 3px 3px 0 0;
+            border-radius: 3px 3px 0 0;
+        }
+        .preview .inner  {
+            line-height: 85px;
+            font-size: 40px;
+            color: #333;
+        }
+        .label {
+            display: inline-block;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 5px;
+            font-size: 10px;
+            font-family: Monaco, monospace;
+            color: #666;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            background: #ddd;
+            -webkit-border-radius: 0 0 3px 3px;
+            -moz-border-radius: 0 0 3px 3px;
+            border-radius: 0 0 3px 3px;
+            color: #666;
+        }
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="teritorio.css" />
+</head>
+<body>
+
+    <h1>teritorio</h1>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-accessories"></i>
+            </span>
+            <br>
+            <span class='label'>accessories</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-aerodrome"></i>
+            </span>
+            <br>
+            <span class='label'>aerodrome</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-agrarian"></i>
+            </span>
+            <br>
+            <span class='label'>agrarian</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-alcohol"></i>
+            </span>
+            <br>
+            <span class='label'>alcohol</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-alpine_hut"></i>
+            </span>
+            <br>
+            <span class='label'>alpine_hut</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-amenity"></i>
+            </span>
+            <br>
+            <span class='label'>amenity</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-animal_boarding"></i>
+            </span>
+            <br>
+            <span class='label'>animal_boarding</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-animal_shelter"></i>
+            </span>
+            <br>
+            <span class='label'>animal_shelter</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-antiques"></i>
+            </span>
+            <br>
+            <span class='label'>antiques</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-apartment_rental"></i>
+            </span>
+            <br>
+            <span class='label'>apartment_rental</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-apartment_resort"></i>
+            </span>
+            <br>
+            <span class='label'>apartment_resort</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-aquarium"></i>
+            </span>
+            <br>
+            <span class='label'>aquarium</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-archaeological_site"></i>
+            </span>
+            <br>
+            <span class='label'>archaeological_site</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-art"></i>
+            </span>
+            <br>
+            <span class='label'>art</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-arts_centre"></i>
+            </span>
+            <br>
+            <span class='label'>arts_centre</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-artwork"></i>
+            </span>
+            <br>
+            <span class='label'>artwork</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-athletics"></i>
+            </span>
+            <br>
+            <span class='label'>athletics</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-atm"></i>
+            </span>
+            <br>
+            <span class='label'>atm</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-attraction"></i>
+            </span>
+            <br>
+            <span class='label'>attraction</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-badminton"></i>
+            </span>
+            <br>
+            <span class='label'>badminton</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-bag"></i>
+            </span>
+            <br>
+            <span class='label'>bag</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-bakery"></i>
+            </span>
+            <br>
+            <span class='label'>bakery</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-bank"></i>
+            </span>
+            <br>
+            <span class='label'>bank</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-bar"></i>
+            </span>
+            <br>
+            <span class='label'>bar</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-basket_maker"></i>
+            </span>
+            <br>
+            <span class='label'>basket_maker</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-basketball"></i>
+            </span>
+            <br>
+            <span class='label'>basketball</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-bbq"></i>
+            </span>
+            <br>
+            <span class='label'>bbq</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-beach_resort"></i>
+            </span>
+            <br>
+            <span class='label'>beach_resort</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-beach"></i>
+            </span>
+            <br>
+            <span class='label'>beach</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-beachvolleyball"></i>
+            </span>
+            <br>
+            <span class='label'>beachvolleyball</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-bed"></i>
+            </span>
+            <br>
+            <span class='label'>bed</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-beekeeper"></i>
+            </span>
+            <br>
+            <span class='label'>beekeeper</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-bench"></i>
+            </span>
+            <br>
+            <span class='label'>bench</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-beverages"></i>
+            </span>
+            <br>
+            <span class='label'>beverages</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-bicycle_docking_station"></i>
+            </span>
+            <br>
+            <span class='label'>bicycle_docking_station</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-bicycle_parking"></i>
+            </span>
+            <br>
+            <span class='label'>bicycle_parking</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-bicycle_rental"></i>
+            </span>
+            <br>
+            <span class='label'>bicycle_rental</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-bicycle_shop"></i>
+            </span>
+            <br>
+            <span class='label'>bicycle_shop</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-billiards"></i>
+            </span>
+            <br>
+            <span class='label'>billiards</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-bird_hide"></i>
+            </span>
+            <br>
+            <span class='label'>bird_hide</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-bmx"></i>
+            </span>
+            <br>
+            <span class='label'>bmx</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-board_map"></i>
+            </span>
+            <br>
+            <span class='label'>board_map</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-books"></i>
+            </span>
+            <br>
+            <span class='label'>books</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-border_control"></i>
+            </span>
+            <br>
+            <span class='label'>border_control</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-boules"></i>
+            </span>
+            <br>
+            <span class='label'>boules</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-boutique"></i>
+            </span>
+            <br>
+            <span class='label'>boutique</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-bowling_alley"></i>
+            </span>
+            <br>
+            <span class='label'>bowling_alley</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-brewery"></i>
+            </span>
+            <br>
+            <span class='label'>brewery</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-brownfield"></i>
+            </span>
+            <br>
+            <span class='label'>brownfield</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-bullfighting"></i>
+            </span>
+            <br>
+            <span class='label'>bullfighting</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-bus_station"></i>
+            </span>
+            <br>
+            <span class='label'>bus_station</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-bus_stop"></i>
+            </span>
+            <br>
+            <span class='label'>bus_stop</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-butcher"></i>
+            </span>
+            <br>
+            <span class='label'>butcher</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-cafe"></i>
+            </span>
+            <br>
+            <span class='label'>cafe</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-camera"></i>
+            </span>
+            <br>
+            <span class='label'>camera</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-camp_site"></i>
+            </span>
+            <br>
+            <span class='label'>camp_site</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-canoe"></i>
+            </span>
+            <br>
+            <span class='label'>canoe</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-car_parts"></i>
+            </span>
+            <br>
+            <span class='label'>car_parts</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-car_pooling"></i>
+            </span>
+            <br>
+            <span class='label'>car_pooling</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-car_rental"></i>
+            </span>
+            <br>
+            <span class='label'>car_rental</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-car_repair"></i>
+            </span>
+            <br>
+            <span class='label'>car_repair</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-car"></i>
+            </span>
+            <br>
+            <span class='label'>car</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-caravan_site"></i>
+            </span>
+            <br>
+            <span class='label'>caravan_site</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-carpet"></i>
+            </span>
+            <br>
+            <span class='label'>carpet</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-casino"></i>
+            </span>
+            <br>
+            <span class='label'>casino</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-castle_wall"></i>
+            </span>
+            <br>
+            <span class='label'>castle_wall</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-castle"></i>
+            </span>
+            <br>
+            <span class='label'>castle</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-caterer"></i>
+            </span>
+            <br>
+            <span class='label'>caterer</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-catering"></i>
+            </span>
+            <br>
+            <span class='label'>catering</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-cathedral"></i>
+            </span>
+            <br>
+            <span class='label'>cathedral</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-cave_entrance"></i>
+            </span>
+            <br>
+            <span class='label'>cave_entrance</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-cemetery"></i>
+            </span>
+            <br>
+            <span class='label'>cemetery</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-chalet"></i>
+            </span>
+            <br>
+            <span class='label'>chalet</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-chapel"></i>
+            </span>
+            <br>
+            <span class='label'>chapel</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-charging_station"></i>
+            </span>
+            <br>
+            <span class='label'>charging_station</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-charity"></i>
+            </span>
+            <br>
+            <span class='label'>charity</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-cheese"></i>
+            </span>
+            <br>
+            <span class='label'>cheese</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-chemist"></i>
+            </span>
+            <br>
+            <span class='label'>chemist</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-chocolate"></i>
+            </span>
+            <br>
+            <span class='label'>chocolate</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-church_heritage"></i>
+            </span>
+            <br>
+            <span class='label'>church_heritage</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-church"></i>
+            </span>
+            <br>
+            <span class='label'>church</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-cinema"></i>
+            </span>
+            <br>
+            <span class='label'>cinema</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-city_gate"></i>
+            </span>
+            <br>
+            <span class='label'>city_gate</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-city_wall"></i>
+            </span>
+            <br>
+            <span class='label'>city_wall</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-climbing_adventure"></i>
+            </span>
+            <br>
+            <span class='label'>climbing_adventure</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-climbing"></i>
+            </span>
+            <br>
+            <span class='label'>climbing</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-clinic"></i>
+            </span>
+            <br>
+            <span class='label'>clinic</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-clothes"></i>
+            </span>
+            <br>
+            <span class='label'>clothes</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-coffee"></i>
+            </span>
+            <br>
+            <span class='label'>coffee</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-college"></i>
+            </span>
+            <br>
+            <span class='label'>college</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-community_centre"></i>
+            </span>
+            <br>
+            <span class='label'>community_centre</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-compressed_air"></i>
+            </span>
+            <br>
+            <span class='label'>compressed_air</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-computer"></i>
+            </span>
+            <br>
+            <span class='label'>computer</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-confectionery"></i>
+            </span>
+            <br>
+            <span class='label'>confectionery</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-container"></i>
+            </span>
+            <br>
+            <span class='label'>container</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-convenience"></i>
+            </span>
+            <br>
+            <span class='label'>convenience</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-copyshop"></i>
+            </span>
+            <br>
+            <span class='label'>copyshop</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-cosmetics"></i>
+            </span>
+            <br>
+            <span class='label'>cosmetics</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-courthouse"></i>
+            </span>
+            <br>
+            <span class='label'>courthouse</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-coworking_space"></i>
+            </span>
+            <br>
+            <span class='label'>coworking_space</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-culture"></i>
+            </span>
+            <br>
+            <span class='label'>culture</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-cycle_barrier"></i>
+            </span>
+            <br>
+            <span class='label'>cycle_barrier</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-cycling"></i>
+            </span>
+            <br>
+            <span class='label'>cycling</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-defibrillator"></i>
+            </span>
+            <br>
+            <span class='label'>defibrillator</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-deli"></i>
+            </span>
+            <br>
+            <span class='label'>deli</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-dentist"></i>
+            </span>
+            <br>
+            <span class='label'>dentist</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-distillery"></i>
+            </span>
+            <br>
+            <span class='label'>distillery</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-diving"></i>
+            </span>
+            <br>
+            <span class='label'>diving</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-dock"></i>
+            </span>
+            <br>
+            <span class='label'>dock</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-doctors"></i>
+            </span>
+            <br>
+            <span class='label'>doctors</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-dog_excrement"></i>
+            </span>
+            <br>
+            <span class='label'>dog_excrement</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-doityourself"></i>
+            </span>
+            <br>
+            <span class='label'>doityourself</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-dojo"></i>
+            </span>
+            <br>
+            <span class='label'>dojo</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-dressmaker"></i>
+            </span>
+            <br>
+            <span class='label'>dressmaker</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-drinking_water"></i>
+            </span>
+            <br>
+            <span class='label'>drinking_water</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-dry_cleaning"></i>
+            </span>
+            <br>
+            <span class='label'>dry_cleaning</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-electronics"></i>
+            </span>
+            <br>
+            <span class='label'>electronics</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-embassy"></i>
+            </span>
+            <br>
+            <span class='label'>embassy</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-erotic"></i>
+            </span>
+            <br>
+            <span class='label'>erotic</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-estate_agent"></i>
+            </span>
+            <br>
+            <span class='label'>estate_agent</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-abbey"></i>
+            </span>
+            <br>
+            <span class='label'>extra-abbey</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-adolescents"></i>
+            </span>
+            <br>
+            <span class='label'>extra-adolescents</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-aeroport"></i>
+            </span>
+            <br>
+            <span class='label'>extra-aeroport</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-ambassador"></i>
+            </span>
+            <br>
+            <span class='label'>extra-ambassador</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-arenes"></i>
+            </span>
+            <br>
+            <span class='label'>extra-arenes</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-artisan-prestige"></i>
+            </span>
+            <br>
+            <span class='label'>extra-artisan-prestige</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-autres_sports"></i>
+            </span>
+            <br>
+            <span class='label'>extra-autres_sports</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-balade_maritime"></i>
+            </span>
+            <br>
+            <span class='label'>extra-balade_maritime</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-balneotherapy"></i>
+            </span>
+            <br>
+            <span class='label'>extra-balneotherapy</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-bike_ride"></i>
+            </span>
+            <br>
+            <span class='label'>extra-bike_ride</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-bulot"></i>
+            </span>
+            <br>
+            <span class='label'>extra-bulot</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-bungee_jumping"></i>
+            </span>
+            <br>
+            <span class='label'>extra-bungee_jumping</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-canyoning"></i>
+            </span>
+            <br>
+            <span class='label'>extra-canyoning</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-centre_loisirs"></i>
+            </span>
+            <br>
+            <span class='label'>extra-centre_loisirs</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-cheese_maker"></i>
+            </span>
+            <br>
+            <span class='label'>extra-cheese_maker</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-chien_autorise"></i>
+            </span>
+            <br>
+            <span class='label'>extra-chien_autorise</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-comcom"></i>
+            </span>
+            <br>
+            <span class='label'>extra-comcom</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-commerce-prestige"></i>
+            </span>
+            <br>
+            <span class='label'>extra-commerce-prestige</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-conserveur_prestige"></i>
+            </span>
+            <br>
+            <span class='label'>extra-conserveur_prestige</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-conserveurs"></i>
+            </span>
+            <br>
+            <span class='label'>extra-conserveurs</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-convent"></i>
+            </span>
+            <br>
+            <span class='label'>extra-convent</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-delivery"></i>
+            </span>
+            <br>
+            <span class='label'>extra-delivery</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-drive"></i>
+            </span>
+            <br>
+            <span class='label'>extra-drive</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-ehpad"></i>
+            </span>
+            <br>
+            <span class='label'>extra-ehpad</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-equipements_loisirs"></i>
+            </span>
+            <br>
+            <span class='label'>extra-equipements_loisirs</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-equipment-rental"></i>
+            </span>
+            <br>
+            <span class='label'>extra-equipment-rental</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-escape_game"></i>
+            </span>
+            <br>
+            <span class='label'>extra-escape_game</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-excursion"></i>
+            </span>
+            <br>
+            <span class='label'>extra-excursion</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-famille"></i>
+            </span>
+            <br>
+            <span class='label'>extra-famille</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-ferme_decouverte"></i>
+            </span>
+            <br>
+            <span class='label'>extra-ferme_decouverte</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-feuille"></i>
+            </span>
+            <br>
+            <span class='label'>extra-feuille</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-fish_market"></i>
+            </span>
+            <br>
+            <span class='label'>extra-fish_market</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-flower_village"></i>
+            </span>
+            <br>
+            <span class='label'>extra-flower_village</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-fontaine_miraculeuse"></i>
+            </span>
+            <br>
+            <span class='label'>extra-fontaine_miraculeuse</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-food_truck"></i>
+            </span>
+            <br>
+            <span class='label'>extra-food_truck</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-food"></i>
+            </span>
+            <br>
+            <span class='label'>extra-food</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-fraise"></i>
+            </span>
+            <br>
+            <span class='label'>extra-fraise</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-france_services"></i>
+            </span>
+            <br>
+            <span class='label'>extra-france_services</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-ganaderia"></i>
+            </span>
+            <br>
+            <span class='label'>extra-ganaderia</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-gratuiterie"></i>
+            </span>
+            <br>
+            <span class='label'>extra-gratuiterie</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-guided_hikes"></i>
+            </span>
+            <br>
+            <span class='label'>extra-guided_hikes</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-guided_tour"></i>
+            </span>
+            <br>
+            <span class='label'>extra-guided_tour</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-hebergement_insolite"></i>
+            </span>
+            <br>
+            <span class='label'>extra-hebergement_insolite</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-hiking"></i>
+            </span>
+            <br>
+            <span class='label'>extra-hiking</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-kitchen_designer"></i>
+            </span>
+            <br>
+            <span class='label'>extra-kitchen_designer</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-laboratory"></i>
+            </span>
+            <br>
+            <span class='label'>extra-laboratory</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-lost-property"></i>
+            </span>
+            <br>
+            <span class='label'>extra-lost-property</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-major_projects"></i>
+            </span>
+            <br>
+            <span class='label'>extra-major_projects</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-mediatheque"></i>
+            </span>
+            <br>
+            <span class='label'>extra-mediatheque</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-medical_supply"></i>
+            </span>
+            <br>
+            <span class='label'>extra-medical_supply</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-menuisier"></i>
+            </span>
+            <br>
+            <span class='label'>extra-menuisier</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-natural_site"></i>
+            </span>
+            <br>
+            <span class='label'>extra-natural_site</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-nature_reserve"></i>
+            </span>
+            <br>
+            <span class='label'>extra-nature_reserve</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-notary"></i>
+            </span>
+            <br>
+            <span class='label'>extra-notary</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-office"></i>
+            </span>
+            <br>
+            <span class='label'>extra-office</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-organic_store"></i>
+            </span>
+            <br>
+            <span class='label'>extra-organic_store</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-oyster_hut"></i>
+            </span>
+            <br>
+            <span class='label'>extra-oyster_hut</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-paddle"></i>
+            </span>
+            <br>
+            <span class='label'>extra-paddle</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-peintre"></i>
+            </span>
+            <br>
+            <span class='label'>extra-peintre</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-pignada"></i>
+            </span>
+            <br>
+            <span class='label'>extra-pignada</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-pique_nique_prestige"></i>
+            </span>
+            <br>
+            <span class='label'>extra-pique_nique_prestige</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-pmr"></i>
+            </span>
+            <br>
+            <span class='label'>extra-pmr</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-podiatrist"></i>
+            </span>
+            <br>
+            <span class='label'>extra-podiatrist</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-point"></i>
+            </span>
+            <br>
+            <span class='label'>extra-point</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-pomme"></i>
+            </span>
+            <br>
+            <span class='label'>extra-pomme</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-quillier"></i>
+            </span>
+            <br>
+            <span class='label'>extra-quillier</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-rando"></i>
+            </span>
+            <br>
+            <span class='label'>extra-rando</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-recycling"></i>
+            </span>
+            <br>
+            <span class='label'>extra-recycling</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-reflexology"></i>
+            </span>
+            <br>
+            <span class='label'>extra-reflexology</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-restaurateurs-prestige"></i>
+            </span>
+            <br>
+            <span class='label'>extra-restaurateurs-prestige</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-restricted"></i>
+            </span>
+            <br>
+            <span class='label'>extra-restricted</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-roadworks"></i>
+            </span>
+            <br>
+            <span class='label'>extra-roadworks</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-seniors"></i>
+            </span>
+            <br>
+            <span class='label'>extra-seniors</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-shared_garden"></i>
+            </span>
+            <br>
+            <span class='label'>extra-shared_garden</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-speleology"></i>
+            </span>
+            <br>
+            <span class='label'>extra-speleology</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-sports_and_leisures"></i>
+            </span>
+            <br>
+            <span class='label'>extra-sports_and_leisures</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-sports_d_eau"></i>
+            </span>
+            <br>
+            <span class='label'>extra-sports_d_eau</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-spot_surf"></i>
+            </span>
+            <br>
+            <span class='label'>extra-spot_surf</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-squash"></i>
+            </span>
+            <br>
+            <span class='label'>extra-squash</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-surfhouses"></i>
+            </span>
+            <br>
+            <span class='label'>extra-surfhouses</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-terra_aventura"></i>
+            </span>
+            <br>
+            <span class='label'>extra-terra_aventura</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-thermal_establishment"></i>
+            </span>
+            <br>
+            <span class='label'>extra-thermal_establishment</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-thermal_station"></i>
+            </span>
+            <br>
+            <span class='label'>extra-thermal_station</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-to_take_away"></i>
+            </span>
+            <br>
+            <span class='label'>extra-to_take_away</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-unavoidable"></i>
+            </span>
+            <br>
+            <span class='label'>extra-unavoidable</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-unesco_site"></i>
+            </span>
+            <br>
+            <span class='label'>extra-unesco_site</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-usefull"></i>
+            </span>
+            <br>
+            <span class='label'>extra-usefull</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-velo_repare"></i>
+            </span>
+            <br>
+            <span class='label'>extra-velo_repare</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-vine"></i>
+            </span>
+            <br>
+            <span class='label'>extra-vine</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-vote_place"></i>
+            </span>
+            <br>
+            <span class='label'>extra-vote_place</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-vtt"></i>
+            </span>
+            <br>
+            <span class='label'>extra-vtt</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-WIFI"></i>
+            </span>
+            <br>
+            <span class='label'>extra-WIFI</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-extra-zip_line"></i>
+            </span>
+            <br>
+            <span class='label'>extra-zip_line</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-fabric"></i>
+            </span>
+            <br>
+            <span class='label'>fabric</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-farm"></i>
+            </span>
+            <br>
+            <span class='label'>farm</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-fast_food"></i>
+            </span>
+            <br>
+            <span class='label'>fast_food</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-ferry_terminal"></i>
+            </span>
+            <br>
+            <span class='label'>ferry_terminal</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-fire_station"></i>
+            </span>
+            <br>
+            <span class='label'>fire_station</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-firepit"></i>
+            </span>
+            <br>
+            <span class='label'>firepit</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-fishing_shop"></i>
+            </span>
+            <br>
+            <span class='label'>fishing_shop</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-fishing"></i>
+            </span>
+            <br>
+            <span class='label'>fishing</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-fitness_centre"></i>
+            </span>
+            <br>
+            <span class='label'>fitness_centre</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-florist"></i>
+            </span>
+            <br>
+            <span class='label'>florist</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-food_court"></i>
+            </span>
+            <br>
+            <span class='label'>food_court</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-free_flying"></i>
+            </span>
+            <br>
+            <span class='label'>free_flying</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-frozen_food"></i>
+            </span>
+            <br>
+            <span class='label'>frozen_food</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-fuel"></i>
+            </span>
+            <br>
+            <span class='label'>fuel</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-furniture"></i>
+            </span>
+            <br>
+            <span class='label'>furniture</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-futsal"></i>
+            </span>
+            <br>
+            <span class='label'>futsal</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-gallery"></i>
+            </span>
+            <br>
+            <span class='label'>gallery</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-garden"></i>
+            </span>
+            <br>
+            <span class='label'>garden</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-general"></i>
+            </span>
+            <br>
+            <span class='label'>general</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-gift"></i>
+            </span>
+            <br>
+            <span class='label'>gift</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-golf_course"></i>
+            </span>
+            <br>
+            <span class='label'>golf_course</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-grave_yard"></i>
+            </span>
+            <br>
+            <span class='label'>grave_yard</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-greengrocer"></i>
+            </span>
+            <br>
+            <span class='label'>greengrocer</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-grinding_mill"></i>
+            </span>
+            <br>
+            <span class='label'>grinding_mill</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-guest_house"></i>
+            </span>
+            <br>
+            <span class='label'>guest_house</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-gymnastics"></i>
+            </span>
+            <br>
+            <span class='label'>gymnastics</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-hairdresser"></i>
+            </span>
+            <br>
+            <span class='label'>hairdresser</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-halt"></i>
+            </span>
+            <br>
+            <span class='label'>halt</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-handball"></i>
+            </span>
+            <br>
+            <span class='label'>handball</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-handicraft"></i>
+            </span>
+            <br>
+            <span class='label'>handicraft</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-hardware"></i>
+            </span>
+            <br>
+            <span class='label'>hardware</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-healthcare_centre"></i>
+            </span>
+            <br>
+            <span class='label'>healthcare_centre</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-hearing_aids"></i>
+            </span>
+            <br>
+            <span class='label'>hearing_aids</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-heritage"></i>
+            </span>
+            <br>
+            <span class='label'>heritage</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-hifi"></i>
+            </span>
+            <br>
+            <span class='label'>hifi</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-horse_racing"></i>
+            </span>
+            <br>
+            <span class='label'>horse_racing</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-horse_riding"></i>
+            </span>
+            <br>
+            <span class='label'>horse_riding</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-hospital"></i>
+            </span>
+            <br>
+            <span class='label'>hospital</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-hostel"></i>
+            </span>
+            <br>
+            <span class='label'>hostel</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-hosting"></i>
+            </span>
+            <br>
+            <span class='label'>hosting</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-hotel"></i>
+            </span>
+            <br>
+            <span class='label'>hotel</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-ice_cream"></i>
+            </span>
+            <br>
+            <span class='label'>ice_cream</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-ice_hockey"></i>
+            </span>
+            <br>
+            <span class='label'>ice_hockey</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-ice_rink"></i>
+            </span>
+            <br>
+            <span class='label'>ice_rink</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-interior_decoration"></i>
+            </span>
+            <br>
+            <span class='label'>interior_decoration</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-jeweller"></i>
+            </span>
+            <br>
+            <span class='label'>jeweller</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-jewelry"></i>
+            </span>
+            <br>
+            <span class='label'>jewelry</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-karting"></i>
+            </span>
+            <br>
+            <span class='label'>karting</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-kindergarten"></i>
+            </span>
+            <br>
+            <span class='label'>kindergarten</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-kiosk"></i>
+            </span>
+            <br>
+            <span class='label'>kiosk</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-kitesurfing"></i>
+            </span>
+            <br>
+            <span class='label'>kitesurfing</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-lamps"></i>
+            </span>
+            <br>
+            <span class='label'>lamps</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-laundry"></i>
+            </span>
+            <br>
+            <span class='label'>laundry</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-lavoir"></i>
+            </span>
+            <br>
+            <span class='label'>lavoir</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-leather"></i>
+            </span>
+            <br>
+            <span class='label'>leather</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-leisure"></i>
+            </span>
+            <br>
+            <span class='label'>leisure</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-library"></i>
+            </span>
+            <br>
+            <span class='label'>library</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-life_ring"></i>
+            </span>
+            <br>
+            <span class='label'>life_ring</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-lifeguard_base"></i>
+            </span>
+            <br>
+            <span class='label'>lifeguard_base</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-lighthouse"></i>
+            </span>
+            <br>
+            <span class='label'>lighthouse</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-local_shop"></i>
+            </span>
+            <br>
+            <span class='label'>local_shop</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-luthier"></i>
+            </span>
+            <br>
+            <span class='label'>luthier</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-mall"></i>
+            </span>
+            <br>
+            <span class='label'>mall</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-marina"></i>
+            </span>
+            <br>
+            <span class='label'>marina</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-marketplace"></i>
+            </span>
+            <br>
+            <span class='label'>marketplace</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-massage"></i>
+            </span>
+            <br>
+            <span class='label'>massage</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-memorial"></i>
+            </span>
+            <br>
+            <span class='label'>memorial</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-miniature_golf"></i>
+            </span>
+            <br>
+            <span class='label'>miniature_golf</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-mobile_phone"></i>
+            </span>
+            <br>
+            <span class='label'>mobile_phone</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-mobility"></i>
+            </span>
+            <br>
+            <span class='label'>mobility</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-monastery"></i>
+            </span>
+            <br>
+            <span class='label'>monastery</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-monument"></i>
+            </span>
+            <br>
+            <span class='label'>monument</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-motel"></i>
+            </span>
+            <br>
+            <span class='label'>motel</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-motocross"></i>
+            </span>
+            <br>
+            <span class='label'>motocross</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-motor"></i>
+            </span>
+            <br>
+            <span class='label'>motor</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-motorcycle_parking"></i>
+            </span>
+            <br>
+            <span class='label'>motorcycle_parking</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-motorcycle_repair"></i>
+            </span>
+            <br>
+            <span class='label'>motorcycle_repair</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-motorcycle"></i>
+            </span>
+            <br>
+            <span class='label'>motorcycle</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-motorway_junction"></i>
+            </span>
+            <br>
+            <span class='label'>motorway_junction</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-mountain_pass"></i>
+            </span>
+            <br>
+            <span class='label'>mountain_pass</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-mountain_rescue"></i>
+            </span>
+            <br>
+            <span class='label'>mountain_rescue</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-multi"></i>
+            </span>
+            <br>
+            <span class='label'>multi</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-museum"></i>
+            </span>
+            <br>
+            <span class='label'>museum</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-music"></i>
+            </span>
+            <br>
+            <span class='label'>music</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-musical_instrument"></i>
+            </span>
+            <br>
+            <span class='label'>musical_instrument</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-newsagent"></i>
+            </span>
+            <br>
+            <span class='label'>newsagent</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-nightclub"></i>
+            </span>
+            <br>
+            <span class='label'>nightclub</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-nurse"></i>
+            </span>
+            <br>
+            <span class='label'>nurse</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-office"></i>
+            </span>
+            <br>
+            <span class='label'>office</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-oil_mill"></i>
+            </span>
+            <br>
+            <span class='label'>oil_mill</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-old-layers-peak"></i>
+            </span>
+            <br>
+            <span class='label'>old-layers-peak</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-old-leisure-sport-golf"></i>
+            </span>
+            <br>
+            <span class='label'>old-leisure-sport-golf</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-old-mobility-motorway"></i>
+            </span>
+            <br>
+            <span class='label'>old-mobility-motorway</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-old-products-craft"></i>
+            </span>
+            <br>
+            <span class='label'>old-products-craft</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-old-public_landmark-library"></i>
+            </span>
+            <br>
+            <span class='label'>old-public_landmark-library</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-optician"></i>
+            </span>
+            <br>
+            <span class='label'>optician</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-orienteering"></i>
+            </span>
+            <br>
+            <span class='label'>orienteering</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-outdoor"></i>
+            </span>
+            <br>
+            <span class='label'>outdoor</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-paddle_tennis"></i>
+            </span>
+            <br>
+            <span class='label'>paddle_tennis</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-paintball"></i>
+            </span>
+            <br>
+            <span class='label'>paintball</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-park"></i>
+            </span>
+            <br>
+            <span class='label'>park</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-parking"></i>
+            </span>
+            <br>
+            <span class='label'>parking</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-pastry"></i>
+            </span>
+            <br>
+            <span class='label'>pastry</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-pelota"></i>
+            </span>
+            <br>
+            <span class='label'>pelota</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-perfume"></i>
+            </span>
+            <br>
+            <span class='label'>perfume</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-perfumery"></i>
+            </span>
+            <br>
+            <span class='label'>perfumery</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-pet_grooming"></i>
+            </span>
+            <br>
+            <span class='label'>pet_grooming</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-pet"></i>
+            </span>
+            <br>
+            <span class='label'>pet</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-pharmacy"></i>
+            </span>
+            <br>
+            <span class='label'>pharmacy</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-photo"></i>
+            </span>
+            <br>
+            <span class='label'>photo</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-physiotherapist"></i>
+            </span>
+            <br>
+            <span class='label'>physiotherapist</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-picnic_site"></i>
+            </span>
+            <br>
+            <span class='label'>picnic_site</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-picnic_table"></i>
+            </span>
+            <br>
+            <span class='label'>picnic_table</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-pitch"></i>
+            </span>
+            <br>
+            <span class='label'>pitch</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-place_of_worship"></i>
+            </span>
+            <br>
+            <span class='label'>place_of_worship</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-playground"></i>
+            </span>
+            <br>
+            <span class='label'>playground</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-police"></i>
+            </span>
+            <br>
+            <span class='label'>police</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-post_box"></i>
+            </span>
+            <br>
+            <span class='label'>post_box</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-post_office"></i>
+            </span>
+            <br>
+            <span class='label'>post_office</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-pottery"></i>
+            </span>
+            <br>
+            <span class='label'>pottery</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-pre_primary_school"></i>
+            </span>
+            <br>
+            <span class='label'>pre_primary_school</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-prison"></i>
+            </span>
+            <br>
+            <span class='label'>prison</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-products"></i>
+            </span>
+            <br>
+            <span class='label'>products</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-pub"></i>
+            </span>
+            <br>
+            <span class='label'>pub</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-public_bath"></i>
+            </span>
+            <br>
+            <span class='label'>public_bath</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-public_bookcase"></i>
+            </span>
+            <br>
+            <span class='label'>public_bookcase</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-public_landmark"></i>
+            </span>
+            <br>
+            <span class='label'>public_landmark</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-racquet"></i>
+            </span>
+            <br>
+            <span class='label'>racquet</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-recycling_centre"></i>
+            </span>
+            <br>
+            <span class='label'>recycling_centre</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-remarkable"></i>
+            </span>
+            <br>
+            <span class='label'>remarkable</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-resort"></i>
+            </span>
+            <br>
+            <span class='label'>resort</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-restaurant"></i>
+            </span>
+            <br>
+            <span class='label'>restaurant</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-rowing"></i>
+            </span>
+            <br>
+            <span class='label'>rowing</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-rugby_league"></i>
+            </span>
+            <br>
+            <span class='label'>rugby_league</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-rugby_union"></i>
+            </span>
+            <br>
+            <span class='label'>rugby_union</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-rugby"></i>
+            </span>
+            <br>
+            <span class='label'>rugby</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-running"></i>
+            </span>
+            <br>
+            <span class='label'>running</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-safety"></i>
+            </span>
+            <br>
+            <span class='label'>safety</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-sailing"></i>
+            </span>
+            <br>
+            <span class='label'>sailing</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-sanitary_dump_station"></i>
+            </span>
+            <br>
+            <span class='label'>sanitary_dump_station</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-school"></i>
+            </span>
+            <br>
+            <span class='label'>school</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-scuba_diving"></i>
+            </span>
+            <br>
+            <span class='label'>scuba_diving</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-sculptor"></i>
+            </span>
+            <br>
+            <span class='label'>sculptor</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-seafood"></i>
+            </span>
+            <br>
+            <span class='label'>seafood</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-second_hand"></i>
+            </span>
+            <br>
+            <span class='label'>second_hand</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-services"></i>
+            </span>
+            <br>
+            <span class='label'>services</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-shelter"></i>
+            </span>
+            <br>
+            <span class='label'>shelter</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-shoemaker"></i>
+            </span>
+            <br>
+            <span class='label'>shoemaker</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-shoes"></i>
+            </span>
+            <br>
+            <span class='label'>shoes</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-shooting"></i>
+            </span>
+            <br>
+            <span class='label'>shooting</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-shopping"></i>
+            </span>
+            <br>
+            <span class='label'>shopping</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-shower"></i>
+            </span>
+            <br>
+            <span class='label'>shower</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-skateboard"></i>
+            </span>
+            <br>
+            <span class='label'>skateboard</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-soccer"></i>
+            </span>
+            <br>
+            <span class='label'>soccer</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-sport_practice"></i>
+            </span>
+            <br>
+            <span class='label'>sport_practice</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-sports_centre"></i>
+            </span>
+            <br>
+            <span class='label'>sports_centre</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-sports"></i>
+            </span>
+            <br>
+            <span class='label'>sports</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-spring"></i>
+            </span>
+            <br>
+            <span class='label'>spring</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-squash"></i>
+            </span>
+            <br>
+            <span class='label'>squash</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-stadium"></i>
+            </span>
+            <br>
+            <span class='label'>stadium</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-station"></i>
+            </span>
+            <br>
+            <span class='label'>station</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-stationery"></i>
+            </span>
+            <br>
+            <span class='label'>stationery</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-stile"></i>
+            </span>
+            <br>
+            <span class='label'>stile</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-subway_entrance"></i>
+            </span>
+            <br>
+            <span class='label'>subway_entrance</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-supermarket"></i>
+            </span>
+            <br>
+            <span class='label'>supermarket</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-surf_school"></i>
+            </span>
+            <br>
+            <span class='label'>surf_school</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-surf"></i>
+            </span>
+            <br>
+            <span class='label'>surf</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-surfing"></i>
+            </span>
+            <br>
+            <span class='label'>surfing</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-swimming_area"></i>
+            </span>
+            <br>
+            <span class='label'>swimming_area</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-swimming_centre"></i>
+            </span>
+            <br>
+            <span class='label'>swimming_centre</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-swimming_pool"></i>
+            </span>
+            <br>
+            <span class='label'>swimming_pool</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-swimming"></i>
+            </span>
+            <br>
+            <span class='label'>swimming</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-table_soccer"></i>
+            </span>
+            <br>
+            <span class='label'>table_soccer</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-table_tennis"></i>
+            </span>
+            <br>
+            <span class='label'>table_tennis</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-tailor"></i>
+            </span>
+            <br>
+            <span class='label'>tailor</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-tattoo"></i>
+            </span>
+            <br>
+            <span class='label'>tattoo</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-taxi"></i>
+            </span>
+            <br>
+            <span class='label'>taxi</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-telephone"></i>
+            </span>
+            <br>
+            <span class='label'>telephone</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-tennis"></i>
+            </span>
+            <br>
+            <span class='label'>tennis</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-theatre"></i>
+            </span>
+            <br>
+            <span class='label'>theatre</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-theme_park"></i>
+            </span>
+            <br>
+            <span class='label'>theme_park</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-ticket"></i>
+            </span>
+            <br>
+            <span class='label'>ticket</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-tobacco"></i>
+            </span>
+            <br>
+            <span class='label'>tobacco</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-toilets"></i>
+            </span>
+            <br>
+            <span class='label'>toilets</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-toll_booth"></i>
+            </span>
+            <br>
+            <span class='label'>toll_booth</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-tower"></i>
+            </span>
+            <br>
+            <span class='label'>tower</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-townhall"></i>
+            </span>
+            <br>
+            <span class='label'>townhall</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-toys"></i>
+            </span>
+            <br>
+            <span class='label'>toys</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-tram_stop"></i>
+            </span>
+            <br>
+            <span class='label'>tram_stop</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-travel_agency"></i>
+            </span>
+            <br>
+            <span class='label'>travel_agency</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-trinquete"></i>
+            </span>
+            <br>
+            <span class='label'>trinquete</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-university"></i>
+            </span>
+            <br>
+            <span class='label'>university</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-vending_machine"></i>
+            </span>
+            <br>
+            <span class='label'>vending_machine</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-veterinary"></i>
+            </span>
+            <br>
+            <span class='label'>veterinary</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-video_games"></i>
+            </span>
+            <br>
+            <span class='label'>video_games</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-video"></i>
+            </span>
+            <br>
+            <span class='label'>video</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-viewpoint"></i>
+            </span>
+            <br>
+            <span class='label'>viewpoint</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-volleyball"></i>
+            </span>
+            <br>
+            <span class='label'>volleyball</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-waste_basket"></i>
+            </span>
+            <br>
+            <span class='label'>waste_basket</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-waste_disposal"></i>
+            </span>
+            <br>
+            <span class='label'>waste_disposal</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-watches"></i>
+            </span>
+            <br>
+            <span class='label'>watches</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-water_park"></i>
+            </span>
+            <br>
+            <span class='label'>water_park</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-water_rescue_station"></i>
+            </span>
+            <br>
+            <span class='label'>water_rescue_station</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-water_ski"></i>
+            </span>
+            <br>
+            <span class='label'>water_ski</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-waterfall"></i>
+            </span>
+            <br>
+            <span class='label'>waterfall</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-wayside_cross"></i>
+            </span>
+            <br>
+            <span class='label'>wayside_cross</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-wayside_shrine"></i>
+            </span>
+            <br>
+            <span class='label'>wayside_shrine</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-weapons"></i>
+            </span>
+            <br>
+            <span class='label'>weapons</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-wholesale"></i>
+            </span>
+            <br>
+            <span class='label'>wholesale</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-wilderness_hut"></i>
+            </span>
+            <br>
+            <span class='label'>wilderness_hut</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-wildlife_hide"></i>
+            </span>
+            <br>
+            <span class='label'>wildlife_hide</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-winery"></i>
+            </span>
+            <br>
+            <span class='label'>winery</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-winter_sports"></i>
+            </span>
+            <br>
+            <span class='label'>winter_sports</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-yoga"></i>
+            </span>
+            <br>
+            <span class='label'>yoga</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="teritorio teritorio-zoo"></i>
+            </span>
+            <br>
+            <span class='label'>zoo</span>
+        </div>
+
+
+</body>
+</html>

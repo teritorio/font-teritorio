@@ -2,7 +2,7 @@
 
 set -e
 
-cd icones:pictos:vectoriel
+cd icones:pictos:vectoriel_flat
 find . -name "*.svg" | while read ico; do
   echo "$ico"
   OUT=${ico#.\/}

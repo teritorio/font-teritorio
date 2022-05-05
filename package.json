@@ -1,11 +1,11 @@
 {
-  "name": "@teritorio/font-teritorio-tourism",
-  "version": "1.14.0",
-  "description": "Self-host the Teritorio Tourism Font a neatly bundled NPM package.",
-  "main": "teritorio-tourism/icon.css",
+  "name": "@teritorio/font-teritorio",
+  "version": "1.12.0",
+  "description": "Self-host the Teritorio Map Font a neatly bundled NPM package.",
+  "main": "teritorio/icon.css",
   "files": [
     "LICENSE.md",
-    "teritorio-tourism/*"
+    "teritorio/*"
   ],
   "publishConfig": {
     "access": "public"
@@ -15,14 +15,14 @@
     "font",
     "font family",
     "teritorio",
-    "tourism"
+    "map"
   ],
   "author": "Marie Lemasson <m.lemasson@teritorio.fr>",
   "license": "OFL-1.1",
-  "homepage": "https://github.com/teritorio/font-teritorio-tourism",
+  "homepage": "https://github.com/teritorio/font-teritorio",
   "repository": {
     "type": "git",
-    "url": "https://github.com/teritorio/font-teritorio-tourism.git"
+    "url": "https://github.com/teritorio/font-teritorio.git"
   },
   "devDependencies": {
     "fantasticon": "^1.2.2"

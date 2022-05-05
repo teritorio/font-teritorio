@@ -1,5 +1,5 @@
 Copyright (c) 2021, Marie Lemasson (m.lemasson@teritorio.fr),
-with Reserved Font Name Teritorio Tourism.
+with Reserved Font Name Teritorio Map.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 

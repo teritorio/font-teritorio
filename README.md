@@ -1,6 +1,6 @@
-# Teritorio Tourism Font
+# Font Teritorio Map
 
-An icon font set about tourism by [Teritorio](teritorio.fr).
+A map icon font set by [Teritorio](teritorio.fr).
 
 ## Build
 

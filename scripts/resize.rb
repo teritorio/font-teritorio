@@ -14,7 +14,11 @@ t[:viewBox] = '0 0 11 11'
 
 w = (11.0 - w) / 2
 h = (11.0 - h) / 2
-g = svg.elements[0]
-g[:transform] = "translate(#{w}, #{h})"
+
+g = doc.create_element('g', transform: "translate(#{w}, #{h})")
+t.elements.each{ |c|
+  g.add_child(c)
+}
+svg.add_child(g)
 
 puts doc.to_xml

@@ -1,6 +1,6 @@
 {
   "name": "@teritorio/font-teritorio",
-  "version": "1.12.0",
+  "version": "2.0.0",
   "description": "Self-host the Teritorio Map Font a neatly bundled NPM package.",
   "main": "teritorio/icon.css",
   "files": [

@@ -6,8 +6,8 @@ svg = doc.root
 # puts doc.elements[0]
 
 t = doc.root
-w = t[:width].to_i
-h = t[:height].to_i
+w = t[:width].to_f
+h = t[:height].to_f
 t[:width] = '11px'
 t[:height] = '11px'
 t[:viewBox] = '0 0 11 11'

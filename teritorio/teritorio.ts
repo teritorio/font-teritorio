@@ -4,6 +4,7 @@ export type TeritorioId =
   | "aerodrome"
   | "agrarian"
   | "alcohol"
+  | "allotments"
   | "alpine_hut"
   | "amenity"
   | "animal_boarding"
@@ -30,6 +31,7 @@ export type TeritorioId =
   | "beach_resort"
   | "beach"
   | "beachvolleyball"
+  | "beauty"
   | "bed"
   | "beekeeper"
   | "bench"
@@ -57,11 +59,13 @@ export type TeritorioId =
   | "cafe"
   | "camera"
   | "camp_site"
+  | "cannabis"
   | "canoe"
   | "car_parts"
   | "car_pooling"
   | "car_rental"
   | "car_repair"
+  | "car_wash"
   | "car"
   | "caravan_site"
   | "carpet"
@@ -74,6 +78,7 @@ export type TeritorioId =
   | "cave_entrance"
   | "cemetery"
   | "chalet"
+  | "chamber"
   | "chapel"
   | "charging_station"
   | "charity"
@@ -89,6 +94,7 @@ export type TeritorioId =
   | "climbing_adventure"
   | "climbing"
   | "clinic"
+  | "clothes_underwear"
   | "clothes"
   | "coffee"
   | "college"
@@ -121,22 +127,24 @@ export type TeritorioId =
   | "dressmaker"
   | "drinking_water"
   | "dry_cleaning"
+  | "education_erea"
+  | "education_mfr"
+  | "education_segpa"
   | "education"
   | "elderly_nursing_home"
   | "electronics"
   | "embassy"
+  | "employment_agency"
   | "erotic"
   | "estate_agent"
   | "extra-abbey"
   | "extra-aeroport"
-  | "extra-aesthetic"
   | "extra-ambassador"
   | "extra-apple"
   | "extra-balneotherapy"
   | "extra-bicycle_repair"
   | "extra-bike_ride"
   | "extra-bungee_jumping"
-  | "extra-cannabis"
   | "extra-cannery_maker_prestige"
   | "extra-cannery_maker"
   | "extra-canyoning"
@@ -147,7 +155,10 @@ export type TeritorioId =
   | "extra-disabled"
   | "extra-dog_allowed"
   | "extra-drive"
-  | "extra-equipment_rental"
+  | "extra-education_BTS_IUT_BUT"
+  | "extra-education_CFA"
+  | "extra-education_college"
+  | "extra-entrepreneurship_services"
   | "extra-escape_game"
   | "extra-family"
   | "extra-ferme_decouverte"
@@ -165,18 +176,16 @@ export type TeritorioId =
   | "extra-hiking_forest"
   | "extra-hiking"
   | "extra-holy_well"
-  | "extra-house_painter"
   | "extra-industrial_warehouse"
-  | "extra-joiner"
   | "extra-kitchen_designer"
   | "extra-laboratory"
+  | "extra-lake"
   | "extra-leaf"
   | "extra-leisure_supply"
   | "extra-local_authority"
   | "extra-local_shop_prestige"
   | "extra-lost_property"
   | "extra-major_projects"
-  | "extra-medical_supply"
   | "extra-motorway"
   | "extra-mountain_bike"
   | "extra-multimedia_library"
@@ -199,12 +208,13 @@ export type TeritorioId =
   | "extra-restaurant_prestige"
   | "extra-restricted"
   | "extra-roadworks"
-  | "extra-shared_garden"
   | "extra-speleology"
   | "extra-sports_and_leisures"
   | "extra-spot_surf"
   | "extra-strawberry"
   | "extra-surfhouses"
+  | "extra-tasting"
+  | "extra-technopolis_incubator"
   | "extra-terra_aventura"
   | "extra-thermal_establishment"
   | "extra-thermal_station"
@@ -216,6 +226,7 @@ export type TeritorioId =
   | "extra-unusual_accommodation"
   | "extra-usefull"
   | "extra-vineyard"
+  | "extra-waste-pipe"
   | "extra-water_sports"
   | "extra-water_tour"
   | "extra-whelk"
@@ -264,12 +275,14 @@ export type TeritorioId =
   | "hostel"
   | "hosting"
   | "hotel"
+  | "household_linen"
   | "ice_cream"
   | "ice_hockey"
   | "ice_rink"
   | "interior_decoration"
   | "jeweller"
   | "jewelry"
+  | "joiner"
   | "juvenile_youth_centre"
   | "karting"
   | "kindergarten"
@@ -286,12 +299,15 @@ export type TeritorioId =
   | "lighthouse_minor"
   | "lighthouse"
   | "local_shop"
+  | "locksmith"
   | "lower_secondary_education"
   | "luthier"
   | "mall"
   | "marina"
   | "marketplace"
   | "massage"
+  | "maze"
+  | "medical_supply"
   | "memorial"
   | "miniature_golf"
   | "mobile_phone"
@@ -322,6 +338,7 @@ export type TeritorioId =
   | "outdoor"
   | "paddle_tennis"
   | "paintball"
+  | "painter"
   | "park"
   | "parking"
   | "pastry"
@@ -355,6 +372,7 @@ export type TeritorioId =
   | "racquet"
   | "recycling_centre"
   | "remarkable"
+  | "rental"
   | "resort"
   | "restaurant"
   | "retail"
@@ -412,6 +430,7 @@ export type TeritorioId =
   | "theatre"
   | "theme_park"
   | "ticket"
+  | "tiler"
   | "tobacco"
   | "toilets"
   | "toll_booth"
@@ -425,6 +444,7 @@ export type TeritorioId =
   | "trinquete"
   | "university"
   | "upper_secondary_education"
+  | "vending_machine_pizza"
   | "vending_machine"
   | "veterinary"
   | "video_games"
@@ -455,6 +475,7 @@ export type TeritorioKey =
   | "Aerodrome"
   | "Agrarian"
   | "Alcohol"
+  | "Allotments"
   | "AlpineHut"
   | "Amenity"
   | "AnimalBoarding"
@@ -481,6 +502,7 @@ export type TeritorioKey =
   | "BeachResort"
   | "Beach"
   | "Beachvolleyball"
+  | "Beauty"
   | "Bed"
   | "Beekeeper"
   | "Bench"
@@ -508,11 +530,13 @@ export type TeritorioKey =
   | "Cafe"
   | "Camera"
   | "CampSite"
+  | "Cannabis"
   | "Canoe"
   | "CarParts"
   | "CarPooling"
   | "CarRental"
   | "CarRepair"
+  | "CarWash"
   | "Car"
   | "CaravanSite"
   | "Carpet"
@@ -525,6 +549,7 @@ export type TeritorioKey =
   | "CaveEntrance"
   | "Cemetery"
   | "Chalet"
+  | "Chamber"
   | "Chapel"
   | "ChargingStation"
   | "Charity"
@@ -540,6 +565,7 @@ export type TeritorioKey =
   | "ClimbingAdventure"
   | "Climbing"
   | "Clinic"
+  | "ClothesUnderwear"
   | "Clothes"
   | "Coffee"
   | "College"
@@ -572,22 +598,24 @@ export type TeritorioKey =
   | "Dressmaker"
   | "DrinkingWater"
   | "DryCleaning"
+  | "EducationErea"
+  | "EducationMfr"
+  | "EducationSegpa"
   | "Education"
   | "ElderlyNursingHome"
   | "Electronics"
   | "Embassy"
+  | "EmploymentAgency"
   | "Erotic"
   | "EstateAgent"
   | "ExtraAbbey"
   | "ExtraAeroport"
-  | "ExtraAesthetic"
   | "ExtraAmbassador"
   | "ExtraApple"
   | "ExtraBalneotherapy"
   | "ExtraBicycleRepair"
   | "ExtraBikeRide"
   | "ExtraBungeeJumping"
-  | "ExtraCannabis"
   | "ExtraCanneryMakerPrestige"
   | "ExtraCanneryMaker"
   | "ExtraCanyoning"
@@ -598,7 +626,10 @@ export type TeritorioKey =
   | "ExtraDisabled"
   | "ExtraDogAllowed"
   | "ExtraDrive"
-  | "ExtraEquipmentRental"
+  | "ExtraEducationBtsIutBut"
+  | "ExtraEducationCfa"
+  | "ExtraEducationCollege"
+  | "ExtraEntrepreneurshipServices"
   | "ExtraEscapeGame"
   | "ExtraFamily"
   | "ExtraFermeDecouverte"
@@ -616,18 +647,16 @@ export type TeritorioKey =
   | "ExtraHikingForest"
   | "ExtraHiking"
   | "ExtraHolyWell"
-  | "ExtraHousePainter"
   | "ExtraIndustrialWarehouse"
-  | "ExtraJoiner"
   | "ExtraKitchenDesigner"
   | "ExtraLaboratory"
+  | "ExtraLake"
   | "ExtraLeaf"
   | "ExtraLeisureSupply"
   | "ExtraLocalAuthority"
   | "ExtraLocalShopPrestige"
   | "ExtraLostProperty"
   | "ExtraMajorProjects"
-  | "ExtraMedicalSupply"
   | "ExtraMotorway"
   | "ExtraMountainBike"
   | "ExtraMultimediaLibrary"
@@ -650,12 +679,13 @@ export type TeritorioKey =
   | "ExtraRestaurantPrestige"
   | "ExtraRestricted"
   | "ExtraRoadworks"
-  | "ExtraSharedGarden"
   | "ExtraSpeleology"
   | "ExtraSportsAndLeisures"
   | "ExtraSpotSurf"
   | "ExtraStrawberry"
   | "ExtraSurfhouses"
+  | "ExtraTasting"
+  | "ExtraTechnopolisIncubator"
   | "ExtraTerraAventura"
   | "ExtraThermalEstablishment"
   | "ExtraThermalStation"
@@ -667,6 +697,7 @@ export type TeritorioKey =
   | "ExtraUnusualAccommodation"
   | "ExtraUsefull"
   | "ExtraVineyard"
+  | "ExtraWastePipe"
   | "ExtraWaterSports"
   | "ExtraWaterTour"
   | "ExtraWhelk"
@@ -715,12 +746,14 @@ export type TeritorioKey =
   | "Hostel"
   | "Hosting"
   | "Hotel"
+  | "HouseholdLinen"
   | "IceCream"
   | "IceHockey"
   | "IceRink"
   | "InteriorDecoration"
   | "Jeweller"
   | "Jewelry"
+  | "Joiner"
   | "JuvenileYouthCentre"
   | "Karting"
   | "Kindergarten"
@@ -737,12 +770,15 @@ export type TeritorioKey =
   | "LighthouseMinor"
   | "Lighthouse"
   | "LocalShop"
+  | "Locksmith"
   | "LowerSecondaryEducation"
   | "Luthier"
   | "Mall"
   | "Marina"
   | "Marketplace"
   | "Massage"
+  | "Maze"
+  | "MedicalSupply"
   | "Memorial"
   | "MiniatureGolf"
   | "MobilePhone"
@@ -773,6 +809,7 @@ export type TeritorioKey =
   | "Outdoor"
   | "PaddleTennis"
   | "Paintball"
+  | "Painter"
   | "Park"
   | "Parking"
   | "Pastry"
@@ -806,6 +843,7 @@ export type TeritorioKey =
   | "Racquet"
   | "RecyclingCentre"
   | "Remarkable"
+  | "Rental"
   | "Resort"
   | "Restaurant"
   | "Retail"
@@ -863,6 +901,7 @@ export type TeritorioKey =
   | "Theatre"
   | "ThemePark"
   | "Ticket"
+  | "Tiler"
   | "Tobacco"
   | "Toilets"
   | "TollBooth"
@@ -876,6 +915,7 @@ export type TeritorioKey =
   | "Trinquete"
   | "University"
   | "UpperSecondaryEducation"
+  | "VendingMachinePizza"
   | "VendingMachine"
   | "Veterinary"
   | "VideoGames"
@@ -906,6 +946,7 @@ export enum Teritorio {
   Aerodrome = "aerodrome",
   Agrarian = "agrarian",
   Alcohol = "alcohol",
+  Allotments = "allotments",
   AlpineHut = "alpine_hut",
   Amenity = "amenity",
   AnimalBoarding = "animal_boarding",
@@ -932,6 +973,7 @@ export enum Teritorio {
   BeachResort = "beach_resort",
   Beach = "beach",
   Beachvolleyball = "beachvolleyball",
+  Beauty = "beauty",
   Bed = "bed",
   Beekeeper = "beekeeper",
   Bench = "bench",
@@ -959,11 +1001,13 @@ export enum Teritorio {
   Cafe = "cafe",
   Camera = "camera",
   CampSite = "camp_site",
+  Cannabis = "cannabis",
   Canoe = "canoe",
   CarParts = "car_parts",
   CarPooling = "car_pooling",
   CarRental = "car_rental",
   CarRepair = "car_repair",
+  CarWash = "car_wash",
   Car = "car",
   CaravanSite = "caravan_site",
   Carpet = "carpet",
@@ -976,6 +1020,7 @@ export enum Teritorio {
   CaveEntrance = "cave_entrance",
   Cemetery = "cemetery",
   Chalet = "chalet",
+  Chamber = "chamber",
   Chapel = "chapel",
   ChargingStation = "charging_station",
   Charity = "charity",
@@ -991,6 +1036,7 @@ export enum Teritorio {
   ClimbingAdventure = "climbing_adventure",
   Climbing = "climbing",
   Clinic = "clinic",
+  ClothesUnderwear = "clothes_underwear",
   Clothes = "clothes",
   Coffee = "coffee",
   College = "college",
@@ -1023,22 +1069,24 @@ export enum Teritorio {
   Dressmaker = "dressmaker",
   DrinkingWater = "drinking_water",
   DryCleaning = "dry_cleaning",
+  EducationErea = "education_erea",
+  EducationMfr = "education_mfr",
+  EducationSegpa = "education_segpa",
   Education = "education",
   ElderlyNursingHome = "elderly_nursing_home",
   Electronics = "electronics",
   Embassy = "embassy",
+  EmploymentAgency = "employment_agency",
   Erotic = "erotic",
   EstateAgent = "estate_agent",
   ExtraAbbey = "extra-abbey",
   ExtraAeroport = "extra-aeroport",
-  ExtraAesthetic = "extra-aesthetic",
   ExtraAmbassador = "extra-ambassador",
   ExtraApple = "extra-apple",
   ExtraBalneotherapy = "extra-balneotherapy",
   ExtraBicycleRepair = "extra-bicycle_repair",
   ExtraBikeRide = "extra-bike_ride",
   ExtraBungeeJumping = "extra-bungee_jumping",
-  ExtraCannabis = "extra-cannabis",
   ExtraCanneryMakerPrestige = "extra-cannery_maker_prestige",
   ExtraCanneryMaker = "extra-cannery_maker",
   ExtraCanyoning = "extra-canyoning",
@@ -1049,7 +1097,10 @@ export enum Teritorio {
   ExtraDisabled = "extra-disabled",
   ExtraDogAllowed = "extra-dog_allowed",
   ExtraDrive = "extra-drive",
-  ExtraEquipmentRental = "extra-equipment_rental",
+  ExtraEducationBtsIutBut = "extra-education_BTS_IUT_BUT",
+  ExtraEducationCfa = "extra-education_CFA",
+  ExtraEducationCollege = "extra-education_college",
+  ExtraEntrepreneurshipServices = "extra-entrepreneurship_services",
   ExtraEscapeGame = "extra-escape_game",
   ExtraFamily = "extra-family",
   ExtraFermeDecouverte = "extra-ferme_decouverte",
@@ -1067,18 +1118,16 @@ export enum Teritorio {
   ExtraHikingForest = "extra-hiking_forest",
   ExtraHiking = "extra-hiking",
   ExtraHolyWell = "extra-holy_well",
-  ExtraHousePainter = "extra-house_painter",
   ExtraIndustrialWarehouse = "extra-industrial_warehouse",
-  ExtraJoiner = "extra-joiner",
   ExtraKitchenDesigner = "extra-kitchen_designer",
   ExtraLaboratory = "extra-laboratory",
+  ExtraLake = "extra-lake",
   ExtraLeaf = "extra-leaf",
   ExtraLeisureSupply = "extra-leisure_supply",
   ExtraLocalAuthority = "extra-local_authority",
   ExtraLocalShopPrestige = "extra-local_shop_prestige",
   ExtraLostProperty = "extra-lost_property",
   ExtraMajorProjects = "extra-major_projects",
-  ExtraMedicalSupply = "extra-medical_supply",
   ExtraMotorway = "extra-motorway",
   ExtraMountainBike = "extra-mountain_bike",
   ExtraMultimediaLibrary = "extra-multimedia_library",
@@ -1101,12 +1150,13 @@ export enum Teritorio {
   ExtraRestaurantPrestige = "extra-restaurant_prestige",
   ExtraRestricted = "extra-restricted",
   ExtraRoadworks = "extra-roadworks",
-  ExtraSharedGarden = "extra-shared_garden",
   ExtraSpeleology = "extra-speleology",
   ExtraSportsAndLeisures = "extra-sports_and_leisures",
   ExtraSpotSurf = "extra-spot_surf",
   ExtraStrawberry = "extra-strawberry",
   ExtraSurfhouses = "extra-surfhouses",
+  ExtraTasting = "extra-tasting",
+  ExtraTechnopolisIncubator = "extra-technopolis_incubator",
   ExtraTerraAventura = "extra-terra_aventura",
   ExtraThermalEstablishment = "extra-thermal_establishment",
   ExtraThermalStation = "extra-thermal_station",
@@ -1118,6 +1168,7 @@ export enum Teritorio {
   ExtraUnusualAccommodation = "extra-unusual_accommodation",
   ExtraUsefull = "extra-usefull",
   ExtraVineyard = "extra-vineyard",
+  ExtraWastePipe = "extra-waste-pipe",
   ExtraWaterSports = "extra-water_sports",
   ExtraWaterTour = "extra-water_tour",
   ExtraWhelk = "extra-whelk",
@@ -1166,12 +1217,14 @@ export enum Teritorio {
   Hostel = "hostel",
   Hosting = "hosting",
   Hotel = "hotel",
+  HouseholdLinen = "household_linen",
   IceCream = "ice_cream",
   IceHockey = "ice_hockey",
   IceRink = "ice_rink",
   InteriorDecoration = "interior_decoration",
   Jeweller = "jeweller",
   Jewelry = "jewelry",
+  Joiner = "joiner",
   JuvenileYouthCentre = "juvenile_youth_centre",
   Karting = "karting",
   Kindergarten = "kindergarten",
@@ -1188,12 +1241,15 @@ export enum Teritorio {
   LighthouseMinor = "lighthouse_minor",
   Lighthouse = "lighthouse",
   LocalShop = "local_shop",
+  Locksmith = "locksmith",
   LowerSecondaryEducation = "lower_secondary_education",
   Luthier = "luthier",
   Mall = "mall",
   Marina = "marina",
   Marketplace = "marketplace",
   Massage = "massage",
+  Maze = "maze",
+  MedicalSupply = "medical_supply",
   Memorial = "memorial",
   MiniatureGolf = "miniature_golf",
   MobilePhone = "mobile_phone",
@@ -1224,6 +1280,7 @@ export enum Teritorio {
   Outdoor = "outdoor",
   PaddleTennis = "paddle_tennis",
   Paintball = "paintball",
+  Painter = "painter",
   Park = "park",
   Parking = "parking",
   Pastry = "pastry",
@@ -1257,6 +1314,7 @@ export enum Teritorio {
   Racquet = "racquet",
   RecyclingCentre = "recycling_centre",
   Remarkable = "remarkable",
+  Rental = "rental",
   Resort = "resort",
   Restaurant = "restaurant",
   Retail = "retail",
@@ -1314,6 +1372,7 @@ export enum Teritorio {
   Theatre = "theatre",
   ThemePark = "theme_park",
   Ticket = "ticket",
+  Tiler = "tiler",
   Tobacco = "tobacco",
   Toilets = "toilets",
   TollBooth = "toll_booth",
@@ -1327,6 +1386,7 @@ export enum Teritorio {
   Trinquete = "trinquete",
   University = "university",
   UpperSecondaryEducation = "upper_secondary_education",
+  VendingMachinePizza = "vending_machine_pizza",
   VendingMachine = "vending_machine",
   Veterinary = "veterinary",
   VideoGames = "video_games",
@@ -1358,448 +1418,468 @@ export const TERITORIO_CODEPOINTS: { [key in Teritorio]: string } = {
   [Teritorio.Aerodrome]: "61699",
   [Teritorio.Agrarian]: "61700",
   [Teritorio.Alcohol]: "61701",
-  [Teritorio.AlpineHut]: "61702",
-  [Teritorio.Amenity]: "61703",
-  [Teritorio.AnimalBoarding]: "61704",
-  [Teritorio.AnimalShelter]: "61705",
-  [Teritorio.Antiques]: "61706",
-  [Teritorio.ApartmentRental]: "61707",
-  [Teritorio.ApartmentResort]: "61708",
-  [Teritorio.Aquarium]: "61709",
-  [Teritorio.ArchaeologicalSite]: "61710",
-  [Teritorio.Art]: "61711",
-  [Teritorio.ArtsCentre]: "61712",
-  [Teritorio.Artwork]: "61713",
-  [Teritorio.Athletics]: "61714",
-  [Teritorio.Atm]: "61715",
-  [Teritorio.Attraction]: "61716",
-  [Teritorio.Badminton]: "61717",
-  [Teritorio.Bag]: "61718",
-  [Teritorio.Bakery]: "61719",
-  [Teritorio.Bank]: "61720",
-  [Teritorio.Bar]: "61721",
-  [Teritorio.BasketMaker]: "61722",
-  [Teritorio.Basketball]: "61723",
-  [Teritorio.Bbq]: "61724",
-  [Teritorio.BeachResort]: "61725",
-  [Teritorio.Beach]: "61726",
-  [Teritorio.Beachvolleyball]: "61727",
-  [Teritorio.Bed]: "61728",
-  [Teritorio.Beekeeper]: "61729",
-  [Teritorio.Bench]: "61730",
-  [Teritorio.Beverages]: "61731",
-  [Teritorio.BicycleDockingStation]: "61732",
-  [Teritorio.BicycleParking]: "61733",
-  [Teritorio.BicycleRental]: "61734",
-  [Teritorio.BicycleShop]: "61735",
-  [Teritorio.Billiards]: "61736",
-  [Teritorio.BirdHide]: "61737",
-  [Teritorio.Bmx]: "61738",
-  [Teritorio.BoardMap]: "61739",
-  [Teritorio.Books]: "61740",
-  [Teritorio.BorderControl]: "61741",
-  [Teritorio.Boules]: "61742",
-  [Teritorio.Boutique]: "61743",
-  [Teritorio.BowlingAlley]: "61744",
-  [Teritorio.Brewery]: "61745",
-  [Teritorio.Brownfield]: "61746",
-  [Teritorio.Bullfighting]: "61747",
-  [Teritorio.Bullring]: "61748",
-  [Teritorio.BusStation]: "61749",
-  [Teritorio.BusStop]: "61750",
-  [Teritorio.Butcher]: "61751",
-  [Teritorio.Cafe]: "61752",
-  [Teritorio.Camera]: "61753",
-  [Teritorio.CampSite]: "61754",
-  [Teritorio.Canoe]: "61755",
-  [Teritorio.CarParts]: "61756",
-  [Teritorio.CarPooling]: "61757",
-  [Teritorio.CarRental]: "61758",
-  [Teritorio.CarRepair]: "61759",
-  [Teritorio.Car]: "61760",
-  [Teritorio.CaravanSite]: "61761",
-  [Teritorio.Carpet]: "61762",
-  [Teritorio.Casino]: "61763",
-  [Teritorio.CastleWall]: "61764",
-  [Teritorio.Castle]: "61765",
-  [Teritorio.Caterer]: "61766",
-  [Teritorio.Catering]: "61767",
-  [Teritorio.Cathedral]: "61768",
-  [Teritorio.CaveEntrance]: "61769",
-  [Teritorio.Cemetery]: "61770",
-  [Teritorio.Chalet]: "61771",
-  [Teritorio.Chapel]: "61772",
-  [Teritorio.ChargingStation]: "61773",
-  [Teritorio.Charity]: "61774",
-  [Teritorio.Cheese]: "61775",
-  [Teritorio.Chemist]: "61776",
-  [Teritorio.ChildYouthCentre]: "61777",
-  [Teritorio.Chocolate]: "61778",
-  [Teritorio.ChurchHeritage]: "61779",
-  [Teritorio.Church]: "61780",
-  [Teritorio.Cinema]: "61781",
-  [Teritorio.CityGate]: "61782",
-  [Teritorio.CityWall]: "61783",
-  [Teritorio.ClimbingAdventure]: "61784",
-  [Teritorio.Climbing]: "61785",
-  [Teritorio.Clinic]: "61786",
-  [Teritorio.Clothes]: "61787",
-  [Teritorio.Coffee]: "61788",
-  [Teritorio.College]: "61789",
-  [Teritorio.CommunityCentre]: "61790",
-  [Teritorio.CompressedAir]: "61791",
-  [Teritorio.Computer]: "61792",
-  [Teritorio.Confectionery]: "61793",
-  [Teritorio.Container]: "61794",
-  [Teritorio.Convenience]: "61795",
-  [Teritorio.Copyshop]: "61796",
-  [Teritorio.Cosmetics]: "61797",
-  [Teritorio.Courthouse]: "61798",
-  [Teritorio.CoworkingSpace]: "61799",
-  [Teritorio.Craft]: "61800",
-  [Teritorio.CultureShopping]: "61801",
-  [Teritorio.Culture]: "61802",
-  [Teritorio.CycleBarrier]: "61803",
-  [Teritorio.Cycling]: "61804",
-  [Teritorio.Defibrillator]: "61805",
-  [Teritorio.Deli]: "61806",
-  [Teritorio.Dentist]: "61807",
-  [Teritorio.DisabledHome]: "61808",
-  [Teritorio.Distillery]: "61809",
-  [Teritorio.Diving]: "61810",
-  [Teritorio.Dock]: "61811",
-  [Teritorio.Doctors]: "61812",
-  [Teritorio.DogExcrement]: "61813",
-  [Teritorio.Doityourself]: "61814",
-  [Teritorio.Dojo]: "61815",
-  [Teritorio.Dressmaker]: "61816",
-  [Teritorio.DrinkingWater]: "61817",
-  [Teritorio.DryCleaning]: "61818",
-  [Teritorio.Education]: "61819",
-  [Teritorio.ElderlyNursingHome]: "61820",
-  [Teritorio.Electronics]: "61821",
-  [Teritorio.Embassy]: "61822",
-  [Teritorio.Erotic]: "61823",
-  [Teritorio.EstateAgent]: "61824",
-  [Teritorio.ExtraAbbey]: "61825",
-  [Teritorio.ExtraAeroport]: "61826",
-  [Teritorio.ExtraAesthetic]: "61827",
-  [Teritorio.ExtraAmbassador]: "61828",
-  [Teritorio.ExtraApple]: "61829",
-  [Teritorio.ExtraBalneotherapy]: "61830",
-  [Teritorio.ExtraBicycleRepair]: "61831",
-  [Teritorio.ExtraBikeRide]: "61832",
-  [Teritorio.ExtraBungeeJumping]: "61833",
-  [Teritorio.ExtraCannabis]: "61834",
-  [Teritorio.ExtraCanneryMakerPrestige]: "61835",
-  [Teritorio.ExtraCanneryMaker]: "61836",
-  [Teritorio.ExtraCanyoning]: "61837",
-  [Teritorio.ExtraCity]: "61838",
-  [Teritorio.ExtraCraftPrestige]: "61839",
-  [Teritorio.ExtraCraft]: "61840",
-  [Teritorio.ExtraDelivery]: "61841",
-  [Teritorio.ExtraDisabled]: "61842",
-  [Teritorio.ExtraDogAllowed]: "61843",
-  [Teritorio.ExtraDrive]: "61844",
-  [Teritorio.ExtraEquipmentRental]: "61845",
-  [Teritorio.ExtraEscapeGame]: "61846",
-  [Teritorio.ExtraFamily]: "61847",
-  [Teritorio.ExtraFermeDecouverte]: "61848",
-  [Teritorio.ExtraFishMarket]: "61849",
-  [Teritorio.ExtraFlowerVillage]: "61850",
-  [Teritorio.ExtraFoodTruck]: "61851",
-  [Teritorio.ExtraFood]: "61852",
-  [Teritorio.ExtraFranceServices]: "61853",
-  [Teritorio.ExtraGanaderia]: "61854",
-  [Teritorio.ExtraGivingBox]: "61855",
-  [Teritorio.ExtraGolf]: "61856",
-  [Teritorio.ExtraGuidedHikes]: "61857",
-  [Teritorio.ExtraGuidedTour]: "61858",
-  [Teritorio.ExtraHikingBiking]: "61859",
-  [Teritorio.ExtraHikingForest]: "61860",
-  [Teritorio.ExtraHiking]: "61861",
-  [Teritorio.ExtraHolyWell]: "61862",
-  [Teritorio.ExtraHousePainter]: "61863",
-  [Teritorio.ExtraIndustrialWarehouse]: "61864",
-  [Teritorio.ExtraJoiner]: "61865",
-  [Teritorio.ExtraKitchenDesigner]: "61866",
-  [Teritorio.ExtraLaboratory]: "61867",
-  [Teritorio.ExtraLeaf]: "61868",
-  [Teritorio.ExtraLeisureSupply]: "61869",
-  [Teritorio.ExtraLocalAuthority]: "61870",
-  [Teritorio.ExtraLocalShopPrestige]: "61871",
-  [Teritorio.ExtraLostProperty]: "61872",
-  [Teritorio.ExtraMajorProjects]: "61873",
-  [Teritorio.ExtraMedicalSupply]: "61874",
-  [Teritorio.ExtraMotorway]: "61875",
-  [Teritorio.ExtraMountainBike]: "61876",
-  [Teritorio.ExtraMultimediaLibrary]: "61877",
-  [Teritorio.ExtraNaturalSite]: "61878",
-  [Teritorio.ExtraNatureReserve]: "61879",
-  [Teritorio.ExtraNotary]: "61880",
-  [Teritorio.ExtraOffice]: "61881",
-  [Teritorio.ExtraOrganicStore]: "61882",
-  [Teritorio.ExtraOtherSports]: "61883",
-  [Teritorio.ExtraOysterHut]: "61884",
-  [Teritorio.ExtraPaddle]: "61885",
-  [Teritorio.ExtraPicnicPrestige]: "61886",
-  [Teritorio.ExtraPineForest]: "61887",
-  [Teritorio.ExtraPins]: "61888",
-  [Teritorio.ExtraPodiatrist]: "61889",
-  [Teritorio.ExtraPoint]: "61890",
-  [Teritorio.ExtraPollingStation]: "61891",
-  [Teritorio.ExtraRecycling]: "61892",
-  [Teritorio.ExtraReflexology]: "61893",
-  [Teritorio.ExtraRestaurantPrestige]: "61894",
-  [Teritorio.ExtraRestricted]: "61895",
-  [Teritorio.ExtraRoadworks]: "61896",
-  [Teritorio.ExtraSharedGarden]: "61897",
-  [Teritorio.ExtraSpeleology]: "61898",
-  [Teritorio.ExtraSportsAndLeisures]: "61899",
-  [Teritorio.ExtraSpotSurf]: "61900",
-  [Teritorio.ExtraStrawberry]: "61901",
-  [Teritorio.ExtraSurfhouses]: "61902",
-  [Teritorio.ExtraTerraAventura]: "61903",
-  [Teritorio.ExtraThermalEstablishment]: "61904",
-  [Teritorio.ExtraThermalStation]: "61905",
-  [Teritorio.ExtraToTakeAway]: "61906",
-  [Teritorio.ExtraTown]: "61907",
-  [Teritorio.ExtraTrip]: "61908",
-  [Teritorio.ExtraUnavoidable]: "61909",
-  [Teritorio.ExtraUnescoSite]: "61910",
-  [Teritorio.ExtraUnusualAccommodation]: "61911",
-  [Teritorio.ExtraUsefull]: "61912",
-  [Teritorio.ExtraVineyard]: "61913",
-  [Teritorio.ExtraWaterSports]: "61914",
-  [Teritorio.ExtraWaterTour]: "61915",
-  [Teritorio.ExtraWhelk]: "61916",
-  [Teritorio.ExtraWifi]: "61917",
-  [Teritorio.ExtraZipLine]: "61918",
-  [Teritorio.Fabric]: "61919",
-  [Teritorio.Farm]: "61920",
-  [Teritorio.FastFood]: "61921",
-  [Teritorio.FerryTerminal]: "61922",
-  [Teritorio.FireStation]: "61923",
-  [Teritorio.Firepit]: "61924",
-  [Teritorio.FishingShop]: "61925",
-  [Teritorio.Fishing]: "61926",
-  [Teritorio.FitnessCentre]: "61927",
-  [Teritorio.Florist]: "61928",
-  [Teritorio.FoodBank]: "61929",
-  [Teritorio.FoodCourt]: "61930",
-  [Teritorio.FreeFlying]: "61931",
-  [Teritorio.FrozenFood]: "61932",
-  [Teritorio.Fuel]: "61933",
-  [Teritorio.Furniture]: "61934",
-  [Teritorio.Futsal]: "61935",
-  [Teritorio.Gallery]: "61936",
-  [Teritorio.Garden]: "61937",
-  [Teritorio.General]: "61938",
-  [Teritorio.Gift]: "61939",
-  [Teritorio.GolfCourseMinor]: "61940",
-  [Teritorio.GolfCourse]: "61941",
-  [Teritorio.GraveYard]: "61942",
-  [Teritorio.Greengrocer]: "61943",
-  [Teritorio.GrindingMill]: "61944",
-  [Teritorio.GuestHouse]: "61945",
-  [Teritorio.Gymnastics]: "61946",
-  [Teritorio.Hairdresser]: "61947",
-  [Teritorio.Halt]: "61948",
-  [Teritorio.Handball]: "61949",
-  [Teritorio.Handicraft]: "61950",
-  [Teritorio.Hardware]: "61951",
-  [Teritorio.HealthcareCentre]: "61952",
-  [Teritorio.HearingAids]: "61953",
-  [Teritorio.Heritage]: "61954",
-  [Teritorio.Hifi]: "61955",
-  [Teritorio.HorseRacing]: "61956",
-  [Teritorio.HorseRiding]: "61957",
-  [Teritorio.Hospital]: "61958",
-  [Teritorio.Hostel]: "61959",
-  [Teritorio.Hosting]: "61960",
-  [Teritorio.Hotel]: "61961",
-  [Teritorio.IceCream]: "61962",
-  [Teritorio.IceHockey]: "61963",
-  [Teritorio.IceRink]: "61964",
-  [Teritorio.InteriorDecoration]: "61965",
-  [Teritorio.Jeweller]: "61966",
-  [Teritorio.Jewelry]: "61967",
-  [Teritorio.JuvenileYouthCentre]: "61968",
-  [Teritorio.Karting]: "61969",
-  [Teritorio.Kindergarten]: "61970",
-  [Teritorio.Kiosk]: "61971",
-  [Teritorio.Kitesurfing]: "61972",
-  [Teritorio.Lamps]: "61973",
-  [Teritorio.Laundry]: "61974",
-  [Teritorio.Lavoir]: "61975",
-  [Teritorio.Leather]: "61976",
-  [Teritorio.Leisure]: "61977",
-  [Teritorio.Library]: "61978",
-  [Teritorio.LifeRing]: "61979",
-  [Teritorio.LifeguardBase]: "61980",
-  [Teritorio.LighthouseMinor]: "61981",
-  [Teritorio.Lighthouse]: "61982",
-  [Teritorio.LocalShop]: "61983",
-  [Teritorio.LowerSecondaryEducation]: "61984",
-  [Teritorio.Luthier]: "61985",
-  [Teritorio.Mall]: "61986",
-  [Teritorio.Marina]: "61987",
-  [Teritorio.Marketplace]: "61988",
-  [Teritorio.Massage]: "61989",
-  [Teritorio.Memorial]: "61990",
-  [Teritorio.MiniatureGolf]: "61991",
-  [Teritorio.MobilePhone]: "61992",
-  [Teritorio.Mobility]: "61993",
-  [Teritorio.Monastery]: "61994",
-  [Teritorio.Monument]: "61995",
-  [Teritorio.Motel]: "61996",
-  [Teritorio.Motocross]: "61997",
-  [Teritorio.Motor]: "61998",
-  [Teritorio.MotorcycleParking]: "61999",
-  [Teritorio.MotorcycleRepair]: "62000",
-  [Teritorio.Motorcycle]: "62001",
-  [Teritorio.MotorwayJunction]: "62002",
-  [Teritorio.MountainPass]: "62003",
-  [Teritorio.MountainRescue]: "62004",
-  [Teritorio.Multi]: "62005",
-  [Teritorio.Museum]: "62006",
-  [Teritorio.Music]: "62007",
-  [Teritorio.MusicalInstrument]: "62008",
-  [Teritorio.Nature]: "62009",
-  [Teritorio.Newsagent]: "62010",
-  [Teritorio.Nightclub]: "62011",
-  [Teritorio.Nurse]: "62012",
-  [Teritorio.Office]: "62013",
-  [Teritorio.OilMill]: "62014",
-  [Teritorio.Optician]: "62015",
-  [Teritorio.Orienteering]: "62016",
-  [Teritorio.Outdoor]: "62017",
-  [Teritorio.PaddleTennis]: "62018",
-  [Teritorio.Paintball]: "62019",
-  [Teritorio.Park]: "62020",
-  [Teritorio.Parking]: "62021",
-  [Teritorio.Pastry]: "62022",
-  [Teritorio.Pelota]: "62023",
-  [Teritorio.Perfume]: "62024",
-  [Teritorio.Perfumery]: "62025",
-  [Teritorio.PetGrooming]: "62026",
-  [Teritorio.Pet]: "62027",
-  [Teritorio.Pharmacy]: "62028",
-  [Teritorio.Photo]: "62029",
-  [Teritorio.Photographer]: "62030",
-  [Teritorio.Physiotherapist]: "62031",
-  [Teritorio.PicnicSite]: "62032",
-  [Teritorio.PicnicTable]: "62033",
-  [Teritorio.Pitch]: "62034",
-  [Teritorio.PlaceOfWorship]: "62035",
-  [Teritorio.Playground]: "62036",
-  [Teritorio.Police]: "62037",
-  [Teritorio.PollingStation]: "62038",
-  [Teritorio.PostBox]: "62039",
-  [Teritorio.PostOffice]: "62040",
-  [Teritorio.Pottery]: "62041",
-  [Teritorio.PrePrimarySchool]: "62042",
-  [Teritorio.PrimaryEducation]: "62043",
-  [Teritorio.Prison]: "62044",
-  [Teritorio.Products]: "62045",
-  [Teritorio.Pub]: "62046",
-  [Teritorio.PublicBath]: "62047",
-  [Teritorio.PublicBookcase]: "62048",
-  [Teritorio.PublicLandmark]: "62049",
-  [Teritorio.Racquet]: "62050",
-  [Teritorio.RecyclingCentre]: "62051",
-  [Teritorio.Remarkable]: "62052",
-  [Teritorio.Resort]: "62053",
-  [Teritorio.Restaurant]: "62054",
-  [Teritorio.Retail]: "62055",
-  [Teritorio.RetirementHome]: "62056",
-  [Teritorio.Rowing]: "62057",
-  [Teritorio.RugbyLeague]: "62058",
-  [Teritorio.RugbyUnion]: "62059",
-  [Teritorio.Rugby]: "62060",
-  [Teritorio.Running]: "62061",
-  [Teritorio.Safety]: "62062",
-  [Teritorio.Sailing]: "62063",
-  [Teritorio.SanitaryDumpStation]: "62064",
-  [Teritorio.School]: "62065",
-  [Teritorio.ScubaDiving]: "62066",
-  [Teritorio.Sculptor]: "62067",
-  [Teritorio.Seafood]: "62068",
-  [Teritorio.SecondHand]: "62069",
-  [Teritorio.ServicesShopping]: "62070",
-  [Teritorio.Services]: "62071",
-  [Teritorio.Shelter]: "62072",
-  [Teritorio.Shoemaker]: "62073",
-  [Teritorio.Shoes]: "62074",
-  [Teritorio.Shooting]: "62075",
-  [Teritorio.Shopping]: "62076",
-  [Teritorio.Shower]: "62077",
-  [Teritorio.Skateboard]: "62078",
-  [Teritorio.Soccer]: "62079",
-  [Teritorio.SocialInformation]: "62080",
-  [Teritorio.SocialServices]: "62081",
-  [Teritorio.SportPractice]: "62082",
-  [Teritorio.SportsCentre]: "62083",
-  [Teritorio.Sports]: "62084",
-  [Teritorio.Spring]: "62085",
-  [Teritorio.Squash]: "62086",
-  [Teritorio.Stadium]: "62087",
-  [Teritorio.Station]: "62088",
-  [Teritorio.Stationery]: "62089",
-  [Teritorio.Stile]: "62090",
-  [Teritorio.SubwayEntrance]: "62091",
-  [Teritorio.Supermarket]: "62092",
-  [Teritorio.SurfSchool]: "62093",
-  [Teritorio.Surf]: "62094",
-  [Teritorio.Surfing]: "62095",
-  [Teritorio.SwimmingArea]: "62096",
-  [Teritorio.SwimmingCentre]: "62097",
-  [Teritorio.SwimmingPool]: "62098",
-  [Teritorio.Swimming]: "62099",
-  [Teritorio.TableSoccer]: "62100",
-  [Teritorio.TableTennis]: "62101",
-  [Teritorio.Tailor]: "62102",
-  [Teritorio.Tattoo]: "62103",
-  [Teritorio.Taxi]: "62104",
-  [Teritorio.Telephone]: "62105",
-  [Teritorio.Tennis]: "62106",
-  [Teritorio.Theatre]: "62107",
-  [Teritorio.ThemePark]: "62108",
-  [Teritorio.Ticket]: "62109",
-  [Teritorio.Tobacco]: "62110",
-  [Teritorio.Toilets]: "62111",
-  [Teritorio.TollBooth]: "62112",
-  [Teritorio.TourismInformationTerminal]: "62113",
-  [Teritorio.Tower]: "62114",
-  [Teritorio.Townhall]: "62115",
-  [Teritorio.Toys]: "62116",
-  [Teritorio.TrainStationEntrance]: "62117",
-  [Teritorio.TramStop]: "62118",
-  [Teritorio.TravelAgency]: "62119",
-  [Teritorio.Trinquete]: "62120",
-  [Teritorio.University]: "62121",
-  [Teritorio.UpperSecondaryEducation]: "62122",
-  [Teritorio.VendingMachine]: "62123",
-  [Teritorio.Veterinary]: "62124",
-  [Teritorio.VideoGames]: "62125",
-  [Teritorio.Video]: "62126",
-  [Teritorio.Viewpoint]: "62127",
-  [Teritorio.Volleyball]: "62128",
-  [Teritorio.WasteBasket]: "62129",
-  [Teritorio.WasteDisposal]: "62130",
-  [Teritorio.Watches]: "62131",
-  [Teritorio.WaterPark]: "62132",
-  [Teritorio.WaterRescueStation]: "62133",
-  [Teritorio.WaterSki]: "62134",
-  [Teritorio.Waterfall]: "62135",
-  [Teritorio.WaysideCross]: "62136",
-  [Teritorio.WaysideShrine]: "62137",
-  [Teritorio.Weapons]: "62138",
-  [Teritorio.Wholesale]: "62139",
-  [Teritorio.WildernessHut]: "62140",
-  [Teritorio.WildlifeHide]: "62141",
-  [Teritorio.Winery]: "62142",
-  [Teritorio.WinterSports]: "62143",
-  [Teritorio.Yoga]: "62144",
-  [Teritorio.Zoo]: "62145",
+  [Teritorio.Allotments]: "61702",
+  [Teritorio.AlpineHut]: "61703",
+  [Teritorio.Amenity]: "61704",
+  [Teritorio.AnimalBoarding]: "61705",
+  [Teritorio.AnimalShelter]: "61706",
+  [Teritorio.Antiques]: "61707",
+  [Teritorio.ApartmentRental]: "61708",
+  [Teritorio.ApartmentResort]: "61709",
+  [Teritorio.Aquarium]: "61710",
+  [Teritorio.ArchaeologicalSite]: "61711",
+  [Teritorio.Art]: "61712",
+  [Teritorio.ArtsCentre]: "61713",
+  [Teritorio.Artwork]: "61714",
+  [Teritorio.Athletics]: "61715",
+  [Teritorio.Atm]: "61716",
+  [Teritorio.Attraction]: "61717",
+  [Teritorio.Badminton]: "61718",
+  [Teritorio.Bag]: "61719",
+  [Teritorio.Bakery]: "61720",
+  [Teritorio.Bank]: "61721",
+  [Teritorio.Bar]: "61722",
+  [Teritorio.BasketMaker]: "61723",
+  [Teritorio.Basketball]: "61724",
+  [Teritorio.Bbq]: "61725",
+  [Teritorio.BeachResort]: "61726",
+  [Teritorio.Beach]: "61727",
+  [Teritorio.Beachvolleyball]: "61728",
+  [Teritorio.Beauty]: "61729",
+  [Teritorio.Bed]: "61730",
+  [Teritorio.Beekeeper]: "61731",
+  [Teritorio.Bench]: "61732",
+  [Teritorio.Beverages]: "61733",
+  [Teritorio.BicycleDockingStation]: "61734",
+  [Teritorio.BicycleParking]: "61735",
+  [Teritorio.BicycleRental]: "61736",
+  [Teritorio.BicycleShop]: "61737",
+  [Teritorio.Billiards]: "61738",
+  [Teritorio.BirdHide]: "61739",
+  [Teritorio.Bmx]: "61740",
+  [Teritorio.BoardMap]: "61741",
+  [Teritorio.Books]: "61742",
+  [Teritorio.BorderControl]: "61743",
+  [Teritorio.Boules]: "61744",
+  [Teritorio.Boutique]: "61745",
+  [Teritorio.BowlingAlley]: "61746",
+  [Teritorio.Brewery]: "61747",
+  [Teritorio.Brownfield]: "61748",
+  [Teritorio.Bullfighting]: "61749",
+  [Teritorio.Bullring]: "61750",
+  [Teritorio.BusStation]: "61751",
+  [Teritorio.BusStop]: "61752",
+  [Teritorio.Butcher]: "61753",
+  [Teritorio.Cafe]: "61754",
+  [Teritorio.Camera]: "61755",
+  [Teritorio.CampSite]: "61756",
+  [Teritorio.Cannabis]: "61757",
+  [Teritorio.Canoe]: "61758",
+  [Teritorio.CarParts]: "61759",
+  [Teritorio.CarPooling]: "61760",
+  [Teritorio.CarRental]: "61761",
+  [Teritorio.CarRepair]: "61762",
+  [Teritorio.CarWash]: "61763",
+  [Teritorio.Car]: "61764",
+  [Teritorio.CaravanSite]: "61765",
+  [Teritorio.Carpet]: "61766",
+  [Teritorio.Casino]: "61767",
+  [Teritorio.CastleWall]: "61768",
+  [Teritorio.Castle]: "61769",
+  [Teritorio.Caterer]: "61770",
+  [Teritorio.Catering]: "61771",
+  [Teritorio.Cathedral]: "61772",
+  [Teritorio.CaveEntrance]: "61773",
+  [Teritorio.Cemetery]: "61774",
+  [Teritorio.Chalet]: "61775",
+  [Teritorio.Chamber]: "61776",
+  [Teritorio.Chapel]: "61777",
+  [Teritorio.ChargingStation]: "61778",
+  [Teritorio.Charity]: "61779",
+  [Teritorio.Cheese]: "61780",
+  [Teritorio.Chemist]: "61781",
+  [Teritorio.ChildYouthCentre]: "61782",
+  [Teritorio.Chocolate]: "61783",
+  [Teritorio.ChurchHeritage]: "61784",
+  [Teritorio.Church]: "61785",
+  [Teritorio.Cinema]: "61786",
+  [Teritorio.CityGate]: "61787",
+  [Teritorio.CityWall]: "61788",
+  [Teritorio.ClimbingAdventure]: "61789",
+  [Teritorio.Climbing]: "61790",
+  [Teritorio.Clinic]: "61791",
+  [Teritorio.ClothesUnderwear]: "61792",
+  [Teritorio.Clothes]: "61793",
+  [Teritorio.Coffee]: "61794",
+  [Teritorio.College]: "61795",
+  [Teritorio.CommunityCentre]: "61796",
+  [Teritorio.CompressedAir]: "61797",
+  [Teritorio.Computer]: "61798",
+  [Teritorio.Confectionery]: "61799",
+  [Teritorio.Container]: "61800",
+  [Teritorio.Convenience]: "61801",
+  [Teritorio.Copyshop]: "61802",
+  [Teritorio.Cosmetics]: "61803",
+  [Teritorio.Courthouse]: "61804",
+  [Teritorio.CoworkingSpace]: "61805",
+  [Teritorio.Craft]: "61806",
+  [Teritorio.CultureShopping]: "61807",
+  [Teritorio.Culture]: "61808",
+  [Teritorio.CycleBarrier]: "61809",
+  [Teritorio.Cycling]: "61810",
+  [Teritorio.Defibrillator]: "61811",
+  [Teritorio.Deli]: "61812",
+  [Teritorio.Dentist]: "61813",
+  [Teritorio.DisabledHome]: "61814",
+  [Teritorio.Distillery]: "61815",
+  [Teritorio.Diving]: "61816",
+  [Teritorio.Dock]: "61817",
+  [Teritorio.Doctors]: "61818",
+  [Teritorio.DogExcrement]: "61819",
+  [Teritorio.Doityourself]: "61820",
+  [Teritorio.Dojo]: "61821",
+  [Teritorio.Dressmaker]: "61822",
+  [Teritorio.DrinkingWater]: "61823",
+  [Teritorio.DryCleaning]: "61824",
+  [Teritorio.EducationErea]: "61825",
+  [Teritorio.EducationMfr]: "61826",
+  [Teritorio.EducationSegpa]: "61827",
+  [Teritorio.Education]: "61828",
+  [Teritorio.ElderlyNursingHome]: "61829",
+  [Teritorio.Electronics]: "61830",
+  [Teritorio.Embassy]: "61831",
+  [Teritorio.EmploymentAgency]: "61832",
+  [Teritorio.Erotic]: "61833",
+  [Teritorio.EstateAgent]: "61834",
+  [Teritorio.ExtraAbbey]: "61835",
+  [Teritorio.ExtraAeroport]: "61836",
+  [Teritorio.ExtraAmbassador]: "61837",
+  [Teritorio.ExtraApple]: "61838",
+  [Teritorio.ExtraBalneotherapy]: "61839",
+  [Teritorio.ExtraBicycleRepair]: "61840",
+  [Teritorio.ExtraBikeRide]: "61841",
+  [Teritorio.ExtraBungeeJumping]: "61842",
+  [Teritorio.ExtraCanneryMakerPrestige]: "61843",
+  [Teritorio.ExtraCanneryMaker]: "61844",
+  [Teritorio.ExtraCanyoning]: "61845",
+  [Teritorio.ExtraCity]: "61846",
+  [Teritorio.ExtraCraftPrestige]: "61847",
+  [Teritorio.ExtraCraft]: "61848",
+  [Teritorio.ExtraDelivery]: "61849",
+  [Teritorio.ExtraDisabled]: "61850",
+  [Teritorio.ExtraDogAllowed]: "61851",
+  [Teritorio.ExtraDrive]: "61852",
+  [Teritorio.ExtraEducationBtsIutBut]: "61853",
+  [Teritorio.ExtraEducationCfa]: "61854",
+  [Teritorio.ExtraEducationCollege]: "61855",
+  [Teritorio.ExtraEntrepreneurshipServices]: "61856",
+  [Teritorio.ExtraEscapeGame]: "61857",
+  [Teritorio.ExtraFamily]: "61858",
+  [Teritorio.ExtraFermeDecouverte]: "61859",
+  [Teritorio.ExtraFishMarket]: "61860",
+  [Teritorio.ExtraFlowerVillage]: "61861",
+  [Teritorio.ExtraFoodTruck]: "61862",
+  [Teritorio.ExtraFood]: "61863",
+  [Teritorio.ExtraFranceServices]: "61864",
+  [Teritorio.ExtraGanaderia]: "61865",
+  [Teritorio.ExtraGivingBox]: "61866",
+  [Teritorio.ExtraGolf]: "61867",
+  [Teritorio.ExtraGuidedHikes]: "61868",
+  [Teritorio.ExtraGuidedTour]: "61869",
+  [Teritorio.ExtraHikingBiking]: "61870",
+  [Teritorio.ExtraHikingForest]: "61871",
+  [Teritorio.ExtraHiking]: "61872",
+  [Teritorio.ExtraHolyWell]: "61873",
+  [Teritorio.ExtraIndustrialWarehouse]: "61874",
+  [Teritorio.ExtraKitchenDesigner]: "61875",
+  [Teritorio.ExtraLaboratory]: "61876",
+  [Teritorio.ExtraLake]: "61877",
+  [Teritorio.ExtraLeaf]: "61878",
+  [Teritorio.ExtraLeisureSupply]: "61879",
+  [Teritorio.ExtraLocalAuthority]: "61880",
+  [Teritorio.ExtraLocalShopPrestige]: "61881",
+  [Teritorio.ExtraLostProperty]: "61882",
+  [Teritorio.ExtraMajorProjects]: "61883",
+  [Teritorio.ExtraMotorway]: "61884",
+  [Teritorio.ExtraMountainBike]: "61885",
+  [Teritorio.ExtraMultimediaLibrary]: "61886",
+  [Teritorio.ExtraNaturalSite]: "61887",
+  [Teritorio.ExtraNatureReserve]: "61888",
+  [Teritorio.ExtraNotary]: "61889",
+  [Teritorio.ExtraOffice]: "61890",
+  [Teritorio.ExtraOrganicStore]: "61891",
+  [Teritorio.ExtraOtherSports]: "61892",
+  [Teritorio.ExtraOysterHut]: "61893",
+  [Teritorio.ExtraPaddle]: "61894",
+  [Teritorio.ExtraPicnicPrestige]: "61895",
+  [Teritorio.ExtraPineForest]: "61896",
+  [Teritorio.ExtraPins]: "61897",
+  [Teritorio.ExtraPodiatrist]: "61898",
+  [Teritorio.ExtraPoint]: "61899",
+  [Teritorio.ExtraPollingStation]: "61900",
+  [Teritorio.ExtraRecycling]: "61901",
+  [Teritorio.ExtraReflexology]: "61902",
+  [Teritorio.ExtraRestaurantPrestige]: "61903",
+  [Teritorio.ExtraRestricted]: "61904",
+  [Teritorio.ExtraRoadworks]: "61905",
+  [Teritorio.ExtraSpeleology]: "61906",
+  [Teritorio.ExtraSportsAndLeisures]: "61907",
+  [Teritorio.ExtraSpotSurf]: "61908",
+  [Teritorio.ExtraStrawberry]: "61909",
+  [Teritorio.ExtraSurfhouses]: "61910",
+  [Teritorio.ExtraTasting]: "61911",
+  [Teritorio.ExtraTechnopolisIncubator]: "61912",
+  [Teritorio.ExtraTerraAventura]: "61913",
+  [Teritorio.ExtraThermalEstablishment]: "61914",
+  [Teritorio.ExtraThermalStation]: "61915",
+  [Teritorio.ExtraToTakeAway]: "61916",
+  [Teritorio.ExtraTown]: "61917",
+  [Teritorio.ExtraTrip]: "61918",
+  [Teritorio.ExtraUnavoidable]: "61919",
+  [Teritorio.ExtraUnescoSite]: "61920",
+  [Teritorio.ExtraUnusualAccommodation]: "61921",
+  [Teritorio.ExtraUsefull]: "61922",
+  [Teritorio.ExtraVineyard]: "61923",
+  [Teritorio.ExtraWastePipe]: "61924",
+  [Teritorio.ExtraWaterSports]: "61925",
+  [Teritorio.ExtraWaterTour]: "61926",
+  [Teritorio.ExtraWhelk]: "61927",
+  [Teritorio.ExtraWifi]: "61928",
+  [Teritorio.ExtraZipLine]: "61929",
+  [Teritorio.Fabric]: "61930",
+  [Teritorio.Farm]: "61931",
+  [Teritorio.FastFood]: "61932",
+  [Teritorio.FerryTerminal]: "61933",
+  [Teritorio.FireStation]: "61934",
+  [Teritorio.Firepit]: "61935",
+  [Teritorio.FishingShop]: "61936",
+  [Teritorio.Fishing]: "61937",
+  [Teritorio.FitnessCentre]: "61938",
+  [Teritorio.Florist]: "61939",
+  [Teritorio.FoodBank]: "61940",
+  [Teritorio.FoodCourt]: "61941",
+  [Teritorio.FreeFlying]: "61942",
+  [Teritorio.FrozenFood]: "61943",
+  [Teritorio.Fuel]: "61944",
+  [Teritorio.Furniture]: "61945",
+  [Teritorio.Futsal]: "61946",
+  [Teritorio.Gallery]: "61947",
+  [Teritorio.Garden]: "61948",
+  [Teritorio.General]: "61949",
+  [Teritorio.Gift]: "61950",
+  [Teritorio.GolfCourseMinor]: "61951",
+  [Teritorio.GolfCourse]: "61952",
+  [Teritorio.GraveYard]: "61953",
+  [Teritorio.Greengrocer]: "61954",
+  [Teritorio.GrindingMill]: "61955",
+  [Teritorio.GuestHouse]: "61956",
+  [Teritorio.Gymnastics]: "61957",
+  [Teritorio.Hairdresser]: "61958",
+  [Teritorio.Halt]: "61959",
+  [Teritorio.Handball]: "61960",
+  [Teritorio.Handicraft]: "61961",
+  [Teritorio.Hardware]: "61962",
+  [Teritorio.HealthcareCentre]: "61963",
+  [Teritorio.HearingAids]: "61964",
+  [Teritorio.Heritage]: "61965",
+  [Teritorio.Hifi]: "61966",
+  [Teritorio.HorseRacing]: "61967",
+  [Teritorio.HorseRiding]: "61968",
+  [Teritorio.Hospital]: "61969",
+  [Teritorio.Hostel]: "61970",
+  [Teritorio.Hosting]: "61971",
+  [Teritorio.Hotel]: "61972",
+  [Teritorio.HouseholdLinen]: "61973",
+  [Teritorio.IceCream]: "61974",
+  [Teritorio.IceHockey]: "61975",
+  [Teritorio.IceRink]: "61976",
+  [Teritorio.InteriorDecoration]: "61977",
+  [Teritorio.Jeweller]: "61978",
+  [Teritorio.Jewelry]: "61979",
+  [Teritorio.Joiner]: "61980",
+  [Teritorio.JuvenileYouthCentre]: "61981",
+  [Teritorio.Karting]: "61982",
+  [Teritorio.Kindergarten]: "61983",
+  [Teritorio.Kiosk]: "61984",
+  [Teritorio.Kitesurfing]: "61985",
+  [Teritorio.Lamps]: "61986",
+  [Teritorio.Laundry]: "61987",
+  [Teritorio.Lavoir]: "61988",
+  [Teritorio.Leather]: "61989",
+  [Teritorio.Leisure]: "61990",
+  [Teritorio.Library]: "61991",
+  [Teritorio.LifeRing]: "61992",
+  [Teritorio.LifeguardBase]: "61993",
+  [Teritorio.LighthouseMinor]: "61994",
+  [Teritorio.Lighthouse]: "61995",
+  [Teritorio.LocalShop]: "61996",
+  [Teritorio.Locksmith]: "61997",
+  [Teritorio.LowerSecondaryEducation]: "61998",
+  [Teritorio.Luthier]: "61999",
+  [Teritorio.Mall]: "62000",
+  [Teritorio.Marina]: "62001",
+  [Teritorio.Marketplace]: "62002",
+  [Teritorio.Massage]: "62003",
+  [Teritorio.Maze]: "62004",
+  [Teritorio.MedicalSupply]: "62005",
+  [Teritorio.Memorial]: "62006",
+  [Teritorio.MiniatureGolf]: "62007",
+  [Teritorio.MobilePhone]: "62008",
+  [Teritorio.Mobility]: "62009",
+  [Teritorio.Monastery]: "62010",
+  [Teritorio.Monument]: "62011",
+  [Teritorio.Motel]: "62012",
+  [Teritorio.Motocross]: "62013",
+  [Teritorio.Motor]: "62014",
+  [Teritorio.MotorcycleParking]: "62015",
+  [Teritorio.MotorcycleRepair]: "62016",
+  [Teritorio.Motorcycle]: "62017",
+  [Teritorio.MotorwayJunction]: "62018",
+  [Teritorio.MountainPass]: "62019",
+  [Teritorio.MountainRescue]: "62020",
+  [Teritorio.Multi]: "62021",
+  [Teritorio.Museum]: "62022",
+  [Teritorio.Music]: "62023",
+  [Teritorio.MusicalInstrument]: "62024",
+  [Teritorio.Nature]: "62025",
+  [Teritorio.Newsagent]: "62026",
+  [Teritorio.Nightclub]: "62027",
+  [Teritorio.Nurse]: "62028",
+  [Teritorio.Office]: "62029",
+  [Teritorio.OilMill]: "62030",
+  [Teritorio.Optician]: "62031",
+  [Teritorio.Orienteering]: "62032",
+  [Teritorio.Outdoor]: "62033",
+  [Teritorio.PaddleTennis]: "62034",
+  [Teritorio.Paintball]: "62035",
+  [Teritorio.Painter]: "62036",
+  [Teritorio.Park]: "62037",
+  [Teritorio.Parking]: "62038",
+  [Teritorio.Pastry]: "62039",
+  [Teritorio.Pelota]: "62040",
+  [Teritorio.Perfume]: "62041",
+  [Teritorio.Perfumery]: "62042",
+  [Teritorio.PetGrooming]: "62043",
+  [Teritorio.Pet]: "62044",
+  [Teritorio.Pharmacy]: "62045",
+  [Teritorio.Photo]: "62046",
+  [Teritorio.Photographer]: "62047",
+  [Teritorio.Physiotherapist]: "62048",
+  [Teritorio.PicnicSite]: "62049",
+  [Teritorio.PicnicTable]: "62050",
+  [Teritorio.Pitch]: "62051",
+  [Teritorio.PlaceOfWorship]: "62052",
+  [Teritorio.Playground]: "62053",
+  [Teritorio.Police]: "62054",
+  [Teritorio.PollingStation]: "62055",
+  [Teritorio.PostBox]: "62056",
+  [Teritorio.PostOffice]: "62057",
+  [Teritorio.Pottery]: "62058",
+  [Teritorio.PrePrimarySchool]: "62059",
+  [Teritorio.PrimaryEducation]: "62060",
+  [Teritorio.Prison]: "62061",
+  [Teritorio.Products]: "62062",
+  [Teritorio.Pub]: "62063",
+  [Teritorio.PublicBath]: "62064",
+  [Teritorio.PublicBookcase]: "62065",
+  [Teritorio.PublicLandmark]: "62066",
+  [Teritorio.Racquet]: "62067",
+  [Teritorio.RecyclingCentre]: "62068",
+  [Teritorio.Remarkable]: "62069",
+  [Teritorio.Rental]: "62070",
+  [Teritorio.Resort]: "62071",
+  [Teritorio.Restaurant]: "62072",
+  [Teritorio.Retail]: "62073",
+  [Teritorio.RetirementHome]: "62074",
+  [Teritorio.Rowing]: "62075",
+  [Teritorio.RugbyLeague]: "62076",
+  [Teritorio.RugbyUnion]: "62077",
+  [Teritorio.Rugby]: "62078",
+  [Teritorio.Running]: "62079",
+  [Teritorio.Safety]: "62080",
+  [Teritorio.Sailing]: "62081",
+  [Teritorio.SanitaryDumpStation]: "62082",
+  [Teritorio.School]: "62083",
+  [Teritorio.ScubaDiving]: "62084",
+  [Teritorio.Sculptor]: "62085",
+  [Teritorio.Seafood]: "62086",
+  [Teritorio.SecondHand]: "62087",
+  [Teritorio.ServicesShopping]: "62088",
+  [Teritorio.Services]: "62089",
+  [Teritorio.Shelter]: "62090",
+  [Teritorio.Shoemaker]: "62091",
+  [Teritorio.Shoes]: "62092",
+  [Teritorio.Shooting]: "62093",
+  [Teritorio.Shopping]: "62094",
+  [Teritorio.Shower]: "62095",
+  [Teritorio.Skateboard]: "62096",
+  [Teritorio.Soccer]: "62097",
+  [Teritorio.SocialInformation]: "62098",
+  [Teritorio.SocialServices]: "62099",
+  [Teritorio.SportPractice]: "62100",
+  [Teritorio.SportsCentre]: "62101",
+  [Teritorio.Sports]: "62102",
+  [Teritorio.Spring]: "62103",
+  [Teritorio.Squash]: "62104",
+  [Teritorio.Stadium]: "62105",
+  [Teritorio.Station]: "62106",
+  [Teritorio.Stationery]: "62107",
+  [Teritorio.Stile]: "62108",
+  [Teritorio.SubwayEntrance]: "62109",
+  [Teritorio.Supermarket]: "62110",
+  [Teritorio.SurfSchool]: "62111",
+  [Teritorio.Surf]: "62112",
+  [Teritorio.Surfing]: "62113",
+  [Teritorio.SwimmingArea]: "62114",
+  [Teritorio.SwimmingCentre]: "62115",
+  [Teritorio.SwimmingPool]: "62116",
+  [Teritorio.Swimming]: "62117",
+  [Teritorio.TableSoccer]: "62118",
+  [Teritorio.TableTennis]: "62119",
+  [Teritorio.Tailor]: "62120",
+  [Teritorio.Tattoo]: "62121",
+  [Teritorio.Taxi]: "62122",
+  [Teritorio.Telephone]: "62123",
+  [Teritorio.Tennis]: "62124",
+  [Teritorio.Theatre]: "62125",
+  [Teritorio.ThemePark]: "62126",
+  [Teritorio.Ticket]: "62127",
+  [Teritorio.Tiler]: "62128",
+  [Teritorio.Tobacco]: "62129",
+  [Teritorio.Toilets]: "62130",
+  [Teritorio.TollBooth]: "62131",
+  [Teritorio.TourismInformationTerminal]: "62132",
+  [Teritorio.Tower]: "62133",
+  [Teritorio.Townhall]: "62134",
+  [Teritorio.Toys]: "62135",
+  [Teritorio.TrainStationEntrance]: "62136",
+  [Teritorio.TramStop]: "62137",
+  [Teritorio.TravelAgency]: "62138",
+  [Teritorio.Trinquete]: "62139",
+  [Teritorio.University]: "62140",
+  [Teritorio.UpperSecondaryEducation]: "62141",
+  [Teritorio.VendingMachinePizza]: "62142",
+  [Teritorio.VendingMachine]: "62143",
+  [Teritorio.Veterinary]: "62144",
+  [Teritorio.VideoGames]: "62145",
+  [Teritorio.Video]: "62146",
+  [Teritorio.Viewpoint]: "62147",
+  [Teritorio.Volleyball]: "62148",
+  [Teritorio.WasteBasket]: "62149",
+  [Teritorio.WasteDisposal]: "62150",
+  [Teritorio.Watches]: "62151",
+  [Teritorio.WaterPark]: "62152",
+  [Teritorio.WaterRescueStation]: "62153",
+  [Teritorio.WaterSki]: "62154",
+  [Teritorio.Waterfall]: "62155",
+  [Teritorio.WaysideCross]: "62156",
+  [Teritorio.WaysideShrine]: "62157",
+  [Teritorio.Weapons]: "62158",
+  [Teritorio.Wholesale]: "62159",
+  [Teritorio.WildernessHut]: "62160",
+  [Teritorio.WildlifeHide]: "62161",
+  [Teritorio.Winery]: "62162",
+  [Teritorio.WinterSports]: "62163",
+  [Teritorio.Yoga]: "62164",
+  [Teritorio.Zoo]: "62165",
 };

@@ -1,8 +1,8 @@
 @font-face {
     font-family: "teritorio";
-    src: url("./teritorio.eot?cda31944a589974cb9a0c32f5cb82a53#iefix") format("embedded-opentype"),
-url("./teritorio.woff2?cda31944a589974cb9a0c32f5cb82a53") format("woff2"),
-url("./teritorio.woff?cda31944a589974cb9a0c32f5cb82a53") format("woff");
+    src: url("./teritorio.eot?7dd82c9c871025a336efa3e475d8117e#iefix") format("embedded-opentype"),
+url("./teritorio.woff2?7dd82c9c871025a336efa3e475d8117e") format("woff2"),
+url("./teritorio.woff?7dd82c9c871025a336efa3e475d8117e") format("woff");
 }
 
 i[class^="teritorio-"]:before, i[class*=" teritorio-"]:before {
@@ -496,1194 +496,1200 @@ i[class^="teritorio-"]:before, i[class*=" teritorio-"]:before {
 .teritorio-park:before {
     content: "\f1a0";
 }
-.teritorio-painter:before {
+.teritorio-parcel_locker:before {
     content: "\f1a1";
 }
-.teritorio-paintball:before {
+.teritorio-painter:before {
     content: "\f1a2";
 }
-.teritorio-paint:before {
+.teritorio-paintball:before {
     content: "\f1a3";
 }
-.teritorio-paddle_tennis:before {
+.teritorio-paint:before {
     content: "\f1a4";
 }
-.teritorio-outdoor:before {
+.teritorio-paddle_tennis:before {
     content: "\f1a5";
 }
-.teritorio-orienteering:before {
+.teritorio-outdoor:before {
     content: "\f1a6";
 }
-.teritorio-optician:before {
+.teritorio-orienteering:before {
     content: "\f1a7";
 }
-.teritorio-oil_mill:before {
+.teritorio-optician:before {
     content: "\f1a8";
 }
-.teritorio-office:before {
+.teritorio-oil_mill:before {
     content: "\f1a9";
 }
-.teritorio-nurse:before {
+.teritorio-office:before {
     content: "\f1aa";
 }
-.teritorio-notary:before {
+.teritorio-nurse:before {
     content: "\f1ab";
 }
-.teritorio-nightclub:before {
+.teritorio-notary:before {
     content: "\f1ac";
 }
-.teritorio-newsagent:before {
+.teritorio-nightclub:before {
     content: "\f1ad";
 }
-.teritorio-nature:before {
+.teritorio-newsagent:before {
     content: "\f1ae";
 }
-.teritorio-musical_instrument:before {
+.teritorio-nature:before {
     content: "\f1af";
 }
-.teritorio-music:before {
+.teritorio-musical_instrument:before {
     content: "\f1b0";
 }
-.teritorio-museum:before {
+.teritorio-music:before {
     content: "\f1b1";
 }
-.teritorio-mural:before {
+.teritorio-museum:before {
     content: "\f1b2";
 }
-.teritorio-multi:before {
+.teritorio-mural:before {
     content: "\f1b3";
 }
-.teritorio-mountain_rescue:before {
+.teritorio-multi:before {
     content: "\f1b4";
 }
-.teritorio-mountain_pass:before {
+.teritorio-mountain_rescue:before {
     content: "\f1b5";
 }
-.teritorio-motorway_junction:before {
+.teritorio-mountain_pass:before {
     content: "\f1b6";
 }
-.teritorio-motorcycle_repair:before {
+.teritorio-motorway_junction:before {
     content: "\f1b7";
 }
-.teritorio-motorcycle_parking:before {
+.teritorio-motorcycle_repair:before {
     content: "\f1b8";
 }
-.teritorio-motorcycle:before {
+.teritorio-motorcycle_parking:before {
     content: "\f1b9";
 }
-.teritorio-motorboat_rental:before {
+.teritorio-motorcycle:before {
     content: "\f1ba";
 }
-.teritorio-motor:before {
+.teritorio-motorboat_rental:before {
     content: "\f1bb";
 }
-.teritorio-motocross:before {
+.teritorio-motor:before {
     content: "\f1bc";
 }
-.teritorio-motel:before {
+.teritorio-motocross:before {
     content: "\f1bd";
 }
-.teritorio-mosque:before {
+.teritorio-motel:before {
     content: "\f1be";
 }
-.teritorio-monument:before {
+.teritorio-mosque:before {
     content: "\f1bf";
 }
-.teritorio-monastery:before {
+.teritorio-monument:before {
     content: "\f1c0";
 }
-.teritorio-mobility:before {
+.teritorio-monastery:before {
     content: "\f1c1";
 }
-.teritorio-mobile_phone:before {
+.teritorio-mobility:before {
     content: "\f1c2";
 }
-.teritorio-miniature_golf:before {
+.teritorio-mobile_phone:before {
     content: "\f1c3";
 }
-.teritorio-memorial:before {
+.teritorio-miniature_golf:before {
     content: "\f1c4";
 }
-.teritorio-medical_supply:before {
+.teritorio-memorial:before {
     content: "\f1c5";
 }
-.teritorio-maze:before {
+.teritorio-medical_supply:before {
     content: "\f1c6";
 }
-.teritorio-massage:before {
+.teritorio-maze:before {
     content: "\f1c7";
 }
-.teritorio-marketplace:before {
+.teritorio-massage:before {
     content: "\f1c8";
 }
-.teritorio-marina:before {
+.teritorio-marketplace:before {
     content: "\f1c9";
 }
-.teritorio-mall:before {
+.teritorio-marina:before {
     content: "\f1ca";
 }
-.teritorio-luthier:before {
+.teritorio-mall:before {
     content: "\f1cb";
 }
-.teritorio-lower_secondary_education_segpa:before {
+.teritorio-luthier:before {
     content: "\f1cc";
 }
-.teritorio-lower_secondary_education:before {
+.teritorio-lower_secondary_education_segpa:before {
     content: "\f1cd";
 }
-.teritorio-locksmith:before {
+.teritorio-lower_secondary_education:before {
     content: "\f1ce";
 }
-.teritorio-local_shop:before {
+.teritorio-locksmith:before {
     content: "\f1cf";
 }
-.teritorio-lighthouse_minor:before {
+.teritorio-local_shop:before {
     content: "\f1d0";
 }
-.teritorio-lighthouse:before {
+.teritorio-lighthouse_minor:before {
     content: "\f1d1";
 }
-.teritorio-lifeguard_base:before {
+.teritorio-lighthouse:before {
     content: "\f1d2";
 }
-.teritorio-lifeguard:before {
+.teritorio-lifeguard_base:before {
     content: "\f1d3";
 }
-.teritorio-life_ring:before {
+.teritorio-lifeguard:before {
     content: "\f1d4";
 }
-.teritorio-library:before {
+.teritorio-life_ring:before {
     content: "\f1d5";
 }
-.teritorio-leisure:before {
+.teritorio-library:before {
     content: "\f1d6";
 }
-.teritorio-leather_workshop:before {
+.teritorio-leisure:before {
     content: "\f1d7";
 }
-.teritorio-leather_shop:before {
+.teritorio-leather_workshop:before {
     content: "\f1d8";
 }
-.teritorio-leather:before {
+.teritorio-leather_shop:before {
     content: "\f1d9";
 }
-.teritorio-lavoir:before {
+.teritorio-leather:before {
     content: "\f1da";
 }
-.teritorio-laundry:before {
+.teritorio-lavoir:before {
     content: "\f1db";
 }
-.teritorio-lamps:before {
+.teritorio-laundry:before {
     content: "\f1dc";
 }
-.teritorio-laboratory:before {
+.teritorio-lamps:before {
     content: "\f1dd";
 }
-.teritorio-kitesurfing:before {
+.teritorio-laboratory:before {
     content: "\f1de";
 }
-.teritorio-kitchen:before {
+.teritorio-kitesurfing:before {
     content: "\f1df";
 }
-.teritorio-kiosk:before {
+.teritorio-kitchen:before {
     content: "\f1e0";
 }
-.teritorio-kindergarten:before {
+.teritorio-kiosk:before {
     content: "\f1e1";
 }
-.teritorio-karting:before {
+.teritorio-kindergarten:before {
     content: "\f1e2";
 }
-.teritorio-juvenile_youth_centre:before {
+.teritorio-karting:before {
     content: "\f1e3";
 }
-.teritorio-joiner:before {
+.teritorio-juvenile_youth_centre:before {
     content: "\f1e4";
 }
-.teritorio-jewelry:before {
+.teritorio-joiner:before {
     content: "\f1e5";
 }
-.teritorio-jeweller:before {
+.teritorio-jewelry:before {
     content: "\f1e6";
 }
-.teritorio-internet_cafe:before {
+.teritorio-jeweller:before {
     content: "\f1e7";
 }
-.teritorio-interior_decoration:before {
+.teritorio-internet_cafe:before {
     content: "\f1e8";
 }
-.teritorio-insurance:before {
+.teritorio-interior_decoration:before {
     content: "\f1e9";
 }
-.teritorio-information:before {
+.teritorio-insurance:before {
     content: "\f1ea";
 }
-.teritorio-ice_rink:before {
+.teritorio-information:before {
     content: "\f1eb";
 }
-.teritorio-ice_hockey:before {
+.teritorio-ice_rink:before {
     content: "\f1ec";
 }
-.teritorio-ice_cream:before {
+.teritorio-ice_hockey:before {
     content: "\f1ed";
 }
-.teritorio-household_linen:before {
+.teritorio-ice_cream:before {
     content: "\f1ee";
 }
-.teritorio-hotel:before {
+.teritorio-household_linen:before {
     content: "\f1ef";
 }
-.teritorio-hosting:before {
+.teritorio-hotel:before {
     content: "\f1f0";
 }
-.teritorio-hostel:before {
+.teritorio-hosting:before {
     content: "\f1f1";
 }
-.teritorio-hospital:before {
+.teritorio-hostel:before {
     content: "\f1f2";
 }
-.teritorio-horse_riding:before {
+.teritorio-hospital:before {
     content: "\f1f3";
 }
-.teritorio-horse_racing:before {
+.teritorio-horse_riding:before {
     content: "\f1f4";
 }
-.teritorio-hitchhiking:before {
+.teritorio-horse_racing:before {
     content: "\f1f5";
 }
-.teritorio-hifi:before {
+.teritorio-hitchhiking:before {
     content: "\f1f6";
 }
-.teritorio-heritage:before {
+.teritorio-hifi:before {
     content: "\f1f7";
 }
-.teritorio-hearing_aids:before {
+.teritorio-heritage:before {
     content: "\f1f8";
 }
-.teritorio-healthcare_centre:before {
+.teritorio-hearing_aids:before {
     content: "\f1f9";
 }
-.teritorio-health_food:before {
+.teritorio-healthcare_centre:before {
     content: "\f1fa";
 }
-.teritorio-hat:before {
+.teritorio-health_food:before {
     content: "\f1fb";
 }
-.teritorio-hardware:before {
+.teritorio-hat:before {
     content: "\f1fc";
 }
-.teritorio-handicraft:before {
+.teritorio-hardware:before {
     content: "\f1fd";
 }
-.teritorio-handball:before {
+.teritorio-handicraft:before {
     content: "\f1fe";
 }
-.teritorio-halt:before {
+.teritorio-handball:before {
     content: "\f1ff";
 }
-.teritorio-hairdresser:before {
+.teritorio-halt:before {
     content: "\f200";
 }
-.teritorio-gymnastics:before {
+.teritorio-hairdresser:before {
     content: "\f201";
 }
-.teritorio-guest_house:before {
+.teritorio-gymnastics:before {
     content: "\f202";
 }
-.teritorio-groundskeeping:before {
+.teritorio-guest_house:before {
     content: "\f203";
 }
-.teritorio-grinding_mill:before {
+.teritorio-groundskeeping:before {
     content: "\f204";
 }
-.teritorio-greengrocer:before {
+.teritorio-grinding_mill:before {
     content: "\f205";
 }
-.teritorio-grave_yard:before {
+.teritorio-greengrocer:before {
     content: "\f206";
 }
-.teritorio-graffiti:before {
+.teritorio-grave_yard:before {
     content: "\f207";
 }
-.teritorio-government_tax:before {
+.teritorio-graffiti:before {
     content: "\f208";
 }
-.teritorio-government_france_service:before {
+.teritorio-government_tax:before {
     content: "\f209";
 }
-.teritorio-government:before {
+.teritorio-government_france_service:before {
     content: "\f20a";
 }
-.teritorio-golf_course_minor:before {
+.teritorio-government:before {
     content: "\f20b";
 }
-.teritorio-golf_course:before {
+.teritorio-golf_course_minor:before {
     content: "\f20c";
 }
-.teritorio-gift:before {
+.teritorio-golf_course:before {
     content: "\f20d";
 }
-.teritorio-general:before {
+.teritorio-gift:before {
     content: "\f20e";
 }
-.teritorio-gas:before {
+.teritorio-general:before {
     content: "\f20f";
 }
-.teritorio-garden_centre:before {
+.teritorio-gas:before {
     content: "\f210";
 }
-.teritorio-garden:before {
+.teritorio-garden_centre:before {
     content: "\f211";
 }
-.teritorio-gallery:before {
+.teritorio-garden:before {
     content: "\f212";
 }
-.teritorio-futsal:before {
+.teritorio-gallery:before {
     content: "\f213";
 }
-.teritorio-furniture:before {
+.teritorio-futsal:before {
     content: "\f214";
 }
-.teritorio-fuel:before {
+.teritorio-furniture:before {
     content: "\f215";
 }
-.teritorio-frozen_food:before {
+.teritorio-fuel:before {
     content: "\f216";
 }
-.teritorio-free_flying:before {
+.teritorio-frozen_food:before {
     content: "\f217";
 }
-.teritorio-fountain:before {
+.teritorio-free_flying:before {
     content: "\f218";
 }
-.teritorio-food_court:before {
+.teritorio-fountain:before {
     content: "\f219";
 }
-.teritorio-food_bank:before {
+.teritorio-food_court:before {
     content: "\f21a";
 }
-.teritorio-florist:before {
+.teritorio-food_bank:before {
     content: "\f21b";
 }
-.teritorio-fitness_station:before {
+.teritorio-florist:before {
     content: "\f21c";
 }
-.teritorio-fitness_centre:before {
+.teritorio-fitness_station:before {
     content: "\f21d";
 }
-.teritorio-fishing_shop:before {
+.teritorio-fitness_centre:before {
     content: "\f21e";
 }
-.teritorio-fishing:before {
+.teritorio-fishing_shop:before {
     content: "\f21f";
 }
-.teritorio-fireplace:before {
+.teritorio-fishing:before {
     content: "\f220";
 }
-.teritorio-firepit:before {
+.teritorio-fireplace:before {
     content: "\f221";
 }
-.teritorio-fire_station:before {
+.teritorio-firepit:before {
     content: "\f222";
 }
-.teritorio-ferry_terminal:before {
+.teritorio-fire_station:before {
     content: "\f223";
 }
-.teritorio-fast_food:before {
+.teritorio-ferry_terminal:before {
     content: "\f224";
 }
-.teritorio-farm:before {
+.teritorio-fast_food:before {
     content: "\f225";
 }
-.teritorio-fabric:before {
+.teritorio-farm:before {
     content: "\f226";
 }
-.teritorio-extra-zip_line:before {
+.teritorio-fabric:before {
     content: "\f227";
 }
-.teritorio-extra-whelk:before {
+.teritorio-extra-zip_line:before {
     content: "\f228";
 }
-.teritorio-extra-water_tour:before {
+.teritorio-extra-whelk:before {
     content: "\f229";
 }
-.teritorio-extra-water_sports:before {
+.teritorio-extra-water_tour:before {
     content: "\f22a";
 }
-.teritorio-extra-waste-pipe:before {
+.teritorio-extra-water_sports:before {
     content: "\f22b";
 }
-.teritorio-extra-vineyard:before {
+.teritorio-extra-waste-pipe:before {
     content: "\f22c";
 }
-.teritorio-extra-view:before {
+.teritorio-extra-vineyard:before {
     content: "\f22d";
 }
-.teritorio-extra-usefull:before {
+.teritorio-extra-view:before {
     content: "\f22e";
 }
-.teritorio-extra-unusual_accommodation:before {
+.teritorio-extra-usefull:before {
     content: "\f22f";
 }
-.teritorio-extra-unesco_site:before {
+.teritorio-extra-unusual_accommodation:before {
     content: "\f230";
 }
-.teritorio-extra-unavoidable:before {
+.teritorio-extra-unesco_site:before {
     content: "\f231";
 }
-.teritorio-extra-trip:before {
+.teritorio-extra-unavoidable:before {
     content: "\f232";
 }
-.teritorio-extra-trademark_landes:before {
+.teritorio-extra-trip:before {
     content: "\f233";
 }
-.teritorio-extra-town:before {
+.teritorio-extra-trademark_landes:before {
     content: "\f234";
 }
-.teritorio-extra-to_take_away:before {
+.teritorio-extra-town:before {
     content: "\f235";
 }
-.teritorio-extra-third_place:before {
+.teritorio-extra-to_take_away:before {
     content: "\f236";
 }
-.teritorio-extra-thermal_station:before {
+.teritorio-extra-third_place:before {
     content: "\f237";
 }
-.teritorio-extra-thermal_establishment:before {
+.teritorio-extra-thermal_station:before {
     content: "\f238";
 }
-.teritorio-extra-terra_aventura:before {
+.teritorio-extra-thermal_establishment:before {
     content: "\f239";
 }
-.teritorio-extra-temple:before {
+.teritorio-extra-terra_aventura:before {
     content: "\f23a";
 }
-.teritorio-extra-technopolis_incubator:before {
+.teritorio-extra-temple:before {
     content: "\f23b";
 }
-.teritorio-extra-tasting:before {
+.teritorio-extra-technopolis_incubator:before {
     content: "\f23c";
 }
-.teritorio-extra-surfhouses:before {
+.teritorio-extra-tasting:before {
     content: "\f23d";
 }
-.teritorio-extra-strawberry:before {
+.teritorio-extra-surfhouses:before {
     content: "\f23e";
 }
-.teritorio-extra-spot_surf:before {
+.teritorio-extra-strawberry:before {
     content: "\f23f";
 }
-.teritorio-extra-sports_and_leisures:before {
+.teritorio-extra-spot_surf:before {
     content: "\f240";
 }
-.teritorio-extra-speleology:before {
+.teritorio-extra-sports_and_leisures:before {
     content: "\f241";
 }
-.teritorio-extra-skippers:before {
+.teritorio-extra-speleology:before {
     content: "\f242";
 }
-.teritorio-extra-sea-fishing:before {
+.teritorio-extra-skippers:before {
     content: "\f243";
 }
-.teritorio-extra-school-boat:before {
+.teritorio-extra-sea-fishing:before {
     content: "\f244";
 }
-.teritorio-extra-sailboat-rental:before {
+.teritorio-extra-school-boat:before {
     content: "\f245";
 }
-.teritorio-extra-roadworks:before {
+.teritorio-extra-sailboat-rental:before {
     content: "\f246";
 }
-.teritorio-extra-restricted:before {
+.teritorio-extra-roadworks:before {
     content: "\f247";
 }
-.teritorio-extra-restaurant_prestige:before {
+.teritorio-extra-restricted:before {
     content: "\f248";
 }
-.teritorio-extra-reflexology:before {
+.teritorio-extra-restaurant_prestige:before {
     content: "\f249";
 }
-.teritorio-extra-recycling:before {
+.teritorio-extra-reflexology:before {
     content: "\f24a";
 }
-.teritorio-extra-point:before {
+.teritorio-extra-recycling:before {
     content: "\f24b";
 }
-.teritorio-extra-place_for_rent:before {
+.teritorio-extra-point:before {
     content: "\f24c";
 }
-.teritorio-extra-pins:before {
+.teritorio-extra-place_for_rent:before {
     content: "\f24d";
 }
-.teritorio-extra-pine_forest:before {
+.teritorio-extra-pins:before {
     content: "\f24e";
 }
-.teritorio-extra-picnic_prestige:before {
+.teritorio-extra-pine_forest:before {
     content: "\f24f";
 }
-.teritorio-extra-paddle:before {
+.teritorio-extra-picnic_prestige:before {
     content: "\f250";
 }
-.teritorio-extra-oyster_hut:before {
+.teritorio-extra-paddle:before {
     content: "\f251";
 }
-.teritorio-extra-other_sports:before {
+.teritorio-extra-oyster_hut:before {
     content: "\f252";
 }
-.teritorio-extra-organic_store:before {
+.teritorio-extra-other_sports:before {
     content: "\f253";
 }
-.teritorio-extra-old_rigs:before {
+.teritorio-extra-organic_store:before {
     content: "\f254";
 }
-.teritorio-extra-office:before {
+.teritorio-extra-old_rigs:before {
     content: "\f255";
 }
-.teritorio-extra-nature_reserve:before {
+.teritorio-extra-office:before {
     content: "\f256";
 }
-.teritorio-extra-natural_site:before {
+.teritorio-extra-nature_reserve:before {
     content: "\f257";
 }
-.teritorio-extra-multimedia_library:before {
+.teritorio-extra-natural_site:before {
     content: "\f258";
 }
-.teritorio-extra-mountain_bike:before {
+.teritorio-extra-multimedia_library:before {
     content: "\f259";
 }
-.teritorio-extra-motorway:before {
+.teritorio-extra-mountain_bike:before {
     content: "\f25a";
 }
-.teritorio-extra-major_projects:before {
+.teritorio-extra-motorway:before {
     content: "\f25b";
 }
-.teritorio-extra-lost_property:before {
+.teritorio-extra-major_projects:before {
     content: "\f25c";
 }
-.teritorio-extra-local_shop_prestige:before {
+.teritorio-extra-lost_property:before {
     content: "\f25d";
 }
-.teritorio-extra-local_authority:before {
+.teritorio-extra-local_shop_prestige:before {
     content: "\f25e";
 }
-.teritorio-extra-leisure_supply:before {
+.teritorio-extra-local_authority:before {
     content: "\f25f";
 }
-.teritorio-extra-leaf:before {
+.teritorio-extra-leisure_supply:before {
     content: "\f260";
 }
-.teritorio-extra-lake:before {
+.teritorio-extra-leaf:before {
     content: "\f261";
 }
-.teritorio-extra-kitchen_designer:before {
+.teritorio-extra-lake:before {
     content: "\f262";
 }
-.teritorio-extra-industrial_warehouse:before {
+.teritorio-extra-kitchen_designer:before {
     content: "\f263";
 }
-.teritorio-extra-holy_well:before {
+.teritorio-extra-jacquaire_accommodation:before {
     content: "\f264";
 }
-.teritorio-extra-hiking_forest:before {
+.teritorio-extra-industrial_warehouse:before {
     content: "\f265";
 }
-.teritorio-extra-hiking_biking:before {
+.teritorio-extra-holy_well:before {
     content: "\f266";
 }
-.teritorio-extra-hiking:before {
+.teritorio-extra-hiking_forest:before {
     content: "\f267";
 }
-.teritorio-extra-guided_tour:before {
+.teritorio-extra-hiking_biking:before {
     content: "\f268";
 }
-.teritorio-extra-guided_hikes:before {
+.teritorio-extra-hiking:before {
     content: "\f269";
 }
-.teritorio-extra-golf:before {
+.teritorio-extra-guided_tour:before {
     content: "\f26a";
 }
-.teritorio-extra-giving_box:before {
+.teritorio-extra-guided_hikes:before {
     content: "\f26b";
 }
-.teritorio-extra-ganaderia:before {
+.teritorio-extra-golf:before {
     content: "\f26c";
 }
-.teritorio-extra-food_truck:before {
+.teritorio-extra-giving_box:before {
     content: "\f26d";
 }
-.teritorio-extra-food:before {
+.teritorio-extra-ganaderia:before {
     content: "\f26e";
 }
-.teritorio-extra-flower_village:before {
+.teritorio-extra-food_truck:before {
     content: "\f26f";
 }
-.teritorio-extra-fish_market:before {
+.teritorio-extra-food:before {
     content: "\f270";
 }
-.teritorio-extra-ferme_decouverte:before {
+.teritorio-extra-flower_village:before {
     content: "\f271";
 }
-.teritorio-extra-farmhouse-inn:before {
+.teritorio-extra-fish_market:before {
     content: "\f272";
 }
-.teritorio-extra-family:before {
+.teritorio-extra-ferme_decouverte:before {
     content: "\f273";
 }
-.teritorio-extra-equestrian_tourism:before {
+.teritorio-extra-farmhouse-inn:before {
     content: "\f274";
 }
-.teritorio-extra-entrepreneurship_services:before {
+.teritorio-extra-family:before {
     content: "\f275";
 }
-.teritorio-extra-education_CFA:before {
+.teritorio-extra-equestrian_tourism:before {
     content: "\f276";
 }
-.teritorio-extra-education_BTS_IUT_BUT:before {
+.teritorio-extra-entrepreneurship_services:before {
     content: "\f277";
 }
-.teritorio-extra-drive:before {
+.teritorio-extra-education_CFA:before {
     content: "\f278";
 }
-.teritorio-extra-dog_allowed:before {
+.teritorio-extra-education_BTS_IUT_BUT:before {
     content: "\f279";
 }
-.teritorio-extra-disabled:before {
+.teritorio-extra-drive:before {
     content: "\f27a";
 }
-.teritorio-extra-delivery:before {
+.teritorio-extra-dog_allowed:before {
     content: "\f27b";
 }
-.teritorio-extra-cruise:before {
+.teritorio-extra-disabled:before {
     content: "\f27c";
 }
-.teritorio-extra-craft_prestige:before {
+.teritorio-extra-delivery:before {
     content: "\f27d";
 }
-.teritorio-extra-columbarium:before {
+.teritorio-extra-cruise:before {
     content: "\f27e";
 }
-.teritorio-extra-city:before {
+.teritorio-extra-craft_prestige:before {
     content: "\f27f";
 }
-.teritorio-extra-canyoning:before {
+.teritorio-extra-columbarium:before {
     content: "\f280";
 }
-.teritorio-extra-cannery_maker_prestige:before {
+.teritorio-extra-city:before {
     content: "\f281";
 }
-.teritorio-extra-cannery_maker:before {
+.teritorio-extra-canyoning:before {
     content: "\f282";
 }
-.teritorio-extra-calendar:before {
+.teritorio-extra-cannery_maker_prestige:before {
     content: "\f283";
 }
-.teritorio-extra-bungee_jumping:before {
+.teritorio-extra-cannery_maker:before {
     content: "\f284";
 }
-.teritorio-extra-boating:before {
+.teritorio-extra-calendar:before {
     content: "\f285";
 }
-.teritorio-extra-bike_ride:before {
+.teritorio-extra-bungee_jumping:before {
     content: "\f286";
 }
-.teritorio-extra-balneotherapy:before {
+.teritorio-extra-boating:before {
     content: "\f287";
 }
-.teritorio-extra-apple:before {
+.teritorio-extra-bike_ride:before {
     content: "\f288";
 }
-.teritorio-extra-ambassador:before {
+.teritorio-extra-balneotherapy:before {
     content: "\f289";
 }
-.teritorio-extra-air-activity:before {
+.teritorio-extra-apple:before {
     content: "\f28a";
 }
-.teritorio-extra-aeroport:before {
+.teritorio-extra-ambassador:before {
     content: "\f28b";
 }
-.teritorio-extra-abbey:before {
+.teritorio-extra-air-activity:before {
     content: "\f28c";
 }
-.teritorio-extra-WIFI:before {
+.teritorio-extra-aeroport:before {
     content: "\f28d";
 }
-.teritorio-estate_agent:before {
+.teritorio-extra-abbey:before {
     content: "\f28e";
 }
-.teritorio-escape_game:before {
+.teritorio-extra-WIFI:before {
     content: "\f28f";
 }
-.teritorio-erotic:before {
+.teritorio-estate_agent:before {
     content: "\f290";
 }
-.teritorio-employment_agency:before {
+.teritorio-escape_game:before {
     content: "\f291";
 }
-.teritorio-emergency_ward_entrance:before {
+.teritorio-erotic:before {
     content: "\f292";
 }
-.teritorio-embassy:before {
+.teritorio-employment_agency:before {
     content: "\f293";
 }
-.teritorio-electronics:before {
+.teritorio-emergency_ward_entrance:before {
     content: "\f294";
 }
-.teritorio-electrician:before {
+.teritorio-embassy:before {
     content: "\f295";
 }
-.teritorio-elderly_nursing_home:before {
+.teritorio-electronics:before {
     content: "\f296";
 }
-.teritorio-education:before {
+.teritorio-electrician:before {
     content: "\f297";
 }
-.teritorio-e-cigarette:before {
+.teritorio-elderly_nursing_home:before {
     content: "\f298";
 }
-.teritorio-dry_cleaning:before {
+.teritorio-education:before {
     content: "\f299";
 }
-.teritorio-driving_school:before {
+.teritorio-e-cigarette:before {
     content: "\f29a";
 }
-.teritorio-drinking_water:before {
+.teritorio-dry_cleaning:before {
     content: "\f29b";
 }
-.teritorio-dressmaker:before {
+.teritorio-driving_school:before {
     content: "\f29c";
 }
-.teritorio-dovecote:before {
+.teritorio-drinking_water:before {
     content: "\f29d";
 }
-.teritorio-dojo:before {
+.teritorio-dressmaker:before {
     content: "\f29e";
 }
-.teritorio-doityourself:before {
+.teritorio-dovecote:before {
     content: "\f29f";
 }
-.teritorio-dog_park:before {
+.teritorio-dojo:before {
     content: "\f2a0";
 }
-.teritorio-dog_excrement:before {
+.teritorio-doityourself:before {
     content: "\f2a1";
 }
-.teritorio-doctors:before {
+.teritorio-dog_park:before {
     content: "\f2a2";
 }
-.teritorio-doctor_specialist:before {
+.teritorio-dog_excrement:before {
     content: "\f2a3";
 }
-.teritorio-doctor:before {
+.teritorio-doctors:before {
     content: "\f2a4";
 }
-.teritorio-dock:before {
+.teritorio-doctor_specialist:before {
     content: "\f2a5";
 }
-.teritorio-diving:before {
+.teritorio-doctor:before {
     content: "\f2a6";
 }
-.teritorio-distillery:before {
+.teritorio-dock:before {
     content: "\f2a7";
 }
-.teritorio-disabled_home:before {
+.teritorio-diving:before {
     content: "\f2a8";
 }
-.teritorio-dentist:before {
+.teritorio-distillery:before {
     content: "\f2a9";
 }
-.teritorio-deli:before {
+.teritorio-disabled_home:before {
     content: "\f2aa";
 }
-.teritorio-defibrillator:before {
+.teritorio-dentist:before {
     content: "\f2ab";
 }
-.teritorio-cycling:before {
+.teritorio-deli:before {
     content: "\f2ac";
 }
-.teritorio-cycle_barrier:before {
+.teritorio-defibrillator:before {
     content: "\f2ad";
 }
-.teritorio-culture_shopping:before {
+.teritorio-cycling:before {
     content: "\f2ae";
 }
-.teritorio-culture:before {
+.teritorio-cycle_barrier:before {
     content: "\f2af";
 }
-.teritorio-craft:before {
+.teritorio-culture_shopping:before {
     content: "\f2b0";
 }
-.teritorio-coworking_space:before {
+.teritorio-culture:before {
     content: "\f2b1";
 }
-.teritorio-coworking_office:before {
+.teritorio-craft:before {
     content: "\f2b2";
 }
-.teritorio-courthouse:before {
+.teritorio-coworking_space:before {
     content: "\f2b3";
 }
-.teritorio-cosmetics:before {
+.teritorio-coworking_office:before {
     content: "\f2b4";
 }
-.teritorio-copyshop:before {
+.teritorio-courthouse:before {
     content: "\f2b5";
 }
-.teritorio-convenience:before {
+.teritorio-cosmetics:before {
     content: "\f2b6";
 }
-.teritorio-container:before {
+.teritorio-copyshop:before {
     content: "\f2b7";
 }
-.teritorio-confectionery:before {
+.teritorio-convenience:before {
     content: "\f2b8";
 }
-.teritorio-computer:before {
+.teritorio-container:before {
     content: "\f2b9";
 }
-.teritorio-compressed_air:before {
+.teritorio-confectionery:before {
     content: "\f2ba";
 }
-.teritorio-community_centre:before {
+.teritorio-computer:before {
     content: "\f2bb";
 }
-.teritorio-college:before {
+.teritorio-compressed_air:before {
     content: "\f2bc";
 }
-.teritorio-coffee_roaster:before {
+.teritorio-community_centre:before {
     content: "\f2bd";
 }
-.teritorio-coffee:before {
+.teritorio-college:before {
     content: "\f2be";
 }
-.teritorio-clothing_bank:before {
+.teritorio-coffee_roaster:before {
     content: "\f2bf";
 }
-.teritorio-clothes_underwear:before {
+.teritorio-coffee:before {
     content: "\f2c0";
 }
-.teritorio-clothes:before {
+.teritorio-clothing_bank:before {
     content: "\f2c1";
 }
-.teritorio-clockmaker:before {
+.teritorio-clothes_underwear:before {
     content: "\f2c2";
 }
-.teritorio-clinic:before {
+.teritorio-clothes:before {
     content: "\f2c3";
 }
-.teritorio-climbing_adventure:before {
+.teritorio-clockmaker:before {
     content: "\f2c4";
 }
-.teritorio-climbing:before {
+.teritorio-clinic:before {
     content: "\f2c5";
 }
-.teritorio-city_wall:before {
+.teritorio-climbing_adventure:before {
     content: "\f2c6";
 }
-.teritorio-city_gate:before {
+.teritorio-climbing:before {
     content: "\f2c7";
 }
-.teritorio-cinema:before {
+.teritorio-city_wall:before {
     content: "\f2c8";
 }
-.teritorio-church_heritage:before {
+.teritorio-city_gate:before {
     content: "\f2c9";
 }
-.teritorio-church:before {
+.teritorio-cinema:before {
     content: "\f2ca";
 }
-.teritorio-chocolate:before {
+.teritorio-church_heritage:before {
     content: "\f2cb";
 }
-.teritorio-child_youth_centre:before {
+.teritorio-church:before {
     content: "\f2cc";
 }
-.teritorio-chemist:before {
+.teritorio-chocolate:before {
     content: "\f2cd";
 }
-.teritorio-cheese:before {
+.teritorio-child_youth_centre:before {
     content: "\f2ce";
 }
-.teritorio-charity:before {
+.teritorio-chemist:before {
     content: "\f2cf";
 }
-.teritorio-charging_station_motocar:before {
+.teritorio-cheese:before {
     content: "\f2d0";
 }
-.teritorio-charging_station_bicycle:before {
+.teritorio-charity:before {
     content: "\f2d1";
 }
-.teritorio-charging_station:before {
+.teritorio-charging_station_motocar:before {
     content: "\f2d2";
 }
-.teritorio-chapel:before {
+.teritorio-charging_station_bicycle:before {
     content: "\f2d3";
 }
-.teritorio-chamber:before {
+.teritorio-charging_station:before {
     content: "\f2d4";
 }
-.teritorio-chalet:before {
+.teritorio-chapel:before {
     content: "\f2d5";
 }
-.teritorio-cemetery:before {
+.teritorio-chamber:before {
     content: "\f2d6";
 }
-.teritorio-cave_entrance:before {
+.teritorio-chalet:before {
     content: "\f2d7";
 }
-.teritorio-cathedral:before {
+.teritorio-cemetery:before {
     content: "\f2d8";
 }
-.teritorio-catering:before {
+.teritorio-cave_entrance:before {
     content: "\f2d9";
 }
-.teritorio-caterer:before {
+.teritorio-cathedral:before {
     content: "\f2da";
 }
-.teritorio-castle_wall:before {
+.teritorio-catering:before {
     content: "\f2db";
 }
-.teritorio-castle:before {
+.teritorio-caterer:before {
     content: "\f2dc";
 }
-.teritorio-casino:before {
+.teritorio-castle_wall:before {
     content: "\f2dd";
 }
-.teritorio-carpet:before {
+.teritorio-castle:before {
     content: "\f2de";
 }
-.teritorio-carpenter:before {
+.teritorio-casino:before {
     content: "\f2df";
 }
-.teritorio-caravan_site:before {
+.teritorio-carpet:before {
     content: "\f2e0";
 }
-.teritorio-caravan:before {
+.teritorio-carpenter:before {
     content: "\f2e1";
 }
-.teritorio-car_wash:before {
+.teritorio-caravan_site:before {
     content: "\f2e2";
 }
-.teritorio-car_repair:before {
+.teritorio-caravan:before {
     content: "\f2e3";
 }
-.teritorio-car_rental:before {
+.teritorio-car_wash:before {
     content: "\f2e4";
 }
-.teritorio-car_pooling:before {
+.teritorio-car_repair:before {
     content: "\f2e5";
 }
-.teritorio-car_parts:before {
+.teritorio-car_rental:before {
     content: "\f2e6";
 }
-.teritorio-car:before {
+.teritorio-car_pooling:before {
     content: "\f2e7";
 }
-.teritorio-canoe:before {
+.teritorio-car_parts:before {
     content: "\f2e8";
 }
-.teritorio-cannabis:before {
+.teritorio-car:before {
     content: "\f2e9";
 }
-.teritorio-camp_site:before {
+.teritorio-canoe:before {
     content: "\f2ea";
 }
-.teritorio-camera:before {
+.teritorio-cannabis:before {
     content: "\f2eb";
 }
-.teritorio-cafe:before {
+.teritorio-camp_site:before {
     content: "\f2ec";
 }
-.teritorio-butcher:before {
+.teritorio-camera:before {
     content: "\f2ed";
 }
-.teritorio-bus_stop_seasonal:before {
+.teritorio-cafe:before {
     content: "\f2ee";
 }
-.teritorio-bus_stop:before {
+.teritorio-butcher:before {
     content: "\f2ef";
 }
-.teritorio-bus_station:before {
+.teritorio-bus_stop_seasonal:before {
     content: "\f2f0";
 }
-.teritorio-bullring:before {
+.teritorio-bus_stop:before {
     content: "\f2f1";
 }
-.teritorio-bullfighting:before {
+.teritorio-bus_station:before {
     content: "\f2f2";
 }
-.teritorio-builder:before {
+.teritorio-bullring:before {
     content: "\f2f3";
 }
-.teritorio-brownfield:before {
+.teritorio-bullfighting:before {
     content: "\f2f4";
 }
-.teritorio-brewery:before {
+.teritorio-builder:before {
     content: "\f2f5";
 }
-.teritorio-bowling_alley:before {
+.teritorio-brownfield:before {
     content: "\f2f6";
 }
-.teritorio-boutique:before {
+.teritorio-brewery:before {
     content: "\f2f7";
 }
-.teritorio-boules:before {
+.teritorio-bowling_alley:before {
     content: "\f2f8";
 }
-.teritorio-border_control:before {
+.teritorio-boutique:before {
     content: "\f2f9";
 }
-.teritorio-books:before {
+.teritorio-boules:before {
     content: "\f2fa";
 }
-.teritorio-boat:before {
+.teritorio-border_control:before {
     content: "\f2fb";
 }
-.teritorio-board_map:before {
+.teritorio-books:before {
     content: "\f2fc";
 }
-.teritorio-bmx:before {
+.teritorio-boat:before {
     content: "\f2fd";
 }
-.teritorio-bird_hide:before {
+.teritorio-board_map:before {
     content: "\f2fe";
 }
-.teritorio-billiards:before {
+.teritorio-bmx:before {
     content: "\f2ff";
 }
-.teritorio-bicycle_shop:before {
+.teritorio-bird_hide:before {
     content: "\f300";
 }
-.teritorio-bicycle_repair:before {
+.teritorio-billiards:before {
     content: "\f301";
 }
-.teritorio-bicycle_rental:before {
+.teritorio-bicycle_shop:before {
     content: "\f302";
 }
-.teritorio-bicycle_pump:before {
+.teritorio-bicycle_repair:before {
     content: "\f303";
 }
-.teritorio-bicycle_parking:before {
+.teritorio-bicycle_rental:before {
     content: "\f304";
 }
-.teritorio-bicycle_docking_station:before {
+.teritorio-bicycle_pump:before {
     content: "\f305";
 }
-.teritorio-beverages:before {
+.teritorio-bicycle_parking:before {
     content: "\f306";
 }
-.teritorio-bench:before {
+.teritorio-bicycle_docking_station:before {
     content: "\f307";
 }
-.teritorio-beekeeper:before {
+.teritorio-beverages:before {
     content: "\f308";
 }
-.teritorio-bed:before {
+.teritorio-bench:before {
     content: "\f309";
 }
-.teritorio-beauty:before {
+.teritorio-beekeeper:before {
     content: "\f30a";
 }
-.teritorio-beachvolleyball:before {
+.teritorio-bed:before {
     content: "\f30b";
 }
-.teritorio-beach_resort:before {
+.teritorio-beauty:before {
     content: "\f30c";
 }
-.teritorio-beach:before {
+.teritorio-beachvolleyball:before {
     content: "\f30d";
 }
-.teritorio-bbq:before {
+.teritorio-beach_resort:before {
     content: "\f30e";
 }
-.teritorio-bathroom_furnishing:before {
+.teritorio-beach:before {
     content: "\f30f";
 }
-.teritorio-basketball:before {
+.teritorio-bbq:before {
     content: "\f310";
 }
-.teritorio-basket_maker:before {
+.teritorio-bathroom_furnishing:before {
     content: "\f311";
 }
-.teritorio-bar:before {
+.teritorio-basketball:before {
     content: "\f312";
 }
-.teritorio-bank:before {
+.teritorio-basket_maker:before {
     content: "\f313";
 }
-.teritorio-baking_oven:before {
+.teritorio-bar:before {
     content: "\f314";
 }
-.teritorio-bakery:before {
+.teritorio-bank:before {
     content: "\f315";
 }
-.teritorio-bag:before {
+.teritorio-baking_oven:before {
     content: "\f316";
 }
-.teritorio-badminton:before {
+.teritorio-bakery:before {
     content: "\f317";
 }
-.teritorio-attraction:before {
+.teritorio-bag:before {
     content: "\f318";
 }
-.teritorio-atm:before {
+.teritorio-badminton:before {
     content: "\f319";
 }
-.teritorio-athletics:before {
+.teritorio-attraction:before {
     content: "\f31a";
 }
-.teritorio-artwork:before {
+.teritorio-atm:before {
     content: "\f31b";
 }
-.teritorio-arts_centre:before {
+.teritorio-athletics:before {
     content: "\f31c";
 }
-.teritorio-art:before {
+.teritorio-artwork:before {
     content: "\f31d";
 }
-.teritorio-architect:before {
+.teritorio-arts_centre:before {
     content: "\f31e";
 }
-.teritorio-archaeological_site:before {
+.teritorio-art:before {
     content: "\f31f";
 }
-.teritorio-aquarium:before {
+.teritorio-architect:before {
     content: "\f320";
 }
-.teritorio-apartment_resort:before {
+.teritorio-archaeological_site:before {
     content: "\f321";
 }
-.teritorio-apartment_rental:before {
+.teritorio-aquarium:before {
     content: "\f322";
 }
-.teritorio-antiques:before {
+.teritorio-apartment_resort:before {
     content: "\f323";
 }
-.teritorio-animal_shelter:before {
+.teritorio-apartment_rental:before {
     content: "\f324";
 }
-.teritorio-animal_boarding:before {
+.teritorio-antiques:before {
     content: "\f325";
 }
-.teritorio-amenity:before {
+.teritorio-animal_shelter:before {
     content: "\f326";
 }
-.teritorio-alpine_hut:before {
+.teritorio-animal_boarding:before {
     content: "\f327";
 }
-.teritorio-allotments:before {
+.teritorio-amenity:before {
     content: "\f328";
 }
-.teritorio-alcohol:before {
+.teritorio-alpine_hut:before {
     content: "\f329";
 }
-.teritorio-agrarian:before {
+.teritorio-allotments:before {
     content: "\f32a";
 }
-.teritorio-aerodrome:before {
+.teritorio-alcohol:before {
     content: "\f32b";
 }
-.teritorio-advertising_board:before {
+.teritorio-agrarian:before {
     content: "\f32c";
 }
-.teritorio-accessories:before {
+.teritorio-aerodrome:before {
     content: "\f32d";
+}
+.teritorio-advertising_board:before {
+    content: "\f32e";
+}
+.teritorio-accessories:before {
+    content: "\f32f";
 }

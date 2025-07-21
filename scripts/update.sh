@@ -2,7 +2,7 @@
 
 set -e
 
-curl https://drive.teritorio.fr/index.php/s/okdGPLcsmra7fgQ/download > icones_pictos_vectoriel.zip
+curl -L https://drive.teritorio.fr/index.php/s/okdGPLcsmra7fgQ/download > icones_pictos_vectoriel.zip
 
 rm -fr 'icones:pictos:vectoriel_flat'
 unzip icones_pictos_vectoriel.zip
